@@ -1,0 +1,2106 @@
+car_name,car_versions,car_price_in_rupees,fuel_type,city,year_of_manufacture,car_age
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.45 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki, Alto 800 Lxi,2.93 Lakh,Petrol,Kolkata,2019,4
+Tata, Safari XZ Plus New,22.49 Lakh,Diesel,Bangalore,2021,2
+Maruti Suzuki, Ciaz ZXI+,6.95 Lakh,Petrol,Thane,2016,7
+Jeep ,Compass Sport Plus 1.4 Petrol [2019-2020],12 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki, Eeco 5 STR WITH A/C+HTR [2019-2020],3.72 Lakh,Petrol,Chennai,2017,6
+Hyundai ,Creta SX Plus 1.6 AT CRDI,11.5 Lakh,Diesel,Mumbai,2017,6
+Maruti Suzuki, Ertiga VXi AT,10.39 Lakh,Petrol,Bangalore,2019,4
+Toyota,Etios Liva G,3.75 Lakh,Petrol,Mumbai,2013,10
+Renault ,Kwid 1.0 RXT AMT Opt [2016-2019],4.25 Lakh,Petrol,Mumbai,2018,5
+Maruti Suzuki ,Ciaz VDi+ SHVS,6.75 Lakh,Diesel,Ahmedabad,2017,6
+Maruti Suzuki ,Alto 800 LXi (O),4.49 Lakh,Petrol,Bangalore,2019,4
+Chevrolet, Optra Magnum LS 2.0 TCDi,3 Lakh,Diesel + 1,Pallikarnai,2007,16
+Maruti Suzuki ,Vitara Brezza VDi,9.5 Lakh,Diesel,Hyderabad,2019,4
+Jeep ,Compass Longitude 2.0 Diesel [2017-2020],13.25 Lakh,Diesel,Thane,2018,5
+Toyota ,Corolla Altis VL AT Petrol,9.25 Lakh,Petrol,Kolkata,2016,7
+Hyundai, Elite i20 Magna Executive 1.2,6.75 Lakh,Petrol,Ahmedabad,2017,6
+Mercedes-Benz, EQC 400 4MATIC,95 Lakh,Electric,Pune,2022,1
+Ford ,EcoSport Titanium 1.5L Ti-VCT,8.71 Lakh,Petrol,Chennai,2018,5
+Hyundai ,i10 Magna 1.2 Kappa2,3.35 Lakh,Petrol,Mumbai,2014,9
+Hyundai ,Creta 1.6 SX Plus Petrol Special Edition,9.88 Lakh,Petrol,Pune,2016,7
+Porsche ,718 Boxster,1.15 Crore,Petrol,Pune,2020,3
+Kia ,Seltos HTE 1.5 Diesel,11 Lakh,Diesel,Thane,2019,4
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 AT [2018-2020],9.9 Lakh,Petrol,Mumbai,2020,3
+Renault ,Kwid 1.0 RXL [2017-2019],3.45 Lakh,Petrol,Gurgaon,2019,4
+BMW ,3 Series 320d Luxury Line,37.49 Lakh,Diesel,Kolkata,2019,4
+Maruti Suzuki ,Baleno Alpha 1.2,6.39 Lakh,Petrol,Delhi,2017,6
+Hyundai ,i20 Sportz 1.2 IVT,8.9 Lakh,Petrol,Ahmedabad,2022,1
+Ford ,EcoSport Titanium 1.5L Ti-VCT,6.59 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Wagon R 1.0 VXI,3.92 Lakh,Petrol,Kolkata,2018,5
+Honda, Jazz VX Diesel,8 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki ,Swift VDi,7.75 Lakh,Diesel,Hyderabad,2019,4
+Tata ,Nexon XZ Plus,11.52 Lakh,Petrol,Delhi,2021,2
+Audi ,Q3 35 TDI Premium + Sunroof,16.75 Lakh,Diesel,Mumbai,2014,9
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 AT [2018-2020],8.5 Lakh,Petrol,Ahmedabad,2019,4
+Hyundai ,Santro Sportz CNG [2018-2020],5.93 Lakh,CNG,Delhi,2021,2
+Maruti Suzuki ,Alto 800 LXi (O) CNG,4.15 Lakh,CNG,Bangalore,2021,2
+MG ,Hector Plus Sharp 1.5 DCT Petrol,18.5 Lakh,Petrol,Ahmedabad,2020,3
+Ford, Figo Duratec Petrol ZXI 1.2,2.4 Lakh,Petrol,Thane,2013,10
+Audi, Q3 2.0 TDI Base Grade,11.99 Lakh,Diesel,Kolkata,2015,8
+Hyundai, Creta SX Plus 1.6  Petrol,8.95 Lakh,Petrol,Thane,2016,7
+Honda, Jazz ZX,9.68 Lakh,Petrol,Pune,2021,2
+Mercedes-Benz, EQC 400 4MATIC,81 Lakh,Electric,Bangalore,2020,3
+Hyundai, Grand i10 Asta 1.2 Kappa VTVT [2013-2016],4.93 Lakh,Petrol,Pune,2015,8
+BMW, X1 sDrive20d,10.5 Lakh,Diesel,Kolkata,2013,10
+Maruti Suzuki, Swift ZDi Plus,7.85 Lakh,Diesel,Thane,2018,5
+BMW ,5 Series 520d Luxury Line [2017-2019],38.99 Lakh,Diesel,Kolkata,2017,6
+Skoda, Superb L&K TSI AT,31 Lakh,Petrol,Ahmedabad,2021,2
+Maruti Suzuki ,Swift DZire VXI,4.85 Lakh,Petrol,Thane,2014,9
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.35 Lakh,CNG,Thane,2017,6
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.51 Lakh,CNG,Pune,2017,6
+Tata ,Tiago Revotron XZA,5.45 Lakh,Petrol,Mumbai,2018,5
+Tata ,Tiago Revotron XT [2016-2019],4.5 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki, Wagon R LXi 1.0 CNG,6.81 Lakh,CNG,Pune,2021,2
+Hyundai, Xcent S 1.2,3.95 Lakh,Petrol,Noida,2014,9
+Kia, Seltos HTK 1.5 [2020-2021],11.43 Lakh,Petrol,Pune,2019,4
+BMW, 5 Series 520d Luxury Line,23 Lakh,Diesel,Ahmedabad,2015,8
+Kia, Seltos HTE 1.5,10.5 Lakh,Petrol,Thane,2020,3
+Hyundai, Creta 1.6 SX Plus AT Petrol,12.75 Lakh,Petrol,Mumbai,2018,5
+Hyundai, Grand i10 Sportz (O) 1.2 Kappa VTVT [2017-2018],5.99 Lakh,Petrol,Bangalore,2017,6
+Kia ,Seltos GTX 1.4 Dual Tone,16.2 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki ,S-Presso VXi,4.2 Lakh,Petrol,Delhi,2020,3
+Hyundai ,Elite i20 Sportz 1.4,4.75 Lakh,Diesel,Delhi,2015,8
+Mercedes-Benz, GLC 200 Progressive,66 Lakh,Petrol,Bangalore,2021,2
+Mercedes-Benz, E-Class E 200,68.99 Lakh,Petrol,Bangalore,2020,3
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.41 Lakh,CNG,Pune,2017,6
+Audi ,A4 35 TDI Technology,29.5 Lakh,Diesel,Ahmedabad,2018,5
+Chevrolet ,Cruze LTZ AT,5.9 Lakh,Diesel,Ahmedabad,2013,10
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.14 Lakh,Petrol,Delhi,2016,7
+Honda, City 1.5 S MT,2.85 Lakh,Petrol,Noida,2009,14
+Maruti Suzuki ,Wagon R LXi 1.0 CNG,6.75 Lakh,CNG,Pune,2021,2
+Hyundai ,Elite i20 Sportz 1.2,7.1 Lakh,Petrol,Hyderabad,2018,5
+Mercedes-Benz, C-Class 220 BlueEfficiency,13.95 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Eon Magna [2011-2012],3.2 Lakh,Petrol,Ahmedabad,2015,8
+Maruti Suzuki ,Baleno Delta 1.2,6.29 Lakh,Petrol,Delhi,2019,4
+Volkswagen ,Vento Comfortline 1.2 (P) AT,6.51 Lakh,Petrol,Mumbai,2016,7
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.75 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki ,Wagon R 1.0 VXi,2.89 Lakh,Petrol,Pune,2011,12
+Hyundai ,Venue S 1.0 Petrol [2019-2020],8.97 Lakh,Petrol,Kolkata,2019,4
+Mercedes-Benz, C-Class 200 K AT,8.5 Lakh,Petrol,Ahmedabad,2010,13
+Maruti Suzuki ,Wagon R 1.0 VXi,2.76 Lakh,Petrol,Kolkata,2013,10
+Hyundai ,Elite i20 Magna Executive 1.2,6.9 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki ,Vitara Brezza ZDi Plus,10.44 Lakh,Diesel,Pune,2019,4
+Honda ,City VX CVT,7.35 Lakh,Petrol,Chennai,2016,7
+Maruti Suzuki ,Wagon R 1.0 VXI AMT,3.9 Lakh,Petrol,Pune,2016,7
+Audi ,Q5 3.0 TDI quattro Premium Plus,25 Lakh,Diesel,Hyderabad,2015,8
+Audi .A6 2.0 TDI Premium,,11.25 Lakh,Diesel,Kolkata,2013,10
+Hyundai ,Creta SX Plus 1.6  Petrol,9.79 Lakh,Petrol,Bangalore,2016,7
+Hyundai ,Xcent SX 1.2 (O),4.99 Lakh,Petrol,Bangalore,2015,8
+MG ,Hector Sharp 2.0 Diesel [2019-2020],16.59 Lakh,Diesel,Bangalore,2019,4
+Maruti Suzuki, Baleno Sigma 1.2,5.45 Lakh,Petrol,Noida,2017,6
+Maruti Suzuki, S-Presso VXi Plus,4.76 Lakh,Petrol,Delhi,2021,2
+Maruti Suzuki, Baleno Zeta 1.3,7.39 Lakh,Diesel,Bangalore,2017,6
+Jeep ,Compass Limited 1.4 Petrol AT [2017-2020],13.95 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki, Ignis Zeta 1.2 MT,6.28 Lakh,Petrol,Pune,2020,3
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,4.09 Lakh,Petrol,Delhi,2016,7
+Honda ,City V,5.9 Lakh,Petrol,Mumbai,2015,8
+Toyota, Glanza G CVT,7.95 Lakh,Petrol,Mumbai,2020,3
+Audi, Q3 2.0 TDI quattro Premium,11.9 Lakh,Diesel,Ahmedabad,2012,11
+Maruti Suzuk,i Swift DZire ZXI,4.45 Lakh,Petrol,Hyderabad,2012,11
+Renault Kwid, RXT [2015-2019],2.99 Lakh,Petrol,Pune,2016,7
+Hyundai, Verna Fluidic 1.6 VTVT SX,3.91 Lakh,Petrol,Delhi,2013,10
+Maruti Suzuki, Vitara Brezza ZDi Plus AGS,8.9 Lakh,Diesel,Thane,2018,5
+Maruti Suzuki ,Wagon R LXi 1.0 CNG,5.99 Lakh,CNG,Delhi,2020,3
+Maruti Suzuki ,Baleno Delta 1.2,5.8 Lakh,Petrol,Kolkata,2018,5
+MG ,Hector Sharp 1.5 DCT Petrol [2019-2020],19.25 Lakh,Petrol,Bangalore,2021,2
+Honda ,City V Diesel,9.25 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki, Swift VXi ABS,3.4 Lakh,Petrol,Delhi,2013,10
+Hyundai, Verna Fluidic 1.6 CRDi SX,4.85 Lakh,Diesel,Thane,2013,10
+Maruti Suzuki, Swift ZXi,6.33 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki ,Wagon R 1.0 VXI,3.96 Lakh,Petrol,Kolkata,2017,6
+Ford ,Endeavour Titanium 3.2 4x4 AT,24.75 Lakh,Diesel,Mumbai,2016,7
+Hyundai, Elite i20 Magna Executive 1.2,7.75 Lakh,Petrol,Bangalore,2019,4
+Volvo, V40 D3 Kinetic,12 Lakh,Diesel,Kolkata,2015,8
+Ford ,EcoSport Ambiente 1.5L TDCi,4.91 Lakh,Diesel,Thane,2014,9
+Hyundai, Xcent SX CRDi,4.25 Lakh,Diesel,Kolkata,2017,6
+Mahindra, XUV500 W8,7.4 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Verna 1.6 VTVT SX,5.85 Lakh,Petrol,Mumbai,2015,8
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],3.85 Lakh,Petrol,Noida,2014,9
+Maruti Suzuki, Baleno Zeta 1.2 AT,6.9 Lakh,Petrol,Mumbai,2017,6
+BMW, 5 Series 530i Sport Line,42.5 Lakh,Petrol,Mumbai,2018,5
+Maruti Suzuki ,Ciaz Zeta Hybrid  1.5 [2018-2020],7.99 Lakh,Petrol,Mumbai,2018,5
+MG ,Hector Plus Sharp 1.5 DCT Petrol,18.9 Lakh,Petrol,Ahmedabad,2020,3
+Maruti Suzuki, Wagon R 1.0 LXI CNG,3.85 Lakh,CNG,Thane,2014,9
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.07 Lakh,CNG,Pune,2014,9
+Maruti Suzuki ,Ciaz Delta 1.5,8.3 Lakh,Petrol,Faridabad,2020,3
+Renault Triber, RXZ EASY-R AMT,7.6 Lakh,Petrol,Chennai,2020,3
+Hyundai ,Venue S 1.0 Petrol [2019-2020],9.55 Lakh,Petrol,Kolkata,2019,4
+Honda ,City SV,8.75 Lakh,Petrol,Ahmedabad,2019,4
+Tata ,Indica LS,2.5 Lakh,Diesel,Thiruvallur,2017,6
+Maruti Suzuki, Celerio VXi AMT,4.5 Lakh,Petrol,Thane,2016,7
+Honda ,CR-V 2.4 AT,14 Lakh,Petrol,Hyderabad,2014,9
+Honda, Jazz VX Diesel,5.95 Lakh,Diesel,Thane,2016,7
+Nissan Terrano, XL (P),6.79 Lakh,Petrol,Bangalore,2016,7
+Volkswagen ,Ameo Highline Plus 1.5L AT (D)16 Alloy,6.6 Lakh,Diesel,Chennai,2017,6
+Hyundai ,Elite i20 Sportz 1.2 [2016-2017],6.87 Lakh,Petrol,Delhi,2019,4
+Renault ,Kwid 1.0 RXT [2016-2019],3.04 Lakh,Petrol,Delhi,2018,5
+Hyundai ,Grand i10 Sportz (O) 1.2 Kappa VTVT [2017-2018],5.29 Lakh,Petrol,Bangalore,2017,6
+Tata, Tiago JTP 1.2 [2018-2019],4.16 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki, Alto K10 VXi [2014-2019],3.01 Lakh,Petrol,Chennai,2016,7
+Tata ,Nexon XMA Diesel,9.41 Lakh,Diesel,Thane,2019,4
+Tata, Safari XTA Plus,23.75 Lakh,Diesel,Bangalore,2022,1
+Honda ,Jazz E MT [2015-2016],4.9 Lakh,Petrol,Ahmedabad,2016,7
+Renault Kwid, RXT [2015-2019],3.31 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki, Wagon R 1.0 VXi,2.35 Lakh,Petrol,Mumbai,2012,11
+Mahindra, XUV500 W11 AT,13.9 Lakh,Diesel,Ahmedabad,2018,5
+Audi ,A3 35 TDI Premium + Sunroof,24.75 Lakh,Diesel,Bangalore,2016,7
+Volkswagen, Polo GT TSI,9.25 Lakh,Petrol,Bangalore,2018,5
+Toyota ,Innova Crysta GX 2.4 7 STR,21.5 Lakh,Diesel,Ahmedabad,2020,3
+Honda ,City VX CVT Petrol,12.04 Lakh,Petrol,Delhi,2020,3
+Hyundai ,Santro Sportz AMT,5.57 Lakh,Petrol,Pune,2020,3
+Hyundai, Grand i10 Nios Sportz 1.2 Kappa VTVT,5.79 Lakh,Petrol,Kolkata,2020,3
+Hyundai,Elite i20 Magna Executive 1.2,5.54 Lakh,Petrol,Pune,2018,5
+Hyundai,i10 Magna special edition,3.4 Lakh,Petrol,Ahmedabad,2014,9
+Kia,Seltos GTX 1.4 Dual Tone,16.2 Lakh,Petrol,Pune,2019,4
+BMW, 5 Series 520d Sedan,43 Lakh,Diesel,Ahmedabad,2017,6
+Tata ,Harrier XZ Plus Dual Tone,18.95 Lakh,Diesel,Thane,2020,3
+BMW, 7 Series 750Li Sedan,10 Lakh,Petrol,Ahmedabad,2008,15
+Maruti Suzuki, Ciaz Alpha 1.4 AT,8.85 Lakh,Petrol,Ahmedabad,2020,3
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.84 Lakh,CNG,Pune,2018,5
+Skoda, Rapid Style 1.5 TDI AT,7.15 Lakh,Diesel,Kolkata,2016,7
+Maruti Suzuki ,Baleno Zeta 1.2,5.9 Lakh,Petrol,Ahmedabad,2017,6
+Maruti Suzuki ,Celerio VXi AMT ABS,4.85 Lakh,Petrol,Hyderabad,2015,8
+Honda, Jazz V Petrol,4.62 Lakh,Petrol,Delhi,2015,8
+Land Rover Discovery, Sport HSE 7-Seater,34.99 Lakh,Diesel,Kolkata,2018,5
+Hyundai ,Creta SX 1.6 (O) Petrol,10.25 Lakh,Petrol,Thane,2018,5
+Hyundai, i10 1.2 L Kappa Magna Special Edition,1.8 Lakh,Petrol,Thane,2009,14
+Honda ,City VX CVT Petrol [2017-2019],12 Lakh,Petrol + 1,Ambattur,2018,5
+Tata ,Hexa XTA 4x2 6 STR,16 Lakh,Diesel + 1,Ambattur,2018,5
+Hyundai ,Elite i20 Asta 1.2 (O) CVT [2019-2020],8.3 Lakh,Petrol,Thane,2019,4
+Skoda ,Octavia 2.0 TDI L&K,20.95 Lakh,Diesel,Hyderabad,2017,6
+Hyundai ,Tucson GLS 4WD AT Diesel,19.25 Lakh,Diesel,Pune,2017,6
+Maruti Suzuki ,Swift Dzire LDI,4.75 Lakh,Diesel,Hyderabad,2016,7
+Maruti Suzuki ,Swift VXi,4.6 Lakh,Petrol,Mumbai,2015,8
+Honda ,Amaze 1.2 EX i-VTEC,3.42 Lakh,Petrol,Gurgaon,2013,10
+Maruti Suzuki, Wagon R 1.0 LXI CNG,4.5 Lakh,CNG,Thane,2017,6
+Renault Duster, 85 PS RxL Diesel,6.85 Lakh,Diesel,Bangalore,2014,9
+Maruti Suzuki, Alto 800 Vxi,2.1 Lakh,Petrol,Kolkata,2014,9
+BMW, X3 xDrive 30d M Sport [2015-2017],41 Lakh,Diesel,Hyderabad,2016,7
+Mahindra, TUV300 T8 AMT mHAWK100,5.45 Lakh,Diesel,Noida,2016,7
+Kia ,Carnival Prestige 7 STR,34.99 Lakh,Diesel,Bangalore,2021,2
+Maruti Suzuki, Ciaz Alpha Hybrid 1.5 AT [2018-2020],10.75 Lakh,Petrol,Bangalore,2019,4
+Jeep ,Compass Limited Plus Diesel [2018-2020],17.99 Lakh,Diesel,Bangalore,2019,4
+Maruti Suzuki ,Baleno Alpha 1.2,7.11 Lakh,Petrol,Mumbai,2019,4
+Audi ,Q5 2.0 TDI quattro Premium,21.5 Lakh,Diesel,Kolkata,2014,9
+Hyundai, Creta SX 1.6 Petrol,11.49 Lakh,Petrol,Bangalore,2019,4
+Maruti Suzuki, Baleno Alpha 1.2,5.24 Lakh,Petrol,Delhi,2016,7
+Hyundai ,Xcent S 1.2,4.75 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki ,Wagon R 1.0 VXI,3.9 Lakh,Petrol,Kolkata,2018,5
+Honda ,City V CVT Petrol [2017-2019],11.5 Lakh,Petrol,Ahmedabad,2020,3
+Mercedes-Benz, S-Class 350 CDI L,19 Lakh,Diesel,Hyderabad,2011,12
+Renault Tribe,r RXZ EASY-R AMT,7.5 Lakh,Petrol,Mumbai,2020,3
+Honda, City ZX CVT Petrol,12.85 Lakh,Petrol,Mumbai,2020,3
+Maruti Suzuki ,Swift VXi,4.2 Lakh,Petrol,Hyderabad,2013,10
+Hyundai, Creta E Plus 1.6 Petrol,8.55 Lakh,Petrol,Mumbai,2017,6
+Renault, Duster 85 PS RXS 4X2 MT Diesel,8.99 Lakh,Diesel,Bangalore,2018,5
+Renault, Kwid 1.0 RXT Opt [2016-2019],3.48 Lakh,Petrol,Chennai,2018,5
+Mahindra ,XUV500 W8,8.11 Lakh,Diesel,Mumbai,2015,8
+Toyota, Glanza V,6.75 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki, Swift VDi ABS [2014-2017],5.67 Lakh,Diesel,Pune,2016,7
+Isuzu ,MU-X 4x2,21 Lakh,Diesel,Hyderabad,2018,5
+Renault ,Duster 85 PS RxL Diesel (Opt),4.75 Lakh,Diesel,Mumbai,2012,11
+Honda ,Amaze 1.2 VX MT Petrol [2018-2020],6.85 Lakh,Petrol,Noida,2018,5
+Maruti Suzuki ,S-Presso VXi Plus,5.25 Lakh,Petrol,Ahmedabad,2022,1
+Volvo ,XC90 D5 AWD,22.57 Lakh,Diesel,Ahmedabad,2014,9
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT,5.75 Lakh,Petrol,Mumbai,2017,6
+Honda ,City VX,7.45 Lakh,Petrol,Mumbai,2016,7
+Toyota, Glanza G,7.08 Lakh,Petrol,Chennai,2019,4
+Maruti Suzuki ,Alto K10 VXi AMT [2014-2018],3.38 Lakh,Petrol,Delhi,2017,6
+Tata ,Tiago Revotron XT [2016-2019],4.84 Lakh,Petrol,Delhi,2019,4
+Honda ,City 1.5 V MT,3.95 Lakh,Petrol,Noida,2012,11
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,4.34 Lakh,Petrol,Pune,2015,8
+Mercedes-Benz, E-Class E 220 d Avantgarde,61.75 Lakh,Diesel,Bangalore,2019,4
+Audi, A4 3.0 TDI quattro Technology Pack,32 Lakh,Diesel,Chennai,2018,5
+Maruti Suzuki, Ciaz Alpha Hybrid 1.5 [2018-2020],8.72 Lakh,Petrol,Kolkata,2020,3
+Skoda ,Rapid Ultima Elegance 1.6 TDI CR MT,6.5 Lakh,Diesel,Kolkata,2017,6
+Honda, Amaze 1.5 VX i-DTEC,4.95 Lakh,Diesel,Mumbai,2015,8
+Kia, Seltos GTX Plus AT 1.4 [2019-2020],15.25 Lakh,Petrol,Kolkata,2019,4
+Honda ,Amaze 1.5 S i-DTEC,4.99 Lakh,Diesel,Bangalore,2014,9
+Maruti Suzuki ,Wagon R 1.0 VXI,4.32 Lakh,Petrol,Pune,2017,6
+Maruti Suzuki ,Ciaz Zeta Hybrid 1.5 AT [2018-2020],8.5 Lakh,Petrol,Thane,2019,4
+Volkswagen ,Vento Highline Plus 1.2 (P) AT 16 Alloy,7.25 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki ,Celerio ZXi [2017-2019],4.33 Lakh,Petrol,Pune,2017,6
+Maruti Suzuki ,Ertiga VXI CNG,7.2 Lakh,CNG,Thane,2016,7
+Skoda ,Rapid Ambition 1.6 TDI CR MT,9.25 Lakh,Diesel,Hyderabad,2018,5
+Tata, Harrier XZ [2019-2020],16.95 Lakh,Diesel,Bangalore,2019,4
+Maruti Suzuki, Dzire ZXi Plus AMT,8.75 Lakh,Petrol,Chennai,2020,3
+Maruti Suzuki, Baleno Delta 1.2,5.1 Lakh,Petrol,Pune,2016,7
+Mahindra, TUV300 T8,5.65 Lakh,Diesel,Delhi,2016,7
+Maruti Suzuki, Alto K10 VXi,2.25 Lakh,Petrol,Pune,2011,12
+Audi ,Q3 35 TDI quattro Premium Plus,19.99 Lakh,Diesel,Kolkata,2018,5
+Jaguar, XE Portfolio Diesel,37.75 Lakh,Diesel,Bangalore,2018,5
+Toyota, Innova Crysta ZX 2.4 AT 7 STR,32.5 Lakh,Diesel,Hyderabad,2021,2
+Maruti Suzuki, Ciaz Delta 1.3 Diesel,7.45 Lakh,Diesel,Mumbai,2018,5
+MINI ,Cooper JCW Hatchback,44 Lakh,Petrol,Mumbai,2021,2
+Jeep, Compass Limited Plus 2.0 Diesel 4x4 AT,23 Lakh,Diesel,Ambattur,2020,3
+Volkswagen, Polo Comfortline 1.2L (P),4.65 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki ,Wagon R LXi Minor,1.8 Lakh,Petrol,Thane,2009,14
+Maruti Suzuki, Ignis Delta 1.2 MT,4.53 Lakh,Petrol,Kolkata,2018,5
+Hyundai, Xcent SX 1.2,5.34 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki ,Alto 800 Lxi,2.05 Lakh,Petrol,Kolkata,2014,9
+Mercedes-Benz ,E-Class E350 CDI BlueEfficiency,15.5 Lakh,Diesel,Hyderabad,2010,13
+Maruti Suzuki, Baleno Zeta 1.2,7.35 Lakh,Petrol,Thane,2020,3
+Volvo, S60 Kinetic D4,17.9 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki, Estilo VXi ABS BS-IV,2.25 Lakh,Petrol + 1,Thiruvallur,2011,12
+Hyundai ,i20 Asta (O) 1.2 MT,8.5 Lakh,Petrol,Hyderabad,2020,3
+Maruti Suzuki, Ciaz Delta 1.4 MT,6.87 Lakh,Petrol,Delhi,2017,6
+Maruti Suzuki, Swift VXi AMT [2018-2019],5.38 Lakh,Petrol,Kolkata,2018,5
+BMW ,3 Series Gran Limousine 320Ld Luxury Line,57.5 Lakh,Diesel,Chennai,2021,2
+Honda ,City V CVT Petrol [2017-2019],8.3 Lakh,Petrol,Ahmedabad,2017,6
+Ford, Figo Duratec Petrol EXI 1.2,2.4 Lakh,Petrol + 1,Poonamallee,2011,12
+Honda ,City SV,6.3 Lakh,Petrol,Kolkata,2018,5
+Audi ,TT 45 TFSI,46 Lakh,Petrol,Ahmedabad,2016,7
+Maruti Suzuki ,Celerio ZXi AMT [2019-2020],4.75 Lakh,Petrol,Thane,2016,7
+BMW ,X1 sDrive20d Expedition,21.75 Lakh,Diesel,Mumbai,2017,6
+Volvo, S90 D4 Inscription,59 Lakh,Diesel,Hyderabad,2020,3
+Maruti Suzuki ,Celerio VXi AMT ABS,4.45 Lakh,Petrol,Mumbai,2016,7
+Hyundai, Creta 1.6 S Plus AT,9.98 Lakh,Diesel,Pune,2016,7
+Maruti Suzuki ,Celerio VXi,5.65 Lakh,Petrol,Hyderabad,2020,3
+Hyundai Grand, i10 Sportz 1.2 Kappa VTVT [2016-2017],4.85 Lakh,Petrol,Delhi,2017,6
+Datsun, redi-GO S [2016-2019],3.25 Lakh,Petrol,Ahmedabad,2019,4
+Kia, Seltos GTX Plus 1.4 [2020-2021],16.9 Lakh,Petrol,Ahmedabad,2020,3
+Skoda, Octavia Elegance 2.0 TDI AT,7.99 Lakh,Diesel,Delhi,2014,9
+Maruti Suzuki ,Wagon R 1.0 LXI CNG (O),4.3 Lakh,CNG,Pune,2016,7
+Mahindra ,XUV500 W8,5.75 Lakh,Diesel,Kolkata,2013,10
+Hyundai ,Eon Era +,3.3 Lakh,Petrol,Chennai,2017,6
+Audi ,Q7 45 TDI Technology Pack,59.5 Lakh,Diesel,Ahmedabad,2018,5
+Audi ,A6 35 TDI Matrix,25 Lakh,Diesel,Ahmedabad,2018,5
+Hyundai ,Elite i20 Sportz 1.2,6.13 Lakh,Petrol,Pune,2017,6
+Hyundai, Elite i20 Sportz 1.2,5.59 Lakh,Petrol,Kolkata,2019,4
+Mercedes-Benz, GLS 350 d,68 Lakh,Diesel,Hyderabad,2018,5
+MG ,Hector Sharp 1.5 DCT Petrol [2019-2020],16.99 Lakh,Petrol,Kolkata,2021,2
+Mahindra, XUV500 W10,14.9 Lakh,Diesel,Chennai,2018,5
+BMW, 3 Series 320d Luxury Line,17.1 Lakh,Diesel,Delhi,2015,8
+Maruti Suzuki, Celerio VXi AMT [2017-2019],4.9 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki, Wagon R 1.0 LXI,3.13 Lakh,Petrol,Delhi,2014,9
+Maruti Suzuki, Alto 800 Vxi,3.32 Lakh,Petrol,Kolkata,2019,4
+Hyundai ,Creta 1.6 S Petrol,7.45 Lakh,Petrol,Mumbai,2016,7
+Skoda ,Rapid Ambition 1.6 MPI MT,3.85 Lakh,Petrol,Noida,2012,11
+Jaguar, XF 3.0 V6 Premium Luxury,26.5 Lakh,Diesel,Hyderabad,2015,8
+Toyota, Innova 2.5 G BS III 7 STR,9.75 Lakh,Diesel,Ahmedabad,2015,8
+Hyundai, i10 1.1L iRDE Magna Special Edition,3.5 Lakh,Petrol,Ahmedabad,2015,8
+Toyota, Fortuner 2.8 4x4 AT [2016-2020],35 Lakh,Diesel,Hyderabad,2019,4
+Maruti Suzuki ,Dzire VXi AMT,6.9 Lakh,Petrol,Delhi,2020,3
+Datsun ,GO T [2018-2019],2.35 Lakh,Petrol,Ahmedabad,2018,5
+Ford, EcoSport Titanium 1.0 Ecoboost,4.51 Lakh,Petrol,Kolkata,2013,10
+Maruti Suzuki,. Wagon R 1.0 LXI CNG,4.06 Lakh,CNG,Delhi,2017,6
+Maruti Suzuki, Baleno Delta 1.2,5.4 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki, Ertiga Vxi,5 Lakh,Petrol + 1,Thiruvallur,2013,10
+Mercedes-Benz ,CLA 200 CDI Sport,16.49 Lakh,Diesel,Kolkata,2015,8
+Skoda ,Octavia 1.8 TSI L&K,21 Lakh,Petrol,Hyderabad,2018,5
+Toyota ,Corolla Altis G Petrol,6.95 Lakh,Petrol,Thane,2015,8
+Toyota ,Corolla Altis 1.8 G AT,8.83 Lakh,Petrol,Delhi,2014,9
+BMW, 3 Series 320d Luxury Line,15.5 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Elite i20 Asta 1.2 (O) [2016],6.59 Lakh,Petrol,Delhi,2017,6
+Hyundai, Eon Magna [2011-2012],3.2 Lakh,Petrol,Ahmedabad,2015,8
+Maruti Suzuki ,Swift VXi [2014-2017],6.74 Lakh,Petrol,Chennai,2020,3
+Renault ,Kiger RXT Turbo CVT Dual Tone,9.98 Lakh,Petrol,Kolkata,2022,1
+Hyundai ,Elite i20 Asta 1.4 CRDI (O) [2016-2017],10.75 Lakh,Diesel,Hyderabad,2020,3
+Honda ,City 1.5 V MT,4.05 Lakh,Petrol,Thane,2013,10
+Porsche, Cayenne Turbo,78.57 Lakh,Petrol,Ahmedabad,2015,8
+Maruti Suzuki ,Swift DZire VXI,4.17 Lakh,Petrol,Kolkata,2014,9
+Renault ,Kwid CLIMBER 1.0 (O),4.83 Lakh,Petrol,Delhi,2021,2
+Hyundai, Santro Sportz,5.89 Lakh,Petrol,Pune,2020,3
+Nissan ,Micra XV Diesel,2.9 Lakh,Diesel,Ahmedabad,2012,11
+Hyundai, Grand i10 Magna AT 1.2 Kappa VTVT,5.49 Lakh,Petrol,Hyderabad,2018,5
+Mercedes-Benz, CLA 200 Petrol Sport,19.25 Lakh,Petrol,Mumbai,2016,7
+Hyundai ,Venue S 1.0 Petrol [2019-2020],10.64 Lakh,Petrol,Pune,2019,4
+Land Rover ,Range Rover Evoque SE R-Dynamic Petrol,77 Lakh,Petrol,Thane,2021,2
+Maruti Suzuki,S-Cross aipha 1.3,7.6 Lakh,Diesel,Hyderabad,2016,7
+Hyundai, Verna SX (O) AT Anniversary Edition 1.6 VTVT,10.59 Lakh,Petrol,Bangalore,2019,4
+Maruti Suzuki ,Wagon R 1.0 VXI,3.17 Lakh,Petrol,Kolkata,2014,9
+Toyota ,Corolla Altis G Petrol,10.4 Lakh,Petrol,Delhi,2018,5
+Land Rove,r Range Rover Sport SDV6 SE,1.23 Crore,Diesel,Thane,2019,4
+Maruti Suzuki, Wagon R 1.0 VXI,4.71 Lakh,Petrol,Hyderabad,2018,5
+Hyundai ,Verna 1.6 VTVT SX (O),7.49 Lakh,Petrol,Kolkata,2019,4
+Honda, Jazz V AT Petrol,7.25 Lakh,Petrol,Mumbai,2018,5
+Hyundai ,Creta S 1.5 Diesel [2020-2022],16 Lakh,Diesel,Hyderabad,2021,2
+Honda ,Jazz V Diesel,7.47 Lakh,Diesel + 1,Pallikarnai,2017,6
+Maruti Suzuki, Ciaz ZXI+,5.75 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki ,Alto K10 LXi,1.9 Lakh,Petrol,Delhi,2012,11
+Mercedes-Benz ,CLA 200 CDI Sport,29.5 Lakh,Diesel,Bangalore,2018,5
+Hyundai ,Creta 1.6 SX Plus AT Petrol,11.25 Lakh,Petrol,Mumbai,2018,5
+Hyundai, Elite i20 Asta 1.2 [2016-2017],6.45 Lakh,Petrol,Chennai,2016,7
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.05 Lakh,Petrol,Delhi,2016,7
+Honda ,City SV CVT,8.75 Lakh,Petrol,Ahmedabad,2017,6
+Maruti Suzuki, Swift VXi ABS,3.26 Lakh,Petrol,Kolkata,2013,10
+BMW ,X1 sDrive20d xLine,21.45 Lakh,Diesel,Delhi,2018,5
+Maruti Suzuki, XL6 Zeta MT Petrol,9.51 Lakh,Petrol,Ahmedabad,2020,3
+Tata ,Harrier XZ [2019-2020],14.65 Lakh,Diesel,Mumbai,2019,4
+BMW, X1 sDrive20d xLine,28 Lakh,Diesel,Kolkata,2019,4
+Mercedes-Benz, GLE 350 d,58 Lakh,Diesel,Ahmedabad,2019,4
+Ford ,EcoSport Titanium+ 1.5L TDCi Black Edition,7.5 Lakh,Diesel,Hyderabad,2016,7
+Mahindra, XUV500 W6 AT,9.5 Lakh,Diesel,Ahmedabad,2016,7
+Audi ,A6 2.0 TDI Premium,21 Lakh,Diesel,Hyderabad,2013,10
+Hyundai, i20 Active 1.2 S,6.11 Lakh,Petrol,Mumbai,2018,5
+Mercedes-Benz, AMG GLA35 4MATIC,64.5 Lakh,Petrol,Chennai,2022,1
+Hyundai, Elite i20 Asta 1.2,6 Lakh,Petrol,Kolkata,2018,5
+Honda, City VX,6.25 Lakh,Petrol,Thane,2015,8
+Hyundai, Verna Fluidic 1.6 VTVT SX Opt AT,11.26 Lakh,Petrol,Pune,2019,4
+Hyundai, i10 1.1L iRDE Magna Special Edition,3.5 Lakh,Petrol,Ahmedabad,2015,8
+Hyundai ,Creta SX Plus 1.6  Petrol,9.25 Lakh,Petrol,Thane,2017,6
+Renault, Duster 85 PS RXS 4X2 MT Diesel,9.79 Lakh,Diesel,Bangalore,2018,5
+Mercedes-Benz, C-Class C 200 Avantgarde Edition,30.56 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki ,Celerio VXi,3.57 Lakh,Petrol,Kolkata,2015,8
+Volkswagen, Polo Highline1.2L (P),5.21 Lakh,Petrol,Mumbai,2015,8
+Renault ,Kwid 1.0 RXT Opt,4.39 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki, Dzire ZXi AMT,7.35 Lakh,Petrol,Pune,2017,6
+BMW ,5 Series 520d Luxury Line [2017-2019],45.99 Lakh,Diesel,Ahmedabad,2020,3
+Kia ,Sonet GTX Plus 1.5 [2020-2021],14.19 Lakh,Diesel,Pune,2020,3
+Maruti Suzuki ,Ignis Sigma 1.2 MT,4.89 Lakh,Petrol,Chennai,2019,4
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.05 Lakh,Petrol,Delhi,2016,7
+Volkswagen ,Vento Trendline Petrol,3.5 Lakh,Petrol,Hyderabad,2010,13
+Maruti Suzuki, Celerio ZXi AMT [2019-2020],5.99 Lakh,Petrol,Pune,2019,4
+Honda, Jazz V AT Petrol,6.75 Lakh,Petrol,Mumbai,2017,6
+Hyundai, Creta 1.6 SX Plus AT Petrol,10.29 Lakh,Petrol,Pune,2016,7
+Volvo, XC90 D5 AWD,22.87 Lakh,Diesel,Ahmedabad,2015,8
+Maruti Suzuki ,Alto 800 Lxi CNG,3.45 Lakh,CNG,Noida,2019,4
+Hyundai, Elite i20 Sportz 1.2 [2016-2017],7.9 Lakh,Petrol,Hyderabad,2019,4
+Honda ,City V,8.45 Lakh,Petrol,Thane,2018,5
+Toyota, Glanza G CVT,8.49 Lakh,Petrol,Bangalore,2020,3
+Ford ,Aspire Titanium 1.2 Ti-VCT,5.35 Lakh,Petrol,Noida,2017,6
+Ford EcoSport Titanium 1.0 Ecoboost (Opt),,4.75 Lakh,Petrol,Faridabad,2014,9
+Volkswagen ,Taigun GT Plus 1.5 TSI DSG,16.49 Lakh,Petrol,Ahmedabad,2021,2
+Hyundai, Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],5.69 Lakh,Petrol,Bangalore,2016,7
+Toyota ,Fortuner 2.8 4x2 MT [2016-2020],33.75 Lakh,Diesel,Bangalore,2018,5
+Skoda ,Rapid Ambition 1.6 MPI AT,10.82 Lakh,Petrol,Delhi,2020,3
+Maruti Suzuki, Baleno Zeta 1.2,6.99 Lakh,Petrol,Kolkata,2021,2
+Maruti Suzuki, Wagon R 1.0 VXI AMT,4.25 Lakh,Petrol,Thane,2016,7
+Maruti Suzuki, Alto 800 Lxi,3.25 Lakh,Petrol,Pune,2018,5
+Honda ,Jazz V AT Petrol,6.51 Lakh,Petrol,Mumbai,2017,6
+Hyundai ,Santro Sportz CNG [2018-2020],5.23 Lakh,CNG,Pune,2018,5
+Maruti Suzuki, Baleno Delta 1.2,5.48 Lakh,Petrol,Delhi,2018,5
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.6 Lakh,Petrol,Thane,2017,6
+Honda, City S Petrol,6.95 Lakh,Petrol,Thane,2017,6
+Hyundai ,Elite i20 Magna Executive 1.2,5.19 Lakh,Petrol,Kolkata,2017,6
+Tata ,Nano Twist XT,1.1 Lakh,Petrol,Ahmedabad,2015,8
+Maruti Suzuki ,Ertiga VXI CNG,11.4 Lakh,CNG,Thane,2021,2
+Maruti Suzuki ,Ertiga Vxi CNG,7.21 Lakh,CNG,Mumbai,2015,8
+Maruti Suzuki ,S-Cross Zeta 1.3,8.87 Lakh,Diesel,Pune,2017,6
+Honda ,City VX CVT,7.75 Lakh,Petrol,Thane,2016,7
+Honda, City VX,8.75 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki ,Alto 800 Lxi,2.95 Lakh,Petrol,Pune,2015,8
+Mahindra ,Thar LX Hard Top Diesel AT,17.5 Lakh,Diesel,Delhi,2021,2
+Maruti Suzuki ,Ertiga VXI CNG,8.25 Lakh,CNG,Thane,2017,6
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.5 Lakh,Petrol,Thane,2016,7
+Land Rover, Discovery Sport HSE,26 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki, Dzire VDi AMT,6.45 Lakh,Diesel,Noida,2018,5
+Maruti Suzuki, Baleno RS 1.0,6.66 Lakh,Petrol,Pune,2017,6
+Hyundai, Venue SX 1.0 Petrol [2019-2020],10.66 Lakh,Petrol,Bangalore,2020,3
+Maruti Suzuki, Ciaz VXi,5 Lakh,Petrol,Kolkata,2016,7
+Hyundai, i10 Magna 1.2 Kappa2,3.49 Lakh,Petrol,Chennai,2014,9
+Hyundai, i10 Magna 1.2 Kappa2,2.45 Lakh,Petrol,Kolkata,2013,10
+Nissan, Sunny XE,2.95 Lakh,Petrol,Noida,2012,11
+Jeep ,Wrangler Rubicon,65 Lakh,Petrol,Hyderabad,2021,2
+Maruti Suzuki, Swift VXi AMT,6.3 Lakh,Petrol,Pallikarnai,2020,3
+Volkswagen, Vento Highline 1.5 (D) AT,7.9 Lakh,Diesel,Mumbai,2018,5
+Hyundai ,Elantra 1.6 SX (O) AT,18.75 Lakh,Diesel,Pune,2018,5
+Honda ,WR-V VX MT Diesel,9.5 Lakh,Diesel,Thiruvallur,2018,5
+Honda, BR-V VX Diesel,7.99 Lakh,Diesel,Thane,2017,6
+Maruti Suzuki ,Swift DZire VXI,4.24 Lakh,Petrol,Pune,2014,9
+Honda ,City S Petrol,7.25 Lakh,Petrol,Ahmedabad,2017,6
+Maruti Suzuki, Baleno Delta 1.2,5.96 Lakh,Petrol,Kolkata,2018,5
+Mercedes-Benz ,GLA 220 d 4MATIC,28.5 Lakh,Diesel,Bangalore,2017,6
+Tata ,Tiago Revotorq XZ Plus,5.4 Lakh,Diesel,Ahmedabad,2020,3
+Honda ,City V,8.4 Lakh,Petrol,Kolkata,2019,4
+Hyundai, Elite i20 Asta 1.4 CRDI,6.95 Lakh,Diesel,Thane,2015,8
+BMW, 7 Series 760Li,59 Lakh,Petrol,Ahmedabad,2016,7
+Hyundai ,i20 Sportz 1.2 BS-IV,3.45 Lakh,Petrol,Mumbai,2012,11
+Maruti Suzuki, Dzire VXi AMT,6.96 Lakh,Petrol,Pune,2018,5
+Tata ,Tiago XZ Plus CNG,8.1 Lakh,CNG,Delhi,2022,1
+Tata ,Tiago Revotron XE [2016-2019],4.14 Lakh,Petrol,Delhi,2018,5
+Toyota ,Fortuner 2.8 4x4 AT [2016-2020],33 Lakh,Diesel,Ahmedabad,2019,4
+Tata ,Harrier XZA Plus,22 Lakh,Diesel,Thane,2021,2
+Honda, City SV Petrol [2019-2020],8.25 Lakh,Petrol,Ahmedabad,2019,4
+Mahindra ,TUV300 T8,7.45 Lakh,Diesel,Hyderabad,2017,6
+Ford, EcoSport Titanium 1.5L Ti-VCT AT,6.9 Lakh,Petrol,Ahmedabad,2016,7
+Skoda ,Kushaq Style 1.5L TSI DSG (6 Airbags),19.25 Lakh,Petrol,Bangalore,2021,2
+Audi ,A4 35 TFSI Premium Sunroof,17.25 Lakh,Petrol,Mumbai,2015,8
+Hyundai, Elite i20 Asta 1.2 (O) [2016],6.39 Lakh,Petrol,Pune,2017,6
+Maruti Suzuki, Wagon R 1.0 VXI AMT,4.45 Lakh,Petrol,Hyderabad,2016,7
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],5.1 Lakh,Petrol,Pune,2018,5
+Toyota, Glanza G,7.3 Lakh,Petrol,Thiruvallur,2021,2
+Nissan ,Magnite XE,6.7 Lakh,Petrol,Pune,2021,2
+Ford ,EcoSport Titanium 1.5 Ti-VCT AT,8.25 Lakh,Petrol,Delhi,2018,5
+Honda, Jazz ZX CVT,8.42 Lakh,Petrol,Chennai,2020,3
+Land Rover, Range Rover Velar 2.0 R-Dynamic Petrol 250,77 Lakh,Petrol,Thane,2019,4
+Ford ,EcoSport Titanium + 1.5L TDCi,6.9 Lakh,Diesel,Ahmedabad,2016,7
+BMW ,3 Series GT 320d Luxury Line [2014-2016],36 Lakh,Diesel,Pune,2019,4
+Maruti Suzuki, Swift ZXi Plus,7.15 Lakh,Petrol,Kolkata,2021,2
+Maruti Suzuki ,Vitara Brezza VDi (O) [2016-2018],8.15 Lakh,Diesel,Thane,2017,6
+Hyundai ,Santro Sportz [2018-2020],5.54 Lakh,Petrol,Pune,2019,4
+Jeep, Compass Limited (O) 2.0 Diesel 4x4 [2017-2020],16.95 Lakh,Diesel,Hyderabad,2017,6
+Mahindra, XUV500 W8,8.79 Lakh,Diesel,Bangalore,2013,10
+Hyundai ,Xcent S 1.2,4.9 Lakh,Petrol,Ahmedabad,2014,9
+Honda, WR-V VX MT Petrol,10.19 Lakh,Petrol,Chennai,2021,2
+Maruti Suzuki, Swift DZire ZXI,5.18 Lakh,Petrol,Pune,2015,8
+Maruti Suzuki ,Alto K10 VXi [2014-2019],3.79 Lakh,Petrol,Bangalore,2017,6
+Hyundai ,Elite i20 Sportz 1.4 CRDI [2016-2017],6.6 Lakh,Diesel,Hyderabad,2016,7
+MG, Hector Sharp 1.5 Petrol Turbo DCT,16.49 Lakh,Petrol,Bangalore,2020,3
+Hyundai ,Elite i20 Sportz 1.2,8.49 Lakh,Petrol,Bangalore,2019,4
+Maruti Suzuki ,Celerio ZXi AMT [2019-2020],5 Lakh,Petrol,Thane,2019,4
+Maruti Suzuki ,Alto 800 LXi CNG (O),3.49 Lakh,CNG,Mumbai,2017,6
+Hyundai ,Santro Sportz,5.89 Lakh,Petrol,Pune,2020,3
+Mahindra ,XUV500 W10,8.65 Lakh,Diesel,Noida,2015,8
+Volkswagen ,Taigun Topline 1.0 TSI AT,17.9 Lakh,Petrol,Thane,2022,1
+Hyundai, Creta E Plus 1.6 Petrol,9.3 Lakh,Petrol,Thane,2018,5
+Hyundai, Grand i10 Sportz (O) AT 1.2 Kappa VTVT [2017-2018],6.95 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki ,SX4 ZXi,1.6 Lakh,Petrol,Kolkata,2009,14
+Honda, Amaze 1.2 V CVT Petrol [2018-2020],6.65 Lakh,Petrol,Delhi,2018,5
+Honda, City VX CVT,7.95 Lakh,Petrol,Mumbai,2016,7
+Audi, Q3 35 TDI Premium + Sunroof,20.5 Lakh,Diesel,Ahmedabad,2016,7
+Hyundai, Grand i10 Sports Edition 1.2L Kappa VTVT,5 Lakh,Petrol,Thane,2018,5
+Toyota ,Yaris V MT,9.8 Lakh,Petrol,Hyderabad,2018,5
+Maruti Suzuki, Swift VXi AMT,7.04 Lakh,Petrol,Delhi,2019,4
+Hyundai ,Creta 1.6 E Petrol,7.45 Lakh,Petrol,Noida,2015,8
+Hyundai, Grand i10 Era 1.1 CRDi [2016-2017],5 Lakh,Diesel,Thiruvallur,2017,6
+Maruti Suzuki, Baleno Alpha 1.2,6.1 Lakh,Petrol,Thane,2017,6
+Honda, City 1.5 V MT,3.25 Lakh,Petrol,Thane,2010,13
+Toyota, Fortuner Legender 4X2 AT 2.8 Legender,48.5 Lakh,Diesel,Pune,2021,2
+Toyota ,Etios Cross 1.2 G,4.35 Lakh,Petrol,Kolkata,2015,8
+Honda, City V,6.53 Lakh,Petrol,Delhi,2014,9
+Ford, EcoSport Titanium 1.5 TDCi,5.99 Lakh,Diesel,Thane,2015,8
+Kia, Seltos GTX Plus AT 1.4 [2019-2020],14.9 Lakh,Petrol,Chennai,2019,4
+Hyundai ,Grand i10 Magna 1.1 CRDi [2016-2017],6.2 Lakh,Diesel,Hyderabad,2018,5
+BMW ,X5 xDrive 30d,47.9 Lakh,Diesel,Pune,2017,6
+Maruti Suzuki ,Baleno Delta 1.2,5.27 Lakh,Petrol,Delhi,2016,7
+Fiat ,Punto Active 1.3,3.5 Lakh,Diesel,Hyderabad,2014,9
+Renault ,Kwid CLIMBER 1.0 AMT [2017-2019],4.25 Lakh,Petrol,Mumbai,2017,6
+Mercedes-Benz ,C-Class C 220 CDI Avantgarde,28.78 Lakh,Diesel,Bangalore,2016,7
+Honda ,City SV CVT,6.15 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki ,XL6 Zeta AT Petrol,12.9 Lakh,Petrol,Ahmedabad,2022,1
+Honda ,City 1.5 S MT,3.45 Lakh,Petrol,Mumbai,2011,12
+Volkswagen, Polo Comfortline 1.2L (D),2.9 Lakh,Diesel,Kolkata,2013,10
+Skoda ,Rapid Ambition 1.6 MPI AT,10.13 Lakh,Petrol,Kolkata,2020,3
+Hyundai, Eon Era +,2.95 Lakh,Petrol,Ahmedabad,2016,7
+Maruti Suzuki ,S-Presso VXi Plus,4.76 Lakh,Petrol,Delhi,2021,2
+Maruti Suzuki, Dzire VDi,7.85 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki, Ritz VXI BS-IV,2.35 Lakh,Petrol,Thane,2011,12
+Hyundai ,Creta SX (O) 1.5 Petrol CVT [2020-2022],19.25 Lakh,Petrol,Thane,2022,1
+Maruti Suzuki, Baleno Zeta 1.2 AT,7 Lakh,Petrol,Thiruvallur,2018,5
+Volkswagen, Taigun Highline 1.0 TSI AT,17.49 Lakh,Petrol,Bangalore,2021,2
+Toyota, Innova Crysta 2.8 GX AT 7 STR [2016-2020],24.49 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki ,Ertiga ZXi,5.95 Lakh,Petrol,Mumbai,2014,9
+Nissan, Micra Active XV,3.25 Lakh,Petrol,Kolkata,2017,6
+Honda, City V,8.75 Lakh,Petrol,Mumbai,2018,5
+Honda, Amaze 1.2 VX MT Petrol [2018-2020],8.57 Lakh,Petrol,Pune,2022,1
+Maruti Suzuki ,S-Presso VXi Plus,4.54 Lakh,Petrol,Pune,2020,3
+BMW ,3 Series 330i Sport Line,22.5 Lakh,Petrol,Ahmedabad,2018,5
+MINI, Cooper Countryman Cooper D,14.75 Lakh,Diesel,Ahmedabad,2014,9
+Hyundai ,Verna 1.4 VTVT,5.9 Lakh,Petrol,Ahmedabad,2016,7
+Mercedes-Benz ,CLA 200 CDI Sport,25 Lakh,Diesel,Hyderabad,2016,7
+Maruti Suzuki ,Alto 800 Lxi,2.92 Lakh,Petrol,Pune,2015,8
+Hyundai ,i20 Asta 1.2,4.3 Lakh,Petrol,Pune,2012,11
+Jeep, Compass Limited (O) 1.4 Petrol AT [2017-2020],18.25 Lakh,Petrol,Mumbai,2019,4
+Hyundai, Santro Sportz [2018-2020],5.26 Lakh,Petrol,Pune,2019,4
+Mercedes-Benz ,CLA 200 CDI Sport,16.49 Lakh,Diesel,Kolkata,2015,8
+Maruti Suzuki ,Wagon R 1.0 VXI AMT,4.9 Lakh,Petrol,Ahmedabad,2018,5
+Toyota, Innova 2.5 G4 8 STR,4.25 Lakh,Diesel,Thane,2009,14
+Tata, Indica V2 DLE BS-III,"60,000",Diesel,Pallikarnai,2007,16
+Maruti Suzuki ,Alto 800 Lxi,3.1 Lakh,Petrol,Hyderabad,2015,8
+Maruti Suzuki, Baleno Zeta,6.55 Lakh,Petrol,Kolkata,2018,5
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.65 Lakh,Petrol,Mumbai,2017,6
+Hyundai, Elite i20 Sportz 1.2 (O),6.3 Lakh,Petrol,Pune,2018,5
+Hyundai, i20 Magna 1.2,3.1 Lakh,Petrol,Noida,2012,11
+Honda ,City SV CVT,6.9 Lakh,Petrol,Ahmedabad,2015,8
+MG ,Astor Sharp 1.5 CVT,16.85 Lakh,Petrol,Thane,2021,2
+Maruti Suzuki, Wagon R 1.0 VXI,4.64 Lakh,Petrol,Pune,2017,6
+Jeep ,Compass Limited 1.4 Petrol AT [2017-2020],16.92 Lakh,Petrol,Pune,2019,4
+Toyota ,Fortuner 2.8 4x2 AT [2016-2020],32.5 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki, Celerio VXi,4.15 Lakh,Petrol,Bangalore,2014,9
+Mercedes-Benz ,A-Class A 200d,22.95 Lakh,Diesel,Bangalore,2017,6
+Toyota ,Fortuner 3.0 4x2 AT,16.49 Lakh,Diesel,Bangalore,2012,11
+Maruti Suzuki, Swift VXi ABS,3.4 Lakh,Petrol,Delhi,2013,10
+Renault, Kwid 1.0 RXT [2016-2019],4.6 Lakh,Petrol,Bangalore,2018,5
+Mercedes-Benz, GLC 220 d Sport,44 Lakh,Diesel,Pune,2018,5
+Maruti Suzuki, Wagon R 1.0 VXI,3.59 Lakh,Petrol,Kolkata,2016,7
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],5.95 Lakh,Petrol,Bangalore,2019,4
+Hyundai ,Grand i10 Nios Sportz AMT 1.2 Kappa VTVT,7.33 Lakh,Petrol,Pune,2019,4
+Toyota, Innova Crysta 2.8 GX AT 8 STR [2016-2020],18.9 Lakh,Diesel,Thane,2018,5
+Toyota, Innova Crysta ZX 2.4 7 STR,33.5 Lakh,Diesel,Hyderabad,2022,1
+Maruti Suzuki ,Wagon R ZXi 1.2,6.49 Lakh,Petrol,Bangalore,2021,2
+Honda ,City VX CVT,9.5 Lakh,Petrol,Hyderabad,2015,8
+Honda ,City Anniversary Edition Diesel,8.2 Lakh,Diesel + 1,Ambattur,2018,5
+Hyundai ,Creta SX Plus 1.6  Petrol,11.37 Lakh,Petrol,Bangalore,2017,6
+Volvo ,V40 D3 Kinetic,16 Lakh,Diesel,Ahmedabad,2016,7
+Hyundai, Elite i20  Asta 1.2 AT,7.5 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki ,Alto 800 Vxi,2.23 Lakh,Petrol,Kolkata,2014,9
+Hyundai, Creta SX (O) 1.5 Petrol CVT [2020-2022],17.25 Lakh,Petrol,Thane,2021,2
+Mahindra ,Scorpio S6 Plus 1.99 Intelli-Hybrid,8.95 Lakh,Diesel,Delhi,2017,6
+Volkswagen ,Polo GT TSI,9.45 Lakh,Petrol,Bangalore,2017,6
+Maruti Suzuki ,Alto 800 Vxi,2.67 Lakh,Petrol,Delhi,2015,8
+Hyundai ,Elite i20 Asta 1.4 (O) CRDi,8.5 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki, Ciaz Alpha Hybrid 1.5 AT [2018-2020],9.49 Lakh,Petrol,Ahmedabad,2020,3
+Honda, WR-V VX MT Petrol,6.99 Lakh,Petrol,Kolkata,2019,4
+Renault ,Kwid RXL [2015-2019],2.95 Lakh,Petrol,Noida,2018,5
+Ford ,Figo Duratorq Diesel Titanium 1.4,4.75 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki, Swift VXi [2014-2017],6.5 Lakh,Petrol,Thane,2019,4
+Honda ,Civic 1.8V MT,2.35 Lakh,Petrol,Mumbai,2009,14
+Mahindra, XUV700 AX 7 Diesel AT 7 STR,28 Lakh,Diesel,Ahmedabad,2022,1
+Maruti Suzuki ,Swift VXi,3.27 Lakh,Petrol,Kolkata,2012,11
+Honda ,Brio E MT,3.7 Lakh,Petrol,Pallikarnai,2013,10
+Honda ,CR-V 2.4 AT,12.51 Lakh,Petrol,Mumbai,2015,8
+BMW, 3 Series 330i M Sport Edition,47.5 Lakh,Petrol,Ahmedabad,2020,3
+BMW ,X5 xDrive 30d,48 Lakh,Diesel,Ahmedabad,2017,6
+Maruti Suzuki, S-Presso VXi,4.5 Lakh,Petrol,Ahmedabad,2020,3
+Toyota, Glanza V CVT,9.85 Lakh,Petrol,Bangalore,2021,2
+Mahindra ,Alturas G4 4WD AT [2018-2020],21.45 Lakh,Diesel,Kolkata,2019,4
+Renault ,Duster 85 PS RxL,8.5 Lakh,Diesel,Hyderabad,2018,5
+BMW, 3 Series GT 320d Sport Line [2014-2016],27.5 Lakh,Diesel,Hyderabad,2016,7
+Maruti Suzuki, Ignis Alpha 1.2 MT,7.12 Lakh,Petrol,Pune,2020,3
+Maruti Suzuki ,Celerio VXi (O) CNG,5.56 Lakh,CNG,Pune,2020,3
+Ford, EcoSport Signature Edition Diesel,10.2 Lakh,Diesel,Thane,2019,4
+Maruti Suzuki, Ciaz Zeta 1.4 MT,8.75 Lakh,Petrol,Bangalore,2018,5
+Honda ,Jazz VX Petrol,5.7 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki ,Swift DZire VXI,3.7 Lakh,Petrol,Thane,2012,11
+Audi ,Q3 35 TDI Premium Plus + Sunroof,15 Lakh,Diesel,Ahmedabad,2015,8
+Maruti Suzuki, Wagon R 1.0 VXI,4.07 Lakh,Petrol,Pune,2016,7
+Jaguar ,XF 2.2 Diesel Luxury,19.5 Lakh,Diesel,Ahmedabad,2014,9
+Maruti Suzuki, Alto 800 Lxi CNG,3.3 Lakh,CNG,Pune,2015,8
+Maruti Suzuki ,Alto K10 VXi,4.2 Lakh,Petrol + 1,Thiruvallur,2022,1
+Maruti Suzuki ,Vitara Brezza ZDi Plus AGS,11.5 Lakh,Diesel,Bangalore,2019,4
+Hyundai, Grand i10 Sportz 1.2 Kappa VTVT [2013-2016],5.35 Lakh,Petrol,Hyderabad,2016,7
+Hyundai, i20 Active 1.2 S,6.45 Lakh,Petrol,Hyderabad,2016,7
+Honda, Amaze 1.2 S i-VTEC,4.5 Lakh,Petrol,Thane,2015,8
+Tata ,Nexon XZ Plus (O),10.65 Lakh,Petrol,Thane,2022,1
+Audi ,Q7 Technology 55 TFSI,93 Lakh,Petrol,Pune,2022,1
+Toyota ,Fortuner 2.8 4x2 AT [2016-2020],32.5 Lakh,Diesel,Mumbai,2018,5
+Toyota, Corolla Altis JS Petrol,6.45 Lakh,Petrol,Mumbai,2015,8
+Maruti Suzuki, Swift DZire ZXI,3.95 Lakh,Petrol,Thane,2013,10
+Mercedes-Benz, E-Class E250 CDI Avantgarde,22 Lakh,Diesel,Ahmedabad,2014,9
+BMW ,5 Series 520d Luxury Line [2017-2019],51.95 Lakh,Diesel,Hyderabad,2019,4
+Hyundai ,i10 Magna 1.2 Kappa2,3.49 Lakh,Petrol,Chennai,2014,9
+Skoda ,Kodiaq L&K 2.0 TDI 4x4 AT,32.6 Lakh,Diesel,Hyderabad,2019,4
+Renault, Kwid RXT [2015-2019],4.46 Lakh,Petrol,Pune,2021,2
+Maruti Suzuki, Swift VXi [2014-2017],5.42 Lakh,Petrol,Kolkata,2018,5
+Skoda, Octavia Elegance 1.8 TSI AT,9.45 Lakh,Petrol,Mumbai,2015,8
+Tata, Nexon XZA Plus (S),12.25 Lakh,Petrol,Faridabad,2021,2
+Maruti Suzuki, Eeco 5 STR WITH A/C+HTR CNG [2017-2019],4.75 Lakh,CNG,Thane,2016,7
+Mahindra, Thar CRDe 4x4 Non AC,7.3 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki ,Baleno Alpha 1.2,7.31 Lakh,Petrol,Thane,2019,4
+BMW ,X5 xDrive 30d M Sport,53 Lakh,Diesel,Mumbai,2018,5
+BMW, X5 xDrive30d xLine,42.5 Lakh,Diesel,Thane,2017,6
+Audi ,Q3 2.0 TDI quattro Premium Plus,15.13 Lakh,Diesel,Ahmedabad,2015,8
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 AT [2018-2020],11.55 Lakh,Petrol,Mumbai,2021,2
+Hyundai ,i10 Sportz 1.2 AT Kappa2,2.95 Lakh,Petrol,Thane,2013,10
+Mahindra, XUV300 W8 1.5 Diesel,15.74 Lakh,Diesel,Pune,2021,2
+Renault, Kwid 1.0 RXT AMT Opt [2016-2019],4.95 Lakh,Petrol,Bangalore,2016,7
+Maruti Suzuki ,Alto 800 Lxi,2.98 Lakh,Petrol,Pune,2016,7
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT,5.21 Lakh,Petrol,Chennai,2017,6
+Hyundai ,Elite i20 Sportz 1.2,6.45 Lakh,Petrol,Mumbai,2018,5
+Hyundai ,Santro Sportz [2018-2020],5.5 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki ,Celerio ZXi AMT ABS,4.82 Lakh,Petrol,Delhi,2016,7
+Hyundai, i20 Active 1.2 S,5.5 Lakh,Petrol,Thane,2015,8
+Hyundai, Venue S 1.0 Petrol [2019-2020],8.95 Lakh,Petrol,Kolkata,2019,4
+Hyundai ,Verna 1.6 VTVT S,5.49 Lakh,Petrol,Kolkata,2016,7
+Hyundai ,Creta 1.6 SX,14.25 Lakh,Diesel,Hyderabad,2018,5
+Hyundai ,Xcent S 1.1 CRDi (O),3.5 Lakh,Diesel,Kolkata,2015,8
+Maruti Suzuki ,Celerio ZXi AMT [2017-2019],5.6 Lakh,Petrol,Bangalore,2018,5
+Skoda ,Rapid Ambition 1.6 MPI AT,8.99 Lakh,Petrol,Bangalore,2018,5
+Honda, City 1.5 S AT,6.2 Lakh,Petrol,Hyderabad,2013,10
+Renault, Triber RXZ EASY-R AMT,7.5 Lakh,Petrol,Mumbai,2020,3
+Honda ,City VX CVT,5.99 Lakh,Petrol,Kolkata,2016,7
+Renault, Duster 85 PS Base 4X2 MT Diesel,8.62 Lakh,Diesel,Bangalore,2018,5
+Toyota, Innova Crysta ZX 2.4 AT 7 STR,32.5 Lakh,Diesel,Hyderabad,2021,2
+Maruti Suzuki ,Baleno Alpha Automatic,8.95 Lakh,Petrol,Bangalore,2018,5
+Mercedes-Benz ,C-Class 200 K AT,4.63 Lakh,Petrol,Ahmedabad,2006,17
+Mercedes-Benz, C-Class C 220 CDI Avantgarde,26.5 Lakh,Diesel,Bangalore,2015,8
+Hyundai ,Grand i10 Asta AT 1.2 Kappa VTVT [2013-2016],5.35 Lakh,Petrol,Mumbai,2015,8
+Hyundai ,Grand i10 Asta AT 1.2 Kappa VTVT (O) [2016-2017],5.24 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki, Ciaz Zeta 1.4 AT,9 Lakh,Petrol,Hyderabad,2018,5
+Tata ,Nexon EV XZ Plus,15 Lakh,Electric,Mumbai,2022,1
+Mahindra ,Quanto C8,3 Lakh,Diesel,Thiruvallur,2012,11
+Tata ,Tigor Buzz Petrol,4.9 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki, Dzire VXi,6.65 Lakh,Petrol,Thane,2018,5
+Honda ,City V,9.91 Lakh,Petrol,Ahmedabad,2022,1
+Hyundai ,Grand i10 Nios Sportz AMT 1.2 Kappa VTVT,7.33 Lakh,Petrol,Pune,2019,4
+Hyundai ,Tucson 2WD MT Diesel,7.61 Lakh,Diesel,Delhi,2021,2
+Hyundai, Elite i20 Asta 1.2 (O) [2016],7.79 Lakh,Petrol,Bangalore,2016,7
+Skoda ,Octavia 1.8 TSI Style Plus AT [2017],19.5 Lakh,Petrol,Chennai,2019,4
+Hyundai ,Verna SX Plus 1.6 CRDi AT,10.25 Lakh,Diesel,Ahmedabad,2017,6
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,3.76 Lakh,Petrol,Delhi,2014,9
+Hyundai, Santro Xing GL Plus,2.65 Lakh,Petrol,Delhi,2013,10
+Hyundai, Creta SX Plus 1.6  Petrol,9.75 Lakh,Petrol,Thane,2017,6
+BMW ,3 Series 320d Highline Sedan,9 Lakh,Diesel,Kolkata,2011,12
+Maruti Suzuki, Wagon R 1.0 LXI ABS,6.87 Lakh,Petrol,Pune,2021,2
+Maruti Suzuki ,Alto 800 VXi,3.69 Lakh,Petrol,Kolkata,2020,3
+Hyundai, i10 1.1L iRDE Magna Special Edition,3.9 Lakh,Petrol,Ahmedabad,2014,9
+Honda ,WR-V VX MT Petrol,8.9 Lakh,Petrol,Thane,2019,4
+Tata ,Harrier XTA Plus Dark Edition,25 Lakh,Diesel,Hyderabad,2022,1
+Hyundai ,Elite i20 Magna 1.2,4.65 Lakh,Petrol,Thane,2015,8
+Skoda, Rapid Style 1.5 TDI,6.54 Lakh,Diesel,Kolkata,2017,6
+Renault ,Kwid RXL,3.51 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki ,Swift DZire ZDI,5.26 Lakh,Diesel,Pune,2012,11
+Renault ,Kwid CLIMBER 1.0 [2017-2019],3.8 Lakh,Petrol,Hyderabad,2018,5
+Hyundai, Creta SX Plus 1.6  Petrol,9.11 Lakh,Petrol,Mumbai,2016,7
+Nissan ,Terrano XL (D),6.25 Lakh,Diesel,Ahmedabad,2015,8
+MG, Hector Sharp 1.5 Petrol CVT,19.75 Lakh,Petrol,Bangalore,2021,2
+Maruti Suzuki, Ritz VXI BS-IV,3.15 Lakh,Petrol,Thane,2012,11
+Maruti Suzuki, Vitara Brezza VXi,8.59 Lakh,Petrol,Chennai,2020,3
+Hyundai, Creta 1.6 S Petrol,10.03 Lakh,Petrol,Pune,2017,6
+Honda ,Jazz S Petrol,6.73 Lakh,Petrol,Bangalore,2017,6
+Land Rover, Range Rover Velar 2.0 R-Dynamic S Petrol 250 [2017-2020],78.99 Lakh,Petrol,Kolkata,2020,3
+Renault ,Duster 110 PS RxZ Diesel,5.7 Lakh,Diesel,Thane,2014,9
+Maruti Suzuki ,Ertiga ZXi AT,11.9 Lakh,Petrol,Ahmedabad,2021,2
+Toyota ,Innova Crysta 2.8 GX AT 8 STR [2016-2020],18.5 Lakh,Diesel,Hyderabad,2017,6
+Renault, Kwid Neotech RXL,5.49 Lakh,Petrol,Pune,2021,2
+Renault, Captur Platine Mono Diesel,6.75 Lakh,Diesel,Kolkata,2019,4
+Hyundai, Santro Sportz AMT [2018-2020],5.18 Lakh,Petrol,Pune,2018,5
+Hyundai ,Verna 1.6 VTVT SX,7.5 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki, Vitara Brezza ZDi Plus AGS,9.85 Lakh,Diesel,Hyderabad,2018,5
+Tata ,Nexon XMA Diesel,9.41 Lakh,Diesel,Thane,2019,4
+Honda ,City S Petrol,6.95 Lakh,Petrol,Thane,2017,6
+Hyundai, Verna SX (O) 1.5 CRDi,13.83 Lakh,Diesel,Hyderabad,2021,2
+Maruti Suzuki ,Alto 800 Lxi,3.19 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki ,Wagon R 1.0 VXI AMT,4.9 Lakh,Petrol,Ahmedabad,2018,5
+Mahindra, XUV300 1.5 W8 (O) [2019-2020],11.5 Lakh,Diesel,Hyderabad,2018,5
+Toyota, Innova Crysta 2.8 ZX AT 7 STR [2016-2020],22.5 Lakh,Diesel,Chennai,2017,6
+Ford ,Figo Titanium 1.5 Ti-VCT AT,5.5 Lakh,Petrol,Hyderabad,2016,7
+Toyota, Corolla Altis G Petrol,8.85 Lakh,Petrol,Delhi,2018,5
+Tata , Revotron XZ Plus,6.39 Lakh,Petrol,Bangalore,2018,5
+Honda ,WR-V VX MT Petrol,8.2 Lakh,Petrol,Delhi,2018,5
+Volkswagen, Tiguan Highline TDI,24 Lakh,Diesel,Hyderabad,2017,6
+Audi ,Q7 45 TDI Technology Pack,61.5 Lakh,Diesel,Ahmedabad,2017,6
+Mahindra, XUV500 W8,7.5 Lakh,Diesel,Bangalore,2012,11
+BMW, X1 sDrive20d xLine,32.5 Lakh,Diesel,Mumbai,2019,4
+Toyota ,Camry Hybrid,21.43 Lakh,Petrol,Delhi,2017,6
+Honda, Amaze 1.2 SX i-VTEC,4.6 Lakh,Petrol,Ambattur,2014,9
+Mercedes-Benz ,C-Class 250 CDI Avantagarde,9.5 Lakh,Diesel,Ahmedabad,2012,11
+Ford, EcoSport Titanium 1.5 TDCi,4.85 Lakh,Diesel,Thane,2013,10
+Maruti Suzuki ,Swift VXi,3.7 Lakh,Petrol,Kolkata,2015,8
+Fiat, Punto Evo Dynamic 1.2,4 Lakh,Petrol,Ambattur,2016,7
+Maruti Suzuki, Ignis Alpha 1.2 MT,5.25 Lakh,Petrol,Mumbai,2017,6
+Jeep ,Compass Limited 1.4 Petrol AT [2017-2020],16.92 Lakh,Petrol,Pune,2019,4
+Mercedes-Benz, E-Class E 220d Exclusive [2019-2019],74 Lakh,Diesel,Delhi,2022,1
+Mercedes-Benz, C-Class 250 CDI Avantagarde,13.95 Lakh,Diesel,Bangalore,2013,10
+Hyundai, Grand i10 Sports Edition 1.2L Kappa VTVT,4.79 Lakh,Petrol,Pune,2016,7
+Audi ,A6 Technology 45 TFSI,48 Lakh,Petrol,Ahmedabad,2020,3
+Mahindra, XUV500 W7 [2018-2020],13.5 Lakh,Diesel,Mumbai,2020,3
+Honda ,Amaze 1.2 V CVT Petrol [2018-2020],8.51 Lakh,Petrol,Ahmedabad,2021,2
+Kia, Seltos GTX Plus 1.4 [2020-2021],14.91 Lakh,Petrol,Bangalore,2019,4
+Mercedes-Benz, GLE 250 d,42.75 Lakh,Diesel,Thane,2016,7
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],4.15 Lakh,Petrol,Pune,2014,9
+Maruti Suzuki, Dzire ZXi Plus AMT,6.37 Lakh,Petrol,Chennai,2017,6
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,4.77 Lakh,Petrol,Kolkata,2019,4
+Jeep ,Compass Limited (O) 1.4 Petrol AT [2017-2020],22.5 Lakh,Petrol,Kolkata,2021,2
+Hyundai ,Santro Magna [2018-2020],5.1 Lakh,Petrol,Hyderabad,2019,4
+Maruti Suzuki ,Swift Dzire VXI,5.5 Lakh,Petrol,Thane,2016,7
+Hyundai ,i10 Sportz 1.2 AT Kappa2,3.2 Lakh,Petrol,Ahmedabad,2011,12
+Maruti Suzuki ,Celerio VXi CNG [2017-2019],5.24 Lakh,CNG,Pune,2018,5
+Hyundai, Elite i20 Magna Executive 1.2,5.36 Lakh,Petrol,Kolkata,2018,5
+Mercedes-Benz, C-Class C 220 CDI Style,30 Lakh,Diesel,Hyderabad,2015,8
+MG ,Hector Sharp 2.0 Diesel [2019-2020],16.11 Lakh,Diesel,Mumbai,2019,4
+Mahindra, Thar LX Hard Top Petrol MT,16.99 Lakh,Petrol,Bangalore,2022,1
+Toyota ,Fortuner 3.0 4x2 AT,19.9 Lakh,Diesel,Hyderabad,2014,9
+Toyota ,Fortuner 4x2 AT,26.49 Lakh,Diesel,Ahmedabad,2016,7
+Hyunda,i Grand i10 Magna 1.2 Kappa VTVT CNG [2019-2020],7.78 Lakh,CNG,Pune,2021,2
+Volkswagen ,Polo Comfortline 1.2L (P),3.45 Lakh,Petrol,Thane,2013,10
+Maruti Suzuki ,Ciaz Sigma 1.4 MT,7.45 Lakh,Petrol,Mumbai,2018,5
+Hyundai ,Verna 1.6 VTVT SX,6.75 Lakh,Petrol,Ahmedabad,2017,6
+Hyundai, Elite i20 Asta 1.2 (O) [2016],6.83 Lakh,Petrol,Delhi,2017,6
+Honda, Amaze 1.2 VX i-VTEC,4.6 Lakh,Petrol,Thane,2015,8
+MG, Astor Savvy 1.5 CVT S Red,14.75 Lakh,Petrol,Delhi,2021,2
+Maruti Suzuki ,Vitara Brezza VDi,8.75 Lakh,Diesel,Mumbai,2019,4
+Honda, City 1.5 V MT Sunroof,5.65 Lakh,Petrol,Bangalore,2012,11
+Hyundai, Eon Era +,2.5 Lakh,Petrol,Thane,2013,10
+Ford, EcoSport Titanium 1.5L Ti-VCT AT,6.85 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki ,Swift LXi,5.64 Lakh,Petrol,Chennai,2020,3
+Maruti Suzuki, Alto 800 Lxi,2.99 Lakh,Petrol,Pune,2017,6
+Honda, Brio S MT,3.05 Lakh,Petrol,Thane,2013,10
+Mahindra ,XUV500 W10 AT,14.99 Lakh,Diesel,Bangalore,2017,6
+BMW ,X1 sDrive20d Expedition,21.75 Lakh,Diesel,Mumbai,2017,6
+Maruti Suzuki ,Wagon R 1.0 LXI,3.91 Lakh,Petrol,Delhi,2017,6
+Maruti Suzuki, Swift Dzire ZDI AMT,6.9 Lakh,Diesel,Ahmedabad,2017,6
+Maruti Suzuki ,Dzire ZDi Plus,7.7 Lakh,Diesel,Hyderabad,2017,6
+Hyundai ,Creta Facelift 1.4 Turbo Petrol DCT,19.2 Lakh,Petrol,Thane,2022,1
+Maruti Suzuki, Vitara Brezza ZDi Plus,9.5 Lakh,Diesel,Hyderabad,2017,6
+Hyundai, Elite i20 Magna 1.2,5.75 Lakh,Petrol,Hyderabad,2015,8
+Maruti Suzuki ,Baleno Zeta 1.2,4.83 Lakh,Petrol,Kolkata,2016,7
+Toyota, Innova Crysta 2.8 ZX AT 7 STR [2016-2020],19.75 Lakh,Diesel,Ahmedabad,2018,5
+Hyundai ,Elantra SX (O) 2.0 AT,10.9 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki, Alto K10 VXi AMT [2014-2018],3.89 Lakh,Petrol,Pune,2016,7
+Volkswagen ,Ameo Comfortline 1.0L (P),5.9 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki ,Dzire ZXi,6.34 Lakh,Petrol,Kolkata,2019,4
+Volkswagen, Vento Highline Petrol,4.45 Lakh,Petrol,Mumbai,2014,9
+Tata ,Nexon XMA Petrol,7.45 Lakh,Petrol,Thane,2019,4
+Honda, City V CVT Petrol [2017-2019],9.96 Lakh,Petrol,Chennai,2018,5
+Maruti Suzuki ,Vitara Brezza ZXi Plus AT SHVS,11.17 Lakh,Petrol,Pune,2020,3
+Audi ,Q7 4.2 TDI quattro,32 Lakh,Diesel,Bangalore,2014,9
+Honda, City V CVT Petrol [2017-2019],8.85 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki, Swift DZire VXI,3.25 Lakh,Petrol,Delhi,2012,11
+Toyota, Camry Hybrid [2015-2017],48.5 Lakh,Petrol,Pune,2022,1
+Honda, Brio S MT,4.5 Lakh,Petrol,Ahmedabad,2016,7
+Tata ,Harrier XZA Plus Dual Tone,22.51 Lakh,Diesel,Mumbai,2021,2
+Maruti Suzuki, Alto 800 Lxi,2.99 Lakh,Petrol,Pune,2016,7
+MG ,Hector Sharp 1.5 Petrol Turbo Hybrid MT,18.66 Lakh,Hybrid,Pallikarnai,2022,1
+Maruti Suzuki, Dzire ZXi Plus AMT,8.8 Lakh,Petrol,Hyderabad,2020,3
+Hyundai ,Grand i10 Magna 1.1 CRDi [2016-2017],4.15 Lakh,Diesel,Thane,2015,8
+Maruti Suzuki ,Wagon R 1.0 LXi CNG,2.95 Lakh,CNG,Mumbai,2012,11
+Maruti Suzuki, Alto 800 Vxi,3.79 Lakh,Petrol,Bangalore,2018,5
+Honda ,City V,6.25 Lakh,Petrol,Ahmedabad,2016,7
+Maruti Suzuki, Celerio VXi CNG,6.89 Lakh,CNG,Pune,2022,1
+Hyundai, Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],4.1 Lakh,Petrol + 1,Thiruvallur,2017,6
+Hyundai ,Santro Sportz [2018-2020],4.86 Lakh,Petrol,Chennai,2019,4
+Hyundai ,Elite i20 Sportz 1.2 [2016-2017],4.95 Lakh,Petrol,Mumbai,2016,7
+Hyundai ,Creta SX 1.6 AT CRDi,12.85 Lakh,Diesel,Mumbai,2018,5
+Maruti Suzuki ,Celerio X Zxi (O) AMT [2017-2019],4.5 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Celerio VXi,3.64 Lakh,Petrol,Kolkata,2015,8
+Maruti Suzuki ,Wagon R 1.0 LXi CNG,2.5 Lakh,CNG,Ahmedabad,2011,12
+Tata ,Tiago Revotron XZA,5.25 Lakh,Petrol,Thane,2018,5
+Mahindra, XUV500 W10,13.75 Lakh,Diesel,Bangalore,2016,7
+Tata ,Tiago Revotron XZ,4.65 Lakh,Petrol,Mumbai,2017,6
+Toyota, Innova Crysta 2.8 GX AT 7 STR [2016-2020],15.8 Lakh,Diesel,Delhi,2018,5
+Maruti Suzuki ,Swift VDi,7.3 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki ,Wagon R 1.0 VXI,3.59 Lakh,Petrol,Kolkata,2016,7
+Datsun,GO T [2018-2019],3.61 Lakh,Petrol,Hyderabad,2018,5
+Ford, Fiesta Exi 1.6 Duratec Ltd,1.75 Lakh,Petrol + 1,Pallikarnai,2009,14
+Volvo ,S90 D4 Inscription,47.5 Lakh,Diesel,Delhi,2020,3
+Maruti Suzuki, Swift DZire VXI,4.28 Lakh,Petrol,Kolkata,2014,9
+Maruti Suzuki, Vitara Brezza ZDi,8.45 Lakh,Diesel,Mumbai,2018,5
+Hyundai ,Grand i10 Sports Edition 1.1 CRDi,3.49 Lakh,Diesel,Kolkata,2015,8
+Honda ,Jazz ZX CVT,10.24 Lakh,Petrol,Pune,2021,2
+Renault, Kwid Neotech RXL,4.75 Lakh,Petrol,Mumbai,2021,2
+Honda, BR-V V CVT Petrol,7.75 Lakh,Petrol,Mumbai,2016,7
+Honda, City V Petrol [2017-2019],7.65 Lakh,Petrol,Thane,2017,6
+Tata, Safari XZA Plus,23.95 Lakh,Diesel,Bangalore,2021,2
+Renault ,Triber RXZ,6.7 Lakh,Petrol,Thiruvallur,2020,3
+Maruti Suzuki ,Wagon R 1.0 VXI,4.64 Lakh,Petrol,Pune,2017,6
+BMW ,7 Series 730Ld,69.75 Lakh,Diesel,Ahmedabad,2017,6
+Nissan, Sunny XL D,5.75 Lakh,Diesel,Ahmedabad,2017,6
+Volkswagen ,Vento Trendline Petrol,3.15 Lakh,Petrol,Thane,2011,12
+Land Rover ,Range Rover Evoque HSE Dynamic,53 Lakh,Diesel,Bangalore,2018,5
+Hyundai, Eon Era +,3.5 Lakh,Petrol,Ahmedabad,2017,6
+Honda ,Jazz V Petrol,5.3 Lakh,Petrol,Mumbai,2016,7
+Hyundai ,Creta SX Plus 1.6  Petrol,7.5 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki, Wagon R LXi 1.0 CNG,5.53 Lakh,CNG,Delhi,2020,3
+Honda ,Amaze 1.2 VX AT i-VTEC,4.65 Lakh,Petrol,Mumbai,2014,9
+Tata, Harrier XZA Plus Dark Edition,22.5 Lakh,Diesel,Ahmedabad,2021,2
+Hyundai ,Santro Sportz [2018-2020],4.85 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4 Lakh,CNG,Thane,2015,8
+Honda, City VX CVT,7.5 Lakh,Petrol,Mumbai,2015,8
+Maruti Suzuki, Alto K10 LXi CNG,3.7 Lakh,CNG,Delhi,2019,4
+Hyundai, Grand i10 Nios Sportz 1.2 Kappa VTVT,6.69 Lakh,Petrol,Bangalore,2019,4
+Toyota, Innova Crysta 2.4 ZX 7 STR [2016-2020],19.75 Lakh,Diesel,Hyderabad,2017,6
+Hyundai ,i10 Asta 1.2 AT with Sunroof,3.25 Lakh,Petrol,Thane,2013,10
+Hyundai ,Elite i20 Asta 1.2,7.99 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki ,Ritz Vdi BS-IV,4.1 Lakh,Diesel,Thane,2014,9
+Audi ,Q3 2.0 TDI quattro Premium Plus,15.79 Lakh,Diesel,Delhi,2015,8
+Chevrolet ,Beat LS Diesel,1.5 Lakh,Diesel + 1,Ambattur,2011,12
+Hyundai ,Elite i20 Asta 1.2,5.65 Lakh,Petrol,Mumbai,2015,8
+Honda, Amaze 1.5 S i-DTEC,5.6 Lakh,Diesel,Hyderabad,2015,8
+Nissan ,Sunny XL CVT AT,4.95 Lakh,Petrol,Bangalore,2013,10
+Hyundai, Venue SX 1.4 (O) CRDi,13 Lakh,Diesel,Thane,2021,2
+Honda, Brio V MT,2.85 Lakh,Petrol,Noida,2011,12
+Hyundai ,Elite i20 Sportz 1.2 [2016-2017],7.23 Lakh,Petrol,Pune,2019,4
+Tata ,Zest XM 75 PS Diesel,5.5 Lakh,Diesel,Chennai,2015,8
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.1 Lakh,CNG,Thane,2015,8
+Maruti Suzuki ,Celerio VXi (O) CNG [2019-2020],5.58 Lakh,CNG,Pune,2019,4
+Maruti Suzuki ,Baleno Delta 1.2,6.18 Lakh,Petrol,Delhi,2019,4
+BMW ,3 Series 320d Luxury Line,12 Lakh,Diesel,Kolkata,2013,10
+Maruti Suzuki, Wagon R 1.0 VXI,3.78 Lakh,Petrol,Pune,2015,8
+Renault ,Duster RXZ 1.3 Turbo Petrol CVT [2020-2021],11.9 Lakh,Petrol,Chennai,2020,3
+Honda, Jazz V Petrol,5.99 Lakh,Petrol,Ahmedabad,2019,4
+Hyundai ,i20 Active 1.2 SX,5.9 Lakh,Petrol,Mumbai,2015,8
+Honda, City VX CVT Petrol,9.99 Lakh,Petrol,Bangalore,2017,6
+Hyundai ,Elite i20 Asta 1.2,5.65 Lakh,Petrol,Mumbai,2015,8
+Hyundai, Grand i10 Asta AT 1.2 Kappa VTVT [2013-2016],4.99 Lakh,Petrol,Thane,2015,8
+Tata, Nexon XZA Plus,10.99 Lakh,Petrol,Bangalore,2020,3
+Hyundai ,Santro Sportz,5.4 Lakh,Petrol,Bangalore,2021,2
+Tata ,Nexon XZ Plus Dual Tone,9.13 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki, Ciaz S 1.4 MT,6.86 Lakh,Petrol,Delhi,2018,5
+Volkswagen, Polo Highline1.2L (D),5.5 Lakh,Diesel,Hyderabad,2014,9
+Toyota, Yaris J CVT [2018-2020],8.47 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki ,Swift VXi AMT [2018-2019],6.75 Lakh,Petrol,Ahmedabad,2018,5
+Honda, Jazz S MT [2015-2016],6.5 Lakh,Petrol,Hyderabad,2018,5
+Honda, City ZX CVT Petrol [2017-2019],8.11 Lakh,Petrol,Kolkata,2017,6
+Toyota ,Etios VX,4.11 Lakh,Petrol,Mumbai,2014,9
+Renault ,Kwid 1.0 RXT [2016-2019],2.7 Lakh,Petrol,Thiruvallur,2018,5
+Hyundai ,Grand i10 Sportz 1.2 Kappa VTVT [2016-2017],5.25 Lakh,Petrol,Pune,2017,6
+Hyundai, Grand i10 Sports Edition 1.1 CRDi,5.5 Lakh,Diesel,Hyderabad,2017,6
+Maruti ,Suzuki S-Cross Zeta 1.3,9.5 Lakh,Diesel,Hyderabad,2018,5
+Honda ,Brio S MT,3.45 Lakh,Petrol,Thane,2014,9
+Maruti Suzuki, Baleno Delta 1.2,5.65 Lakh,Petrol,Noida,2017,6
+Nissan, Magnite XV Premium Dual Tone,8.4 Lakh,Petrol,Thane,2021,2
+Skoda, Rapid Style 1.6 MPI AT,8.75 Lakh,Petrol,Mumbai,2018,5
+Volkswagen, Cross Polo 1.2 MPI,6.5 Lakh,Petrol,Hyderabad,2017,6
+Honda ,City S,5.75 Lakh,Petrol,Ahmedabad,2016,7
+Honda, Amaze VX CVT 1.2 Petrol,9.22 Lakh,Petrol,Pune,2020,3
+Maruti Suzuki, Swift ZXi,5.31 Lakh,Petrol,Pune,2015,8
+Mercedes-Benz ,CLA 200 CDI Sport,24.26 Lakh,Diesel,Ahmedabad,2016,7
+Hyundai, i10 Magna 1.1 iRDE2 [2010-2017],4 Lakh,Petrol + 1,Poonamallee,2016,7
+Nissan ,Terrano XL (D),7.69 Lakh,Diesel,Bangalore,2016,7
+Jaguar ,XE Prestige,29.75 Lakh,Petrol,Bangalore,2017,6
+Maruti Suzuki ,Wagon R 1.0 VXI,3.75 Lakh,Petrol + 1,Thane,2016,7
+Hyundai ,Elite i20 Asta 1.2 (O) [2016],5.45 Lakh,Petrol,Kolkata,2017,6
+Maruti Suzuki, Swift VXi AMT,7.65 Lakh,Petrol,Thane,2021,2
+Maruti Suzuki, S-Cross Zeta,10.5 Lakh,Petrol,Ahmedabad,2022,1
+Honda ,City SV,5.75 Lakh,Petrol,Noida,2014,9
+Honda ,Jazz S Diesel [2015-2016],4.5 Lakh,Diesel,Kolkata,2016,7
+Ford ,EcoSport Titanium 1.5L TDCi,7.99 Lakh,Diesel,Bangalore,2016,7
+Audi ,A6 2.0 TDI Premium,12.13 Lakh,Diesel,Delhi,2013,10
+Maruti Suzuki, Swift VDi,6.85 Lakh,Diesel,Hyderabad,2018,5
+Audi ,Q5 3.0 TDI quattro Premium Plus,28 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki ,vitara brezza vxi,9.49 Lakh,Petrol,Bangalore,2020,3
+Maruti Suzuki ,Celerio VXi,3.96 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki ,Vitara Brezza ZDi+ Dual Tone [2017-2018],9.54 Lakh,Diesel,Hyderabad,2019,4
+Skoda ,Laura Ambition 2.0 TDI CR AT,4.25 Lakh,Diesel,Mumbai,2013,10
+Honda ,WR-V VX MT Diesel,6.45 Lakh,Diesel,Kolkata,2017,6
+Maruti Suzuki ,Alto 800 LXi (O) CNG,4.51 Lakh,CNG,Delhi,2021,2
+Hyundai ,Elantra 1.6 SX AT,9.31 Lakh,Diesel,Pune,2015,8
+Honda, Amaze 1.2 VX i-VTEC,5 Lakh,Petrol,Mumbai,2016,7
+Land Rover, Discovery Sport SE,49.5 Lakh,Diesel,Thane,2018,5
+Maruti Suzuki ,S-Cross Zeta,10.95 Lakh,Petrol,Hyderabad,2021,2
+Maruti Suzuki ,Ciaz Alpha 1.4 MT,7.69 Lakh,Petrol,Bangalore,2017,6
+Ford ,EcoSport Titanium 1.5L Ti-VCT,5.85 Lakh,Petrol,Kolkata,2017,6
+Honda, Jazz V AT Petrol,4.75 Lakh,Petrol,Kolkata,2015,8
+Honda ,City ZX EXi,2.95 Lakh,Petrol + 1,Ambattur,2007,16
+Maruti Suzuki, Swift ZXi,6.52 Lakh,Petrol,Hyderabad,2018,5
+Hyundai ,Elite i20 Asta 1.4 CRDi,6.21 Lakh,Diesel,Kolkata,2018,5
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],6.15 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki ,Wagon R 1.0 VXI AMT,4.75 Lakh,Petrol,Pune,2017,6
+Hyundai ,Aura SX 1.2 (O) Petrol,7.3 Lakh,Petrol,Pune,2020,3
+Mercedes-Benz, AMG GLA35 4MATIC,61 Lakh,Petrol,Mumbai,2021,2
+Maruti Suzuki, Dzire ZXi Plus,9.74 Lakh,Petrol,Pune,2022,1
+Hyundai ,Creta SX Plus 1.6 AT CRDI,10.23 Lakh,Diesel,Kolkata,2018,5
+Hyundai, Elite i20 Asta 1.2 (O) [2019-2020],8 Lakh,Petrol + 1,Thiruvallur,2019,4
+Kia, Seltos GTX 1.4,16.82 Lakh,Petrol,Bangalore,2020,3
+Honda ,Brio S MT,4.19 Lakh,Petrol,Bangalore,2013,10
+Maruti Suzuki ,Celerio VXi CNG [2017-2019],4.87 Lakh,CNG,Delhi,2018,5
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.5 Lakh,Petrol,Pune,2016,7
+Nissan ,Magnite XV Premium Dual Tone,8.3 Lakh,Petrol + 1,Pallikarnai,2021,2
+Renault ,Duster 110 PS RXS 4X2 AMT Diesel,10.29 Lakh,Diesel,Bangalore,2018,5
+Toyota, Fortuner 2.8 4x2 AT [2016-2020],32 Lakh,Diesel,Hyderabad,2018,5
+Honda ,Brio S MT,2.82 Lakh,Petrol,Delhi,2014,9
+Maruti Suzuki, S-Presso VXi,4.52 Lakh,Petrol,Kolkata,2020,3
+Hyundai, Verna 1.6 VTVT SX,9.1 Lakh,Petrol,Delhi,2018,5
+Tata, Nexon XZ Plus (O),11.5 Lakh,Petrol,Chennai,2022,1
+Maruti Suzuki, Swift VXi AMT,7.04 Lakh,Petrol,Delhi,2019,4
+Honda ,Brio V MT,3.51 Lakh,Petrol,Mumbai,2014,9
+Audi, A6 2.0 TDI Premium,16.5 Lakh,Diesel,Ahmedabad,2014,9
+Honda, Amaze 1.2 VX MT Petrol [2018-2020],6.85 Lakh,Petrol,Mumbai,2018,5
+Kia ,Seltos HTX 1.5 [2020-2021],13.53 Lakh,Petrol,Delhi,2020,3
+Ford, EcoSport Titanium 1.5L Ti-VCT AT,5.75 Lakh,Petrol,Mumbai,2015,8
+Maruti Suzuki, Alto 800 LXi (O) CNG,4.51 Lakh,CNG,Delhi,2021,2
+Maruti Suzuki ,Swift VXi,2.65 Lakh,Petrol,Thane,2010,13
+Maruti Suzuki ,Wagon R 1.0 VXI AMT,4 Lakh,Petrol,Mumbai,2015,8
+Mercedes-Benz ,C-Class 250 CDI Avantagarde,9.5 Lakh,Diesel,Ahmedabad,2012,11
+BMW ,7 Series 730Ld Sedan,12.5 Lakh,Diesel,Ahmedabad,2009,14
+Maruti Suzuki, Alto K10 VXi AMT [2014-2018],3.38 Lakh,Petrol,Delhi,2017,6
+Maruti Suzuki, Ciaz Delta 1.4 MT,6.87 Lakh,Petrol,Delhi,2017,6
+Maruti Suzuki, Swift VXi [2014-2017],5.71 Lakh,Petrol,Kolkata,2019,4
+Mahindra ,TUV300 T8 AMT mHAWK100,6.45 Lakh,Diesel,Mumbai,2015,8
+Volkswagen, Polo GT TSI,8.25 Lakh,Petrol,Kolkata,2021,2
+Kia ,Seltos HTX IVT 1.5 [2019-2020],12.75 Lakh,Petrol,Kolkata,2020,3
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 AT [2018-2020],10.76 Lakh,Petrol,Pune,2021,2
+Maruti Suzuki ,Wagon R 1.0 VXI,3.76 Lakh,Petrol,Pune,2016,7
+Mercedes-Benz, CLA 200 D Urban Sport,29.75 Lakh,Diesel,Bangalore,2018,5
+Ford, EcoSport Titanium 1.5L Ti-VCT,7.19 Lakh,Petrol,Delhi,2017,6
+Hyundai, Eon Era +,3.4 Lakh,Petrol,Noida,2018,5
+Hyundai, Creta SX Plus 1.6  Petrol,9.25 Lakh,Petrol,Thane,2017,6
+Hyundai ,Santro Sportz CNG [2018-2020],5.45 Lakh,CNG,Mumbai,2019,4
+Maruti Suzuki, Vitara Brezza ZDi,9.25 Lakh,Diesel,Hyderabad,2018,5
+Hyundai ,i20 Active 1.2 SX,6.45 Lakh,Petrol,Thane,2015,8
+Toyota ,Etios VX,3.09 Lakh,Petrol,Delhi,2011,12
+Mahindra ,Alturas G4 4WD AT [2018-2020],18.99 Lakh,Diesel,Kolkata,2018,5
+Maruti Suzuki ,Swift ZXi AMT [2018-2019],7 Lakh,Petrol,Bangalore,2018,5
+Mercedes-Benz ,GLA 200 d Sport,33 Lakh,Diesel,Hyderabad,2018,5
+Hyundai, Verna Fluidic 1.6 VTVT SX Opt AT,4.6 Lakh,Petrol,Thane,2013,10
+Honda, Jazz VX CVT Petrol,6.99 Lakh,Petrol,Ahmedabad,2019,4
+Toyota ,Urban Cruiser High Grade AT,11.4 Lakh,Petrol,Thane,2021,2
+Honda, Amaze 1.2 VX MT Petrol [2018-2020],8.57 Lakh,Petrol,Pune,2022,1
+Hyundai, Creta SX 1.6 CRDI (O),10.72 Lakh,Diesel,Chennai,2017,6
+Datsun, GO T (O),2.5 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki, Ertiga Vxi CNG,6.5 Lakh,CNG,Thane,2013,10
+Toyota ,Innova 2.5 GX BS IV 7 STR,20.31 Lakh,Diesel,Delhi,2018,5
+Audi ,A8 L 3.0 TDI quattro,27.51 Lakh,Diesel,Ahmedabad,2013,10
+Ford ,EcoSport Titanium 1.5 Ti-VCT AT,9.45 Lakh,Petrol,Mumbai,2019,4
+Maruti Suzuki, Swift VXi [2014-2017],5.95 Lakh,Petrol,Thane,2018,5
+Ford ,Freestyle Trend Plus 1.2 Ti-VCT [2019-2020],6.1 Lakh,Petrol,Poonamallee,2019,4
+Maruti Suzuki ,Vitara Brezza ZDi Plus,8.85 Lakh,Diesel,Mumbai,2017,6
+BMW, X1 sDrive20d xLine,32.75 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki, Dzire VXi,6.41 Lakh,Petrol,Pune,2018,5
+Hyundai, Elite i20 Asta 1.2,7.89 Lakh,Petrol,Bangalore,2018,5
+Honda, Amaze 1.2 SX i-VTEC,5.19 Lakh,Petrol,Bangalore,2015,8
+Ford, EcoSport Titanium 1.5L TDCi,7.9 Lakh,Diesel,Ahmedabad,2017,6
+BMW ,5 Series 520d Luxury Line [2017-2019],38 Lakh,Diesel,Ahmedabad,2019,4
+Maruti Suzuki, Celerio VXi CNG [2017-2019],4.89 Lakh,CNG,Pune,2017,6
+Maruti Suzuki, Alto 800 Lxi,2.09 Lakh,Petrol,Kolkata,2013,10
+Tata ,Altroz XZ (O) Diesel,9.78 Lakh,Diesel,Chennai,2021,2
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],5.7 Lakh,Petrol,Bangalore,2019,4
+Mercedes-Benz, S-Class 350 L,14.56 Lakh,Petrol,Ahmedabad,2011,12
+Hyundai, Elantra 1.6 SX AT,6.25 Lakh,Diesel,Delhi,2014,9
+Honda, Jazz SV Petrol,5.99 Lakh,Petrol,Bangalore,2015,8
+Hyundai ,i20 Sportz 1.4 CRDI,4.5 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Verna SX Plus 1.6 CRDi AT,13.25 Lakh,Diesel,Pune,2019,4
+Kia ,Sonet HTX 1.0 iMT [2020-2021],10.5 Lakh,Petrol,Chennai,2020,3
+Honda, City 1.5 S MT,3.99 Lakh,Petrol,Thane,2013,10
+Hyundai, Elite i20 Sportz 1.4,5.71 Lakh,Diesel,Mumbai,2015,8
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,3.49 Lakh,CNG,Thane,2014,9
+Hyundai ,Eon 1.0 Kappa Magna + [2014-2016],2.95 Lakh,Petrol,Hyderabad,2016,7
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,4.61 Lakh,Petrol,Pune,2016,7
+Hyundai ,i20 Active 1.2 SX,6.9 Lakh,Petrol,Chennai,2016,7
+Toyota, Innova 2.5 G2,6.5 Lakh,Diesel,Pallikarnai,2009,14
+Toyota, Corolla Altis G Petrol,11.9 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki ,Alto 800 Lxi,3.35 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki ,Ciaz ZXi  AT,6.4 Lakh,Petrol,Mumbai,2016,7
+Mercedes-Benz ,E-Class 280,4.5 Lakh,Petrol,Kolkata,2007,16
+Hyundai ,Creta SX Plus 1.6  Petrol,8.8 Lakh,Petrol,Thane,2016,7
+Volkswagen, Tiguan Highline TDI,23.76 Lakh,Diesel,Pune,2017,6
+Mercedes-Benz ,R-Class R350 4MATIC,24.85 Lakh,Petrol,Bangalore,2012,11
+Honda ,Amaze 1.5 E i-DTEC,4.75 Lakh,Diesel,Kolkata,2017,6
+Hyundai, Xcent SX 1.2,4.86 Lakh,Petrol,Pune,2015,8
+Hyundai, Verna Fluidic 1.6 VTVT SX,4.99 Lakh,Petrol,Bangalore,2013,10
+Nissan ,Terrano XL D Plus,6.25 Lakh,Diesel,Ahmedabad,2014,9
+Ford, EcoSport Titanium 1.5 TDCi,6.3 Lakh,Diesel,Hyderabad,2015,8
+Honda ,City SV CVT,5.95 Lakh,Petrol,Mumbai,2014,9
+Maruti Suzuki ,Vitara Brezza VDi,7.79 Lakh,Diesel,Pune,2018,5
+Honda ,Jazz VX CVT Petrol,8.11 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki ,Alto 800 LXi (O),3.5 Lakh,Petrol,Hyderabad,2017,6
+Maruti Suzuki ,Swift LXi,4.5 Lakh,Petrol,Kolkata,2018,5
+Hyundai, Elite i20 Asta 1.2,7.79 Lakh,Petrol,Bangalore,2018,5
+Hyundai, Creta 1.6 S Petrol,7.91 Lakh,Petrol,Kolkata,2018,5
+Volkswagen ,Vento Highline Petrol AT,3.45 Lakh,Petrol,Mumbai,2011,12
+Maruti Suzuki, Vitara Brezza VXi,8.62 Lakh,Petrol,Pune,2020,3
+Mercedes-Benz, E-Class E350 CDI Avantgarde,11.95 Lakh,Diesel,Mumbai,2012,11
+Toyota, Innova Crysta 2.8 ZX AT 7 STR [2016-2020],24.5 Lakh,Diesel,Mumbai,2019,4
+Hyundai ,Santro Sportz CNG [2018-2020],5.45 Lakh,CNG,Mumbai,2019,4
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.65 Lakh,Petrol,Mumbai,2017,6
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT [2013-2016],5.11 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Wagon R 1.0 LXi CNG Avance LE,3.95 Lakh,CNG,Thane,2015,8
+Mahindra ,Marazzo M6 8 STR,10.45 Lakh,Diesel,Hyderabad,2018,5
+Datsun ,redi-GO Gold Limited Edition,2.85 Lakh,Petrol,Mumbai,2017,6
+Honda ,City V,9.9 Lakh,Petrol,Ahmedabad,2019,4
+Renault, Kwid 1.0 RXT AMT Opt,5.45 Lakh,Petrol,Mumbai,2020,3
+Ford ,EcoSport Titanium 1.5L Ti-VCT,7.59 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki, Alto 800 Lxi,3.21 Lakh,Petrol,Kolkata,2018,5
+Jeep ,Compass Limited (O) 2.0 Diesel [2017-2020],18 Lakh,Diesel,Ambattur,2018,5
+Maruti Suzuki, Vitara Brezza ZDi,7.45 Lakh,Diesel,Delhi,2018,5
+Honda, City 1.5 V MT,3.9 Lakh,Petrol,Ahmedabad,2010,13
+Tata, Nexon XZ Plus (S),11.5 Lakh,Petrol,Kolkata,2022,1
+Maruti Suzuki, Alto 800 Lxi,3.2 Lakh,Petrol,Ahmedabad,2016,7
+Maruti Suzuki ,Ciaz ZXi,6.75 Lakh,Petrol,Pune,2017,6
+Maruti Suzuki ,Alto 800 Lxi,2.69 Lakh,Petrol,Pune,2015,8
+Mahindra, XUV500 W10,11.5 Lakh,Diesel,Hyderabad,2015,8
+Kia ,Sonet HTE 1.2 [2020-2021],7.9 Lakh,Petrol,Ahmedabad,2021,2
+Maruti Suzuki, Ertiga VXI,6.44 Lakh,Petrol,Kolkata,2017,6
+Maruti Suzuki, Eeco 5 STR WITH A/C+HTR CNG [2017-2019],5.55 Lakh,CNG,Pune,2020,3
+Audi ,A6 35 TDI Premium,18 Lakh,Diesel,Hyderabad,2013,10
+Maruti Suzuki, Alto K10 VXi,2.34 Lakh,Petrol,Pune,2012,11
+Jeep ,Compass Sport 1.4 Petrol,15.3 Lakh,Petrol,Hyderabad,2018,5
+Maruti Suzuki ,Wagon R 1.0 VXi,2.68 Lakh,Petrol,Kolkata,2013,10
+Skoda, Kodiaq Style 2.0 TDI 4x4 AT,33.25 Lakh,Diesel,Bangalore,2018,5
+Land Rover ,Discovery Sport SE,49.5 Lakh,Diesel,Thane,2018,5
+Maruti Suzuki ,Swift ZXi,6.48 Lakh,Petrol,Delhi,2018,5
+Mahindra, KUV100 K4 Plus 6 STR,3.95 Lakh,Petrol,Noida,2017,6
+Kia ,Sonet GTX Plus 1.0 iMT [2020-2021],12.75 Lakh,Petrol,Ahmedabad,2022,1
+Hyundai ,Elite i20 Sportz 1.2,6.75 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki, Swift DZire VXI,3.85 Lakh,Petrol,Kolkata,2014,9
+Maruti Suzuki, Dzire VXi,5.44 Lakh,Petrol,Kolkata,2018,5
+Renault, Duster 110 PS RXZ 4X2 MT Diesel,10.25 Lakh,Diesel,Bangalore,2018,5
+Hyundai ,Grand i10 Sportz (O) 1.2 Kappa VTVT [2017-2018],5.34 Lakh,Petrol,Chennai,2017,6
+Hyundai ,Creta 1.6 SX Plus AT,11.25 Lakh,Diesel,Bangalore,2015,8
+Toyota, Yaris G CVT [2018-2020],7.55 Lakh,Petrol,Mumbai,2018,5
+Volkswagen ,Vento Highline Petrol,3.25 Lakh,Petrol,Noida,2011,12
+Tata, Nexon XZ Plus Dual Tone,9.13 Lakh,Petrol,Pune,2018,5
+Hyundai ,Eon Era [2011-2012],2.2 Lakh,Petrol,Ahmedabad,2011,12
+Tata, Harrier XT Plus,18.95 Lakh,Diesel,Thane,2020,3
+Maruti Suzuki ,Swift VDi ABS [2014-2017],5.67 Lakh,Diesel,Pune,2016,7
+Tata ,Tiago Revotron XZ,5.69 Lakh,Petrol,Bangalore,2018,5
+Volkswagen, Vento Comfortline Petrol AT,7.65 Lakh,Petrol,Bangalore,2015,8
+Ford ,EcoSport Titanium 1.5 TDCi,5.11 Lakh,Diesel,Mumbai,2014,9
+Audi ,A4 2.0 TDI Sline,16.9 Lakh,Diesel,Ahmedabad,2015,8
+Honda ,BR-V V CVT Petrol,7.95 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki ,Ertiga VDi,6.7 Lakh,Diesel,Hyderabad,2014,9
+Tata ,Altroz XZ Petrol,7.89 Lakh,Petrol,Pune,2020,3
+Maruti Suzuki ,Baleno Delta 1.3,6.25 Lakh,Diesel,Pallikarnai,2018,5
+Jeep ,Compass Limited (O) 1.4 Petrol AT [2017-2020],18.25 Lakh,Petrol,Mumbai,2019,4
+Toyota, Yaris V CVT,9.9 Lakh,Petrol,Pune,2019,4
+Renault ,Kwid CLIMBER 1.0 AMT [2017-2019],5.55 Lakh,Petrol,Mumbai,2020,3
+Hyundai ,Creta 1.6 SX Plus Petrol,11.75 Lakh,Petrol,Mumbai,2019,4
+Honda, City SV CVT,5.9 Lakh,Petrol,Mumbai,2015,8
+Maruti Suzuki, Swift ZXi AMT [2018-2019],7.5 Lakh,Petrol,Hyderabad,2018,5
+Hyundai, Eon 1.0 Kappa Magna + [2014-2016],3.1 Lakh,Petrol,Thane,2016,7
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.9 Lakh,CNG,Ahmedabad,2018,5
+BMW ,7 Series 730Ld Sedan,19.56 Lakh,Diesel,Ahmedabad,2010,13
+Maruti Suzuki, Vitara Brezza ZDi+ Dual Tone [2017-2018],10.12 Lakh,Diesel,Delhi,2019,4
+Audi, A3 35 TDI Technology + Sunroof,30.5 Lakh,Diesel,Bangalore,2020,3
+Mercedes-Benz, GLA 200 d Sport,25.59 Lakh,Diesel,Delhi,2017,6
+Maruti Suzuki ,Ertiga VXI,9.36 Lakh,Petrol,Hyderabad,2021,2
+Honda ,Accord 2.4 Elegance MT,3.9 Lakh,Petrol,Mumbai,2010,13
+MG, Hector Plus Sharp 1.5 Petrol Turbo CVT 6-STR,19.4 Lakh,Petrol,Delhi,2021,2
+Tata ,Indigo eCS LS CR4 BS-IV,2 Lakh,Diesel,Poonamallee,2014,9
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,4.71 Lakh,Petrol,Bangalore,2014,9
+Maruti Suzuki ,Celerio ZXi AMT [2019-2020],4.45 Lakh,Petrol,Mumbai,2016,7
+BMW, 5 Series 520d Luxury Line [2017-2019],21.49 Lakh,Diesel,Delhi,2015,8
+Datsun, redi-GO T(O) 1.0,3.45 Lakh,Petrol,Mumbai,2019,4
+Maruti Suzuki, Wagon R 1.0 LXI,3.25 Lakh,Petrol,Mumbai,2014,9
+Renault, Kwid RXT 1.0 AMT,5.25 Lakh,Petrol,Noida,2022,1
+Maruti Suzuki, Swift LXi,4.08 Lakh,Petrol,Delhi,2014,9
+Skoda, Rapid Ambition 1.6 MPI AT Plus,3.51 Lakh,Petrol,Mumbai,2013,10
+Mercedes-Benz, E-Class E 220 d Avantgarde,44.5 Lakh,Diesel,Hyderabad,2018,5
+Mahindra ,Thar LX Convertible Diesel MT,12.99 Lakh,Diesel,Kolkata,2021,2
+Hyundai, Creta SX 1.6 CRDi (O),14.9 Lakh,Diesel,Hyderabad,2018,5
+Skoda, Rapid Ambition 1.6 TDI CR MT,7.45 Lakh,Diesel,Hyderabad,2016,7
+Maruti Suzuki, Alto 800 LXi (O),3.5 Lakh,Petrol,Ahmedabad,2021,2
+Maruti Suzuki, Swift VXi,4.99 Lakh,Petrol,Bangalore,2014,9
+Audi ,Q3 30 TDI Premium FWD,22.5 Lakh,Diesel,Ahmedabad,2017,6
+Mahindra, XUV500 W8 [2015-2017],6.85 Lakh,Diesel,Delhi,2015,8
+Volkswagen ,Polo Highline1.2L (D),3.8 Lakh,Diesel,Ahmedabad,2014,9
+Tata ,Nexon XZA Plus Petrol,8.75 Lakh,Petrol,Thane,2018,5
+Hyundai ,Elite i20 Asta 1.4 (O) CRDi,8.8 Lakh,Diesel,Hyderabad,2019,4
+Honda, BR-V S Petrol,9.42 Lakh,Petrol,Delhi,2018,5
+Volvo, S60 Kinetic D4,15.95 Lakh,Diesel,Hyderabad,2016,7
+Mahindra, Bolero Power Plus ZLX,8.32 Lakh,Diesel,Delhi,2019,4
+Maruti Suzuki ,Vitara Brezza ZDi,8.65 Lakh,Diesel,Hyderabad,2017,6
+Mahindra, XUV500 W11(O) [2018-2020],13.95 Lakh,Diesel,Delhi,2018,5
+Maruti Suzuki ,XL6 Zeta MT Petrol,10.45 Lakh,Petrol,Mumbai,2021,2
+Hyundai ,Grand i10 Sportz (O) 1.2 Kappa VTVT [2017-2018],4.91 Lakh,Petrol,Hyderabad,2017,6
+Tata ,Hexa XTA 4x2 7 STR,15.5 Lakh,Diesel,Hyderabad,2018,5
+Honda ,Amaze 1.2 S AT i-VTEC,6.25 Lakh,Petrol,Ahmedabad,2017,6
+Maruti Suzuki ,Wagon R 1.0 VXI,3.69 Lakh,Petrol,Kolkata,2016,7
+Honda ,Amaze 1.2 V MT Petrol [2018-2020],7.25 Lakh,Petrol,Bangalore,2018,5
+Jeep, Compass Limited (O) 2.0 Diesel [2017-2020],17.45 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki ,Celerio VXi AMT,4 Lakh,Petrol,Thiruvallur,2014,9
+Renault ,Kwid CLIMBER 1.0 (O),4.8 Lakh,Petrol,Kolkata,2021,2
+Honda ,City SV,7.99 Lakh,Petrol,Bangalore,2016,7
+Maruti Suzuki, Dzire ZXi,7.95 Lakh,Petrol,Bangalore,2020,3
+Tata, Safari XZA Plus Gold 6 S,24 Lakh,Diesel,Thane,2021,2
+Hyundai ,i20 Magna (O) 1.2,4.25 Lakh,Petrol,Pune,2014,9
+Hyundai ,Elite i20  Asta 1.2 AT,8.95 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki, Alto K10 VXi [2014-2019],3.36 Lakh,Petrol,Pune,2015,8
+Mercedes-Benz ,C-Class C 220d Progressive [2018-2019],46 Lakh,Diesel,Hyderabad,2019,4
+Mahindra, XUV500 W11 AT,15.9 Lakh,Diesel,Ahmedabad,2018,5
+Jeep, Compass Model S (O) Diesel 4x4 AT,37 Lakh,Diesel,Hyderabad,2022,1
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],5 Lakh,Petrol,Kolkata,2019,4
+Hyundai ,Venue S 1.0 AT Petrol [2019-2020],10.45 Lakh,Petrol,Mumbai,2020,3
+Hyundai ,Verna 1.6 VTVT SX,8.68 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki, Alto K10 VXi [2014-2019],2.95 Lakh,Petrol,Chennai,2016,7
+Skoda, Rapid Style 1.6 MPI,10.46 Lakh,Petrol,Delhi,2021,2
+Chevrolet ,Cruze LTZ,8.5 Lakh,Diesel,Thane,2017,6
+Ford, EcoSport Titanium 1.5 Ti-VCT AT,9.45 Lakh,Petrol,Mumbai,2019,4
+Maruti Suzuki, Baleno Alpha 1.2,6.89 Lakh,Petrol,Delhi,2018,5
+Hyundai, Elite i20 Asta 1.2 (O) CVT [2019-2020],8.51 Lakh,Petrol,Mumbai,2019,4
+Maruti Suzuki ,Baleno Zeta 1.2,5.85 Lakh,Petrol,Mumbai,2017,6
+Hyundai ,Creta SX Plus 1.6 AT CRDI,11.71 Lakh,Diesel,Mumbai,2017,6
+Volkswagen, Polo GT TSI,5.92 Lakh,Petrol,Pune,2014,9
+Hyundai ,Venue SX 1.4 CRDi,9.83 Lakh,Diesel,Delhi,2019,4
+Honda, Amaze 1.2 SX i-VTEC,4.69 Lakh,Petrol,Pune,2015,8
+Volkswagen ,Ameo Trendline 1.0L (P),4.65 Lakh,Petrol,Noida,2018,5
+Volkswagen ,Ameo Highline1.2L (P) [2016-2018],3.99 Lakh,Petrol,Kolkata,2016,7
+Hyundai ,Elite i20 Asta 1.2,6.58 Lakh,Petrol,Bangalore,2015,8
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT CNG [2019-2020],5.37 Lakh,CNG,Pune,2019,4
+Hyundai ,Elite i20 Magna 1.2 [2016-2017],5.34 Lakh,Petrol,Delhi,2016,7
+Hyundai ,i10 1.1L iRDE Magna Special Edition,2.95 Lakh,Petrol,Thane,2014,9
+Maruti Suzuki ,Celerio VXi,3.95 Lakh,Petrol,Noida,2015,8
+Maruti Suzuki ,Celerio ZXi (O) AMT [2019-2020],4.25 Lakh,Petrol,Pune,2017,6
+Hyundai ,Grand i10 Sportz 1.2 Kappa VTVT [2013-2016],4.31 Lakh,Petrol,Pune,2013,10
+Audi, A4 2.0 TDI (177bhp) Premium,16.5 Lakh,Diesel,Hyderabad,2013,10
+Honda ,Amaze 1.2 S i-VTEC,4 Lakh,Petrol,Delhi,2014,9
+Mahindra ,XUV500 W8 [2015-2017],9.75 Lakh,Diesel,Mumbai,2016,7
+Renault ,Kwid RXT [2015-2019],4.25 Lakh,Petrol,Thane,2019,4
+Maruti Suzuki, Wagon R 1.0 LXI CNG,4.5 Lakh,CNG,Thane,2018,5
+Mercedes-Benz ,E-Class E 350 CDI Edition E,27 Lakh,Diesel,Hyderabad,2016,7
+Maruti Suzuki, Baleno Zeta 1.2,7.25 Lakh,Petrol,Mumbai,2020,3
+Hyundai ,i20 Asta (O) 1.2 MT,9.1 Lakh,Petrol,Pune,2021,2
+Hyundai ,i10 Sportz 1.1 iRDE2 [2010--2017],3.67 Lakh,Petrol,Chennai,2014,9
+Tata, Tiago Revotron XZ,5.9 Lakh,Petrol,Delhi,2021,2
+Maruti Suzuki, S-Cross Alpha 1.3,7.95 Lakh,Diesel,Thane,2017,6
+Hyundai, Venue SX Plus 1.0 Turbo DCT,10.97 Lakh,Petrol,Pune,2020,3
+Audi ,A6 2.0 TDI Premium,15.5 Lakh,Diesel,Ahmedabad,2014,9
+Hyundai, Santro Sportz [2018-2020],5.29 Lakh,Petrol,Pune,2019,4
+Audi ,A4 35 TDI Premium,27 Lakh,Diesel,Chennai,2016,7
+Maruti Suzuki ,Wagon R LXi 1.0 CNG,6.87 Lakh,CNG,Pune,2021,2
+Maruti Suzuki, Swift VXi [2014-2017],5.8 Lakh,Petrol,Hyderabad,2016,7
+Toyota ,Corolla Altis GL,11.5 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki ,Ciaz Delta 1.5,8.49 Lakh,Petrol,Hyderabad,2020,3
+Maruti Suzuki ,S-Cross Delta 1.3,8.95 Lakh,Diesel,Bangalore,2018,5
+BMW, 3 Series 320d Luxury Line,27.85 Lakh,Diesel,Bangalore,2016,7
+Honda, Brio EX MT,3.75 Lakh,Petrol,Bangalore,2014,9
+Maruti Suzuk,i Wagon R VXi 1.2,5.79 Lakh,Petrol,Bangalore,2019,4
+Skoda ,Kushaq Style 1.0L TSI MT,14.5 Lakh,Petrol,Kolkata,2022,1
+Maruti Suzuki ,Swift VXi AMT,7.85 Lakh,Petrol,Bangalore,2019,4
+Maruti Suzuki, Alto K10 VXi AMT (Airbag) [2014-2019],4.3 Lakh,Petrol,Ahmedabad,2018,5
+Mahindra ,Bolero Power Plus SLE [2016-2019],5.71 Lakh,Diesel,Kolkata,2017,6
+BMW ,3 Series GT 320d Luxury Line [2014-2016],39.5 Lakh,Diesel,Hyderabad,2019,4
+Volkswagen, Taigun GT Plus 1.5 TSI DSG,16.49 Lakh,Petrol,Ahmedabad,2021,2
+Toyota ,Innova Crysta 2.8 ZX AT 7 STR [2016-2020],16.31 Lakh,Diesel,Delhi,2017,6
+Hyundai ,Elantra 1.8 SX AT,6.85 Lakh,Petrol,Pune,2014,9
+Kia ,Seltos GTX (O) 1.4,15.98 Lakh,Petrol,Pune,2021,2
+Honda ,City SV CVT,6.45 Lakh,Petrol,Mumbai,2015,8
+Tata ,Tiago NRG Petrol,8.43 Lakh,Petrol,Pune,2022,1
+Ford, Freestyle Titanium Plus 1.2 Ti-VCT [2018-2020],6 Lakh,Petrol,Ambattur,2020,3
+Honda ,City ZX CVT Petrol [2017-2019],9.25 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki ,Wagon R LXi Minor,1.5 Lakh,Petrol + 1,Ambattur,2007,16
+Skoda ,Rapid Ambition 1.6 MPI AT,9.59 Lakh,Petrol,Delhi,2020,3
+Maruti Suzuki, Alto 800 VXi,3.49 Lakh,Petrol,Delhi,2020,3
+Maruti Suzuki, Swift VXi [2014-2017],6.29 Lakh,Petrol,Bangalore,2018,5
+Volkswagen, Polo Highline1.2L (P),3 Lakh,Petrol,Mumbai,2013,10
+Honda ,City VX CVT Petrol [2017-2019],11.45 Lakh,Petrol,Bangalore,2017,6
+Toyota, Corolla Altis G CVT Petrol,12.27 Lakh,Petrol,Delhi,2017,6
+Hyundai ,Verna Fluidic 1.6 CRDi SX,6 Lakh,Diesel,Hyderabad,2014,9
+Jeep ,Compass Limited Plus Petrol AT,20 Lakh,Petrol,Mumbai,2020,3
+BMW ,X3 xDrive20d,18 Lakh,Diesel,Hyderabad,2012,11
+Volkswagen, Ameo Highline Plus 1.5L AT (D)16 Alloy,6.6 Lakh,Diesel,Chennai,2017,6
+Volkswagen ,'Taigun Topline 1.0 TSI MT,15.99 Lakh,Petrol,Bangalore,2021,2
+Ford ,Figo Duratorq Diesel Titanium 1.4,2.99 Lakh,Diesel,Mumbai,2013,10
+Hyundai, Elite i20 Asta 1.2,5.15 Lakh,Petrol,Thane,2014,9
+Jeep ,Compass Limited (O) 2.0 Diesel [2017-2020],11.26 Lakh,Diesel,Kolkata,2017,6
+Maruti Suzuki, Ciaz Zeta 1.4 AT,7.52 Lakh,Petrol,Ahmedabad,2017,6
+Maruti Suzuki, Baleno Alpha 1.2,8.75 Lakh,Petrol,Hyderabad,2019,4
+Volkswagen ,Vento TSI,6.1 Lakh,Petrol,Mumbai,2016,7
+Hyundai, Creta SX Plus 1.6  Petrol,8.99 Lakh,Petrol,Thane,2016,7
+Volkswagen ,Polo Comfortline 1.2L (P),4.25 Lakh,Petrol,Mumbai,2015,8
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT [2013-2016],4.28 Lakh,Petrol,Hyderabad,2013,10
+Hyundai ,Santro Sportz CNG [2018-2020],6.04 Lakh,CNG,Delhi,2021,2
+Maruti Suzuki ,Alto 800 Vxi,2.46 Lakh,Petrol,Delhi,2014,9
+Honda ,Civic ZX CVT Petrol [2019-2020],20.7 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki, Ciaz Delta 1.3 Hybrid,6 Lakh,Diesel,Delhi,2017,6
+Maruti Suzuki, Baleno Delta Dualjet,6.79 Lakh,Petrol,Delhi,2020,3
+Maruti Suzuki, Baleno Sigma 1.3,6.99 Lakh,Diesel,Bangalore,2018,5
+Hyundai, Elite i20 Sportz 1.2,6.1 Lakh,Petrol,Mumbai,2017,6
+Hyundai ,Eon 1.0 Kappa Magna + [2014-2016],2.83 Lakh,Petrol,Delhi,2014,9
+Maruti Suzuki, Wagon R 1.0 VXI AMT,4.45 Lakh,Petrol,Delhi,2018,5
+Hyundai, Verna 1.6 VTVT SX,9.65 Lakh,Petrol,Mumbai,2019,4
+Maruti Suzuki ,Alto K10 VXi AMT,4.3 Lakh,Petrol,Hyderabad,2019,4
+Jeep ,Compass Limited Plus 2.0 Diesel 4x4 AT,24.75 Lakh,Diesel,Mumbai,2020,3
+Volkswagen, Polo Comfortline 1.2L (P),5.79 Lakh,Petrol,Bangalore,2015,8
+Hyundai ,Elite i20 Asta 1.4 CRDI,7.7 Lakh,Diesel,Chennai,2017,6
+Volkswagen ,Polo GT TSI,9.25 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki, Alto 800 LXi (O),3.43 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki ,Swift Dzire VXI,5.15 Lakh,Petrol,Gurgaon,2017,6
+Maruti Suzuki, Swift ZXi AMT [2018-2019],7.25 Lakh,Petrol,Thane,2019,4
+Renault ,Kwid 1.0 RXL [2017-2019],2.85 Lakh,Petrol,Delhi,2017,6
+Maruti Suzuki ,Ignis Delta 1.2 MT,4.74 Lakh,Petrol,Pune,2018,5
+Mahindra ,XUV500 W6,11.25 Lakh,Diesel,Bangalore,2016,7
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4 Lakh,CNG,Thane,2015,8
+Honda ,WR-V VX MT Petrol,6.25 Lakh,Petrol,Kolkata,2017,6
+Renault ,Kwid 1.0 RXT [2016-2019],3.14 Lakh,Petrol,Pune,2016,7
+Honda ,Jazz V Petrol,4 Lakh,Petrol,Kolkata,2016,7
+Maruti Suzuki, Baleno Delta 1.2,6.65 Lakh,Petrol,Mumbai,2019,4
+Volvo ,V90 Cross Country D5 Inscription [2017-2020],36 Lakh,Diesel,Ahmedabad,2018,5
+Maruti Suzuki, Baleno Delta 1.2 AT,7.25 Lakh,Petrol,Hyderabad,2020,3
+Hyundai ,Eon Era +,2.45 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Dzire VXi AMT,7.69 Lakh,Petrol,Bangalore,2018,5
+Mercedes-Benz ,GLC 220d 4MATIC Progressive,64.99 Lakh,Diesel,Kolkata,2022,1
+Land Rover, Discovery Sport HSE Luxury,26.99 Lakh,Diesel,Kolkata,2016,7
+Mercedes-Benz ,GLE 250 d,53.55 Lakh,Diesel,Bangalore,2018,5
+Hyundai ,Verna Fluidic 1.6 VTVT SX,5.15 Lakh,Petrol,Mumbai,2014,9
+Hyundai, Elite i20 Magna Plus 1.4 CRDi,5.94 Lakh,Diesel,Delhi,2018,5
+Honda, BR-V V CVT Petrol,7.9 Lakh,Petrol,Mumbai,2016,7
+Hyundai, Xcent S 1.2 Special Edition,4.82 Lakh,Petrol,Pune,2015,8
+Ford, Endeavour Titanium 3.2 4x4 AT,33 Lakh,Diesel,Hyderabad,2018,5
+Hyundai, i20 Magna 1.2,2.99 Lakh,Petrol,Kolkata,2012,11
+Honda ,Amaze 1.2 S i-VTEC,3.75 Lakh,Petrol,Mumbai,2014,9
+Mercedes-Benz, E-Class E 350 CDI Edition E,27.99 Lakh,Diesel,Kolkata,2016,7
+Datsun ,GO Plus T,2.5 Lakh,Petrol,Ahmedabad,2015,8
+Ford, EcoSport Titanium 1.5 TDCi,4.65 Lakh,Diesel,Kolkata,2015,8
+Kia, Sonet HTX 1.5 [2020-2021],9.5 Lakh,Diesel,Kolkata,2021,2
+Audi, Q7 45 TDI Technology Pack,69.95 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki ,Swift VDi,6.5 Lakh,Diesel,Hyderabad,2017,6
+Skoda ,Kodiaq Style 2.0 TDI 4x4 AT,25 Lakh,Diesel,Hyderabad,2017,6
+Hyundai ,Elite i20 Magna 1.2,5.75 Lakh,Petrol,Hyderabad,2015,8
+Volkswagen ,Jetta Trendline 2.0L TDI,2.95 Lakh,Diesel,Kolkata,2011,12
+Maruti Suzuki ,Ritz Vxi BS-IV,4.65 Lakh,Petrol,Hyderabad,2015,8
+Audi ,A3 40 TFSI Premium Plus + sunroof,24.5 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki, Baleno Zeta,6.21 Lakh,Petrol,Kolkata,2018,5
+Hyundai, i10 Magna 1.1 LPG,3.5 Lakh,LPG,Hyderabad,2013,10
+Honda ,Jazz VX Petrol,5.5 Lakh,Petrol,Thane,2017,6
+Hyundai, Verna Fluidic 1.6 VTVT SX,6.69 Lakh,Petrol,Bangalore,2014,9
+Ford, EcoSport Titanium 1.5L TDCi,6.5 Lakh,Diesel,Kolkata,2018,5
+Toyota, Fortuner 2.8 4x4 AT [2016-2020],41.99 Lakh,Diesel,Kolkata,2021,2
+Toyota, Innova Crysta 2.4 ZX 7 STR [2016-2020],22 Lakh,Diesel,Hyderabad,2018,5
+Kia ,Seltos HTX 1.5 [2020-2021],12.75 Lakh,Petrol,Ahmedabad,2020,3
+Renault, Duster 110 PS RxL AWD Diesel,7.75 Lakh,Diesel,Bangalore,2015,8
+MG ,Hector Shine 1.5 Petrol Turbo CVT,18 Lakh,Petrol,Kolkata,2021,2
+Land Rover, Discovery Sport HSE Luxury,43.07 Lakh,Diesel,Ahmedabad,2019,4
+Toyota, Innova Crysta 2.4 ZX 7 STR [2016-2020],27 Lakh,Diesel,Thane,2020,3
+Maruti Suzuki ,Swift VXi [2014-2017],5.95 Lakh,Petrol,Thane,2018,5
+Mercedes-Benz, GLS 350 d,63 Lakh,Diesel,Mumbai,2017,6
+Maruti Suzuki ,Wagon R 1.0 VXI,3.82 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.15 Lakh,CNG,Pune,2015,8
+Volkswagen, Polo Highline Plus 1.2( P)16 Alloy [2017-2018],4.85 Lakh,Petrol,Gurgaon,2018,5
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.82 Lakh,Petrol,Delhi,2017,6
+Kia ,Seltos GTX Plus 1.4 [2020-2021],16.9 Lakh,Petrol,Chennai,2020,3
+Maruti Suzuki, Baleno Delta 1.2,5.7 Lakh,Petrol,Thane,2017,6
+Renault, Kwid 1.0 RXT [2016-2019],3.04 Lakh,Petrol,Delhi,2018,5
+Tata, Harrier XZ,16.75 Lakh,Diesel,Mumbai,2020,3
+Maruti Suzuki, Alto K10 VXi,2.55 Lakh,Petrol,Hyderabad,2012,11
+Maruti Suzuki ,Ertiga ZXi AT,10.9 Lakh,Petrol,Ahmedabad,2019,4
+Volkswagen, Vento Trendline Petrol,3.5 Lakh,Petrol,Hyderabad,2010,13
+BMW, X1 sDrive20d,8.35 Lakh,Diesel,Thane,2011,12
+Maruti Suzuki ,Vitara Brezza ZDi,8.13 Lakh,Diesel,Chennai,2018,5
+Kia ,Seltos HTK 1.5 [2020-2021],18.5 Lakh,Petrol,Hyderabad,2021,2
+Toyota, Corolla H2 1.8E,2 Lakh,Petrol + 1,Pallikarnai,2004,19
+Maruti Suzuki ,S-Cross Alpha 1.3,6.25 Lakh,Diesel,Kolkata,2018,5
+Mercedes-Benz ,B-Class B180 CDI,13.5 Lakh,Diesel,Ahmedabad,2014,9
+Kia ,Seltos GTX Plus AT 1.5 Diesel [2019-2020],18.51 Lakh,Diesel,Mumbai,2020,3
+Ford ,EcoSport Titanium + 1.5L Ti-VCT AT [2019-2020],9.5 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki, Swift VXi,3.25 Lakh,Petrol,Bangalore,2009,14
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],4.69 Lakh,Petrol,Bangalore,2013,10
+Mercedes-Benz ,S-Class 350 CDI Long Blue-Efficiency,46.6 Lakh,Diesel,Mumbai,2014,9
+Maruti Suzuki ,Swift VDi,6 Lakh,Diesel + 1,Poonamallee,2017,6
+Audi ,A3 40 TFSI Premium,15 Lakh,Petrol,Ahmedabad,2015,8
+Hyundai, Elite i20 Sportz 1.2,5.26 Lakh,Petrol,Pune,2015,8
+Ford, Aspire Titanium Plus 1.5 TDCi,4.25 Lakh,Diesel,Ahmedabad,2016,7
+Skoda ,Kushaq Style 1.5L TSI DSG (6 Airbags),19.25 Lakh,Petrol,Bangalore,2021,2
+Hyundai ,Xcent S 1.2,3.95 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki, S-Presso VXi,4.31 Lakh,Petrol,Kolkata,2020,3
+Maruti Suzuki, Baleno Zeta Automatic,6.9 Lakh,Petrol,Thane,2018,5
+Hyundai, i20 Sportz 1.2 (O),4.3 Lakh,Petrol,Delhi,2014,9
+Maruti Suzuki ,Celerio VXi AMT,4.79 Lakh,Petrol,Bangalore,2015,8
+Audi ,A3 35 TDI Premium Plus + Sunroof,29.5 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki, Ritz Vxi BS-IV,4.25 Lakh,Petrol,Hyderabad,2014,9
+Toyota ,Yaris G MT [2018-2020],7.85 Lakh,Petrol,Delhi,2019,4
+Honda ,Jazz V Petrol,5.2 Lakh,Petrol,Hyderabad,2015,8
+Toyota ,Innova 2.5 G 7 STR BS-IV,7.25 Lakh,Diesel,Pune,2012,11
+Maruti Suzuki, Baleno Zeta 1.2,9.42 Lakh,Petrol,Pune,2021,2
+Land Rover ,Range Rover Velar 2.0 R-Dynamic SE Petrol 250,85 Lakh,Petrol,Faridabad,2020,3
+Maruti Suzuki ,Alto 800 VXi,4.01 Lakh,Petrol,Delhi,2021,2
+Hyundai, Elite i20 Asta 1.2 (O) [2019-2020],7.67 Lakh,Petrol,Chennai,2019,4
+Hyundai, Grand i10 Sportz U2 1.2 CRDi,5.5 Lakh,Diesel,Thane,2018,5
+Maruti Suzuki ,Swift VXi [2014-2017],5.43 Lakh,Petrol,Kolkata,2019,4
+Volkswagen, Vento Highline Petrol,7 Lakh,Petrol,Hyderabad,2015,8
+Maruti Suzuki ,Swift VDi,4.9 Lakh,Diesel,Ahmedabad,2015,8
+Kia ,Seltos HTX Plus AT 1.5 Diesel [2019-2020],17 Lakh,Diesel,Hyderabad,2020,3
+Hyundai ,Elite i20 Asta 1.2 (O) [2016],7.39 Lakh,Petrol,Hyderabad,2017,6
+Maruti Suzuki ,Alto 800 Vxi,3.22 Lakh,Petrol,Bangalore,2016,7
+Hyundai, Elite i20 Asta 1.2 (O) [2019-2020],7.17 Lakh,Petrol,Chennai,2018,5
+Toyota, Corolla Altis G CVT Petrol,12.27 Lakh,Petrol,Delhi,2017,6
+Honda ,City 1.5 V MT,3.65 Lakh,Petrol,Thane,2012,11
+Renault, Kwid 1.0 RXT Opt,4.51 Lakh,Petrol,Pune,2019,4
+Hyundai, Creta SX Plus 1.6  Petrol,9.11 Lakh,Petrol,Mumbai,2016,7
+Hyundai, Xcent S 1.2 (O),4.35 Lakh,Petrol,Thane,2015,8
+Hyundai, Verna 1.6 VTVT SX,7.75 Lakh,Petrol,Thane,2018,5
+Hyundai, Creta SX 1.6 AT CRDi,14.5 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki, Baleno Delta 1.2,4.98 Lakh,Petrol,Delhi,2016,7
+Honda, City V,10.6 Lakh,Petrol,Pune,2019,4
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],6.29 Lakh,Petrol,Bangalore,2016,7
+Jeep, Compass Limited Plus 2.0 Diesel 4x4 AT,24.75 Lakh,Diesel,Mumbai,2020,3
+Maruti Suzuki, Ciaz Alpha Hybrid 1.5 [2018-2020],9.95 Lakh,Petrol,Hyderabad,2019,4
+Maruti Suzuki ,Swift ZXi,5.7 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki, Celerio VXi CNG [2017-2019],4.68 Lakh,CNG,Delhi,2018,5
+Hyundai ,Grand i10 Magna 1.1 CRDi [2016-2017],4.5 Lakh,Diesel,Hyderabad,2014,9
+Hyundai ,Verna 1.6 VTVT SX,6.5 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki ,Celerio VXi (O) CNG,5.47 Lakh,CNG,Pune,2020,3
+Maruti Suzuki ,Celerio VXi CNG [2019-2020],5.27 Lakh,CNG,Pune,2019,4
+Maruti Suzuki, Alto K10 VXi (O),3.67 Lakh,Petrol,Kolkata,2018,5
+Audi ,A3 35 TFSI Premium Plus,21.8 Lakh,Petrol,Delhi,2018,5
+Audi, A3 35 TDI Premium Plus,42.99 Lakh,Diesel,Kolkata,2019,4
+Maruti Suzuki ,Celerio VXi CNG (O),4.4 Lakh,CNG,Thane,2016,7
+Maruti Suzuki ,Ertiga VXI CNG,11.4 Lakh,CNG,Thane,2021,2
+Maruti Suzuki ,Ritz Vxi (ABS) BS-IV,3.57 Lakh,Petrol,Pune,2013,10
+Honda, Jazz V Petrol,5.57 Lakh,Petrol,Chennai,2016,7
+Mahindra, Bolero Power Plus ZLX [2016-2019],7.25 Lakh,Diesel,Hyderabad,2017,6
+Hyundai ,Elite i20 Asta 1.2 (O) [2016],6.57 Lakh,Petrol,Bangalore,2017,6
+Datsun ,GO T (O),2.5 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki ,A-Star Vxi,1.99 Lakh,Petrol,Thane,2010,13
+Audi ,Q5 2.0 TDI quattro,15 Lakh,Diesel,Hyderabad,2012,11
+Renault, Duster RXS CVT,8.99 Lakh,Petrol,Bangalore,2019,4
+Volkswagen ,Taigun Topline 1.0 TSI AT,18.95 Lakh,Petrol,Hyderabad,2022,1
+Volvo, S60 D5 2.4 L,18 Lakh,Diesel,Hyderabad,2016,7
+Hyundai ,Verna Fluidic 1.6 VTVT SX,4.25 Lakh,Petrol,Noida,2011,12
+Renault, Kwid RXL [2015-2019],3.39 Lakh,Petrol,Bangalore,2016,7
+BMW ,3 Series 320d Luxury Line,15.5 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Santro Magna [2018-2020],4.41 Lakh,Petrol,Kolkata,2020,3
+MG ,Hector Sharp 1.5 DCT Petrol [2019-2020],15.99 Lakh,Petrol,Bangalore,2019,4
+Skoda ,Octavia 1.8 TSI L&K,16.99 Lakh,Petrol,Thane,2018,5
+MG, ZS EV Exclusive [2020-2021],19.19 Lakh,Electric,Bangalore,2020,3
+Renault, Kwid 1.0 RXL [2017-2019],3.69 Lakh,Petrol,Bangalore,2017,6
+Honda ,City V CVT Petrol [2017-2019],8.62 Lakh,Petrol,Delhi,2017,6
+Tata, Nexon XZ,8.5 Lakh,Petrol,Chennai,2020,3
+Isuzu ,D-Max V-Cross 4x4,18.95 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki, Ciaz Delta 1.3 Hybrid,5.97 Lakh,Diesel,Delhi,2017,6
+Toyota ,Etios GD,5.5 Lakh,Diesel,Ambattur,2015,8
+Maruti Suzuki, Swift ZXi,4.79 Lakh,Petrol,Delhi,2016,7
+Tata ,Harrier XZ [2019-2020],16.2 Lakh,Diesel,Thane,2019,4
+Tata, Nexon EV XZ Plus,14.75 Lakh,Electric,Thane,2022,1
+Honda ,Jazz ZX CVT,10.24 Lakh,Petrol,Pune,2021,2
+Hyundai ,Venue SX 1.0 (O) Petrol [2019-2020],11.75 Lakh,Petrol,Hyderabad,2020,3
+Hyundai ,Elite i20 Asta 1.2 Dual Tone,7.15 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki, Ciaz S 1.4 MT,6.86 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki ,Swift VDi ABS [2014-2017],6.45 Lakh,Diesel,Bangalore,2016,7
+Volkswagen, Polo Trendline 1.2L (P),6.09 Lakh,Petrol,Bangalore,2017,6
+Hyundai, Creta 1.6 S Petrol,8.28 Lakh,Petrol,Delhi,2016,7
+Kia ,Seltos GTK 1.4 Dual Tone [2019-2020],11.05 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki, Ciaz Alpha 1.4 AT,7.35 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki, Alto 800 LXi (O),3.66 Lakh,Petrol,Delhi,2020,3
+Maruti Suzuki, Wagon R 1.0 VXI+ AMT,4.3 Lakh,Petrol,Ahmedabad,2016,7
+Maruti Suzuki, Ciaz Alpha Hybrid 1.5 [2018-2020],8.12 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki, S-Cross Zeta 1.3,9.5 Lakh,Diesel,Hyderabad,2018,5
+Ford ,EcoSport Titanium 1.5L TDCi,7.9 Lakh,Diesel,Ahmedabad,2017,6
+Ford ,Endeavour Titanium Plus 2.2 4x2 AT,35.95 Lakh,Diesel,Bangalore,2019,4
+Jeep ,Compass Limited 1.4 Petrol AT [2017-2020],12.85 Lakh,Petrol,Mumbai,2018,5
+Renault, Captur RXL Petrol,7.79 Lakh,Petrol,Bangalore,2018,5
+Hyunda,i Grand i10 Sports Edition 1.2L Kappa VTVT,5.66 Lakh,Petrol,Kolkata,2019,4
+Toyota ,Yaris J MT,10.27 Lakh,Petrol,Delhi,2021,2
+Renault, Triber RXL [2019-2020],5.39 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki, Swift VXi AMT [2018-2019],7.25 Lakh,Petrol,Hyderabad,2020,3
+Audi ,A6 35 TDI Matrix,31.75 Lakh,Diesel,Bangalore,2016,7
+Hyundai, Grand i10 Asta 1.2 Kappa VTVT,5.4 Lakh,Petrol,Thane,2017,6
+Mercedes-Benz, S-Class Maybach S 500,1.19 Crore,Petrol,Kolkata,2017,6
+Hyundai ,Verna 1.6 VTVT SX,9.92 Lakh,Petrol,Delhi,2019,4
+Volkswagen ,Vento Highline Plus 1.2 (P) AT 16 Alloy,8.39 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki ,Wagon R 1.0 VXI,4 Lakh,Petrol,Faridabad,2017,6
+Datsun, redi-GO T(O) 1.0,4.65 Lakh,Petrol,Chennai,2021,2
+Ford ,Fiesta Classic SXi 1.4 TDCi,1.85 Lakh,Diesel,Kolkata,2011,12
+Mahindra, Alturas G4 4WD AT [2018-2020],21.45 Lakh,Diesel,Kolkata,2019,4
+Hyundai ,Grand i10 Nios Sportz 1.2 Kappa VTVT,7.29 Lakh,Petrol,Bangalore,2021,2
+Maruti Suzuki, Ritz Vxi (ABS) BS-IV,3.57 Lakh,Petrol,Pune,2013,10
+Honda ,City VX CVT,7.85 Lakh,Petrol,Noida,2016,7
+Volvo, XC60 Kinetic,26 Lakh,Diesel,Hyderabad,2016,7
+Hyundai ,Alcazar Prestige (O) 6 STR 2.0 Petrol AT,18.75 Lakh,Petrol,Ahmedabad,2021,2
+Renault, Kwid 1.0 RXT [2016-2019],4.49 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki ,Swift VXi [2014-2017],6.99 Lakh,Petrol,Bangalore,2018,5
+BMW ,3 Series 320d Sport Line,11.5 Lakh,Diesel,Kolkata,2013,10
+Hyundai ,Grand i10 Sports Edition 1.2L Kappa VTVT,4.91 Lakh,Petrol,Bangalore,2015,8
+Mahindra ,Bolero Power Plus ZLX [2016-2019],6.5 Lakh,Diesel,Hyderabad,2016,7
+Maruti Suzuki ,Ertiga ZXi,5.95 Lakh,Petrol,Mumbai,2014,9
+Maruti Suzuki ,Swift DZire ZXI,4.95 Lakh,Petrol,Thane,2015,8
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],3.85 Lakh,Petrol,Noida,2014,9
+Ford ,Endeavour Titanium Plus 2.2 4x2 AT,35.95 Lakh,Diesel,Bangalore,2019,4
+Maruti Suzuki ,Alto 800 Lxi,3.3 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki ,Alto LXi BS-III,2 Lakh,Petrol,Hyderabad,2009,14
+Hyundai ,Santro Sportz CNG [2018-2020],4.99 Lakh,CNG,Mumbai,2020,3
+Maruti Suzuki ,Ciaz ZDi+ SHVS,4.99 Lakh,Diesel,Kolkata,2016,7
+Hyundai ,Creta SX Plus 1.6  Petrol,8.13 Lakh,Petrol,Kolkata,2016,7
+Honda ,Jazz V Petrol,5.45 Lakh,Petrol,Mumbai,2017,6
+Land Rover, Discovery Sport HSE,32.99 Lakh,Diesel,Kolkata,2017,6
+Mercedes-Benz ,GLA 200 CDI Sport,16.5 Lakh,Diesel,Faridabad,2015,8
+Hyundai ,Verna SX Plus 1.6 CRDi AT,12 Lakh,Diesel,Thane,2019,4
+Volkswagen, Ameo Comfortline 1.2L (P),5.5 Lakh,Petrol,Ahmedabad,2017,6
+Datsun ,GO Plus T,3.25 Lakh,Petrol,Thane,2016,7
+Toyota ,Yaris G CVT [2018-2020],8.04 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki ,Celerio VXi AMT [2017-2019],4.48 Lakh,Petrol,Pune,2017,6
+Honda ,City VX CVT,7.5 Lakh,Petrol,Thane,2016,7
+Honda, Jazz V AT Petrol,6.5 Lakh,Petrol,Ahmedabad,2017,6
+Hyundai ,Creta 1.6 SX Plus AT Petrol,14.45 Lakh,Petrol,Mumbai,2019,4
+Hyundai ,Grand i10 Asta AT 1.2 Kappa VTVT [2013-2016],5.35 Lakh,Petrol,Mumbai,2015,8
+Mercedes-Benz, CLS 350,29 Lakh,Petrol,Ahmedabad,2014,9
+Ford ,EcoSport Titanium 1.5L Ti-VCT Black Edition AT,9.01 Lakh,Petrol,Kolkata,2020,3
+Toyota ,Innova 2.5 G BS IV 7 STR,14.35 Lakh,Diesel,Bangalore,2015,8
+Hyundai, i10 Sportz 1.2 Kappa2,3.65 Lakh,Petrol,Ahmedabad,2014,9
+Maruti Suzuki ,Celerio VXi (O) CNG [2019-2020],5.58 Lakh,CNG,Pune,2019,4
+Maruti Suzuki ,Celerio ZXi AMT [2019-2020],4.7 Lakh,Petrol,Hyderabad,2016,7
+BMW ,5 Series 520d M Sport,57.5 Lakh,Diesel,Ahmedabad,2020,3
+Honda, WR-V VX MT Diesel,7.75 Lakh,Diesel,Delhi,2018,5
+Ford ,EcoSport Titanium 1.5L TDCi,7.02 Lakh,Diesel,Delhi,2017,6
+Jeep, Compass Limited 1.4 Petrol AT [2017-2020],16.5 Lakh,Petrol,Hyderabad,2017,6
+Mercedes-Benz, C-Class C 220d Progressive [2018-2019],32.5 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki, Ertiga ZDI SHVS,7.9 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki, S-Cross Zeta 1.3,6.5 Lakh,Diesel,Thane,2015,8
+Kia ,Sonet GTX Plus 1.5 [2020-2021],12.6 Lakh,Diesel,Mumbai,2020,3
+Land Rover, Range Rover 4.4 SDV8 Autobiography LWB,1.95 Crore,Diesel,Ahmedabad,2018,5
+Volkswagen, Polo Comfortline 1.5L (D),7.3 Lakh,Diesel,Hyderabad,2018,5
+Hyundai ,Santro Magna [2018-2020],4.09 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki ,Baleno Zeta,6.15 Lakh,Petrol,Mumbai,2017,6
+Hyundai ,'Venue SX Plus 1.0 Turbo DCT,11.61 Lakh,Petrol,Pune,2020,3
+Honda ,City V,9.99 Lakh,Petrol,Bangalore,2019,4
+Kia ,Seltos GTX Plus AT 1.5 Diesel [2019-2020],14.45 Lakh,Diesel,Kolkata,2020,3
+Hyundai, i20 Sportz (AT) 1.4,4.99 Lakh,Petrol,Bangalore,2013,10
+Maruti Suzuki ,Baleno Alpha Automatic,6.75 Lakh,Petrol,Ahmedabad,2018,5
+Tata ,Nexon XZ,9.75 Lakh,Petrol,Chennai,2021,2
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,3.87 Lakh,CNG,Pune,2014,9
+Hyundai, i20 Asta 1.0 Turbo DCT,9.75 Lakh,Petrol,Ahmedabad,2021,2
+Audi, A3 35 TDI Technology + Sunroof,16.5 Lakh,Diesel,Ahmedabad,2014,9
+Honda ,Amaze 1.2 VX i-VTEC,4.09 Lakh,Petrol,Pune,2013,10
+Honda, City SV,6.5 Lakh,Petrol,Ambattur,2015,8
+Hyundai, i10 1.1L iRDE Magna Special Edition,3.5 Lakh,Petrol,Ahmedabad,2015,8
+Maruti Suzuki, Ertiga VXi,9.56 Lakh,Petrol,Gurgaon,2020,3
+Honda, Amaze 1.2 S CVT Petrol [2018-2020],5.25 Lakh,Petrol,Ahmedabad,2016,7
+Nissan, Micra XL (O) [2013-2016],4 Lakh,Petrol + 1,Ambattur,2013,10
+Maruti Suzuki, Alto 800 Vxi,2.23 Lakh,Petrol,Kolkata,2014,9
+Toyota, Innova Crysta GX 2.4 7 STR,22.99 Lakh,Diesel,Bangalore,2019,4
+Tata, Nexon EV XZ Plus,15.5 Lakh,Electric,Bangalore,2020,3
+Hyundai, Venue S Plus 1.2 Petrol,8.31 Lakh,Petrol,Chennai,2020,3
+Maruti Suzuki, Wagon R 1.0 LXI CNG,3.75 Lakh,CNG,Mumbai,2014,9
+Renault, Kwid Neotech RXL 1.0 MT,4.6 Lakh,Petrol,Ambattur,2021,2
+Hyundai, Elite i20 Era 1.2,4.4 Lakh,Petrol,Kolkata,2017,6
+Skoda, Rapid 1.5 TDI CR Elegance,6.2 Lakh,Diesel,Hyderabad,2015,8
+Kia, Seltos GTX Plus 1.4 [2020-2021],15.51 Lakh,Petrol,Ahmedabad,2022,1
+Tata, Altroz XZ Plus Petrol,8.49 Lakh,Petrol,Bangalore,2021,2
+Maruti Suzuki, Wagon R 1.0 LXi,2.35 Lakh,Petrol,Noida,2012,11
+Honda, Amaze 1.2 E i-VTEC,4.65 Lakh,Petrol,Mumbai,2016,7
+Hyundai, i20 Sportz 1.2,3.65 Lakh,Petrol,Noida,2013,10
+Mahindra, Marazzo M4 8 STR,11.49 Lakh,Diesel,Bangalore,2019,4
+Honda, City VX CVT,7.75 Lakh,Petrol,Ahmedabad,2015,8
+Maruti Suzuki, Alto 800 LXi (O) CNG,5 Lakh,CNG,Pune,2021,2
+Toyota, Camry Hybrid [2015-2017],48.5 Lakh,Petrol,Pune,2022,1
+Hyundai ,Santro Sportz [2018-2020],5.29 Lakh,Petrol,Pune,2019,4
+Audi, Q3 35 TDI Premium,15.13 Lakh,Diesel,Ahmedabad,2015,8
+Ford, Figo Duratec Petrol ZXI 1.2,2.49 Lakh,Petrol,Thane,2014,9
+Maruti Suzuki, Swift ZDi AMT,8 Lakh,Diesel,Thane,2019,4
+Maruti Suzuki ,Ciaz Delta 1.3 Hybrid,5.97 Lakh,Diesel,Delhi,2017,6
+Tata ,Nexon XZ Plus Diesel,9.6 Lakh,Diesel,Thane,2019,4
+Mahindra, KUV100 K2 D 6 STR,4.25 Lakh,Diesel,Ahmedabad,2017,6
+Skoda, Octavia 1.8 TSI Ambition Plus AT,15.23 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki ,Celerio VXi,3.94 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki, Dzire VXi AMT,7.29 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki ,Swift VXi ABS,5.2 Lakh,Petrol,Chennai,2017,6
+Ford ,EcoSport Titanium 1.5L TDCi,7.9 Lakh,Diesel,Ahmedabad,2017,6
+Honda, BR-V S Petrol,7.75 Lakh,Petrol,Mumbai,2018,5
+Maruti Suzuki, S-Presso VXi,4.75 Lakh,Petrol,Thane,2021,2
+Jaguar, XF 2.2 Diesel Luxury,23 Lakh,Diesel,Hyderabad,2013,10
+Hyundai, i20 Active 1.2 S,4.93 Lakh,Petrol,Kolkata,2016,7
+Audi, Q3 35 TDI Premium + Sunroof,17.99 Lakh,Diesel,Kolkata,2016,7
+Ford ,EcoSport Titanium 1.5 TDCi (Opt),4.9 Lakh,Diesel,Kolkata,2015,8
+Maruti Suzuki, Baleno Delta 1.2 AT,6.51 Lakh,Petrol,Mumbai,2018,5
+Hyundai ,Eon 1.0 Kappa Magna AirBag,3.6 Lakh,Petrol,Pune,2015,8
+Maruti Suzuki,; Celerio ZXi (O) AMT [2019-2020],4.25 Lakh,Petrol,Pune,2017,6
+Maruti Suzuki, Ertiga VDi,7.3 Lakh,Diesel,Hyderabad,2015,8
+Hyundai ,Creta SX 1.6 AT Petrol,13.5 Lakh,Petrol,Ahmedabad,2018,5
+Renault, Duster 110 PS RxZ AWD,9.99 Lakh,Diesel,Bangalore,2017,6
+Renault, Duster 110 PS RXL 4X2 AMT [2016-2017],7.95 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki ,Alto K10 VXi,3.45 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki, S-Presso VXi,4.55 Lakh,Petrol,Kolkata,2020,3
+Mahindra ,Scorpio S2,9.29 Lakh,Diesel,Bangalore,2015,8
+Maruti Suzuki, Ritz Zxi BS-IV,3.9 Lakh,Petrol,Hyderabad,2014,9
+Ford ,Aspire Titanium 1.2 Ti-VCT,5.5 Lakh,Petrol,Ahmedabad,2017,6
+Jeep, Compass Longitude (O) 2.0 Diesel [2017-2020],12.24 Lakh,Diesel,Pune,2017,6
+Maruti Suzuki, Alto K10 VXi,1.99 Lakh,Petrol,Pune,2012,11
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,6.15 Lakh,CNG,Thane,2020,3
+Hyundai ,Creta 1.6 SX Plus AT Petrol,13.5 Lakh,Petrol,Mumbai,2018,5
+Mercedes-Benz, AMG A35 4MATIC,52 Lakh,Petrol,Pune,2021,2
+Volkswagen, Ameo Highline Plus 1.5L AT (D)16 Alloy,5.15 Lakh,Diesel,Kolkata,2016,7
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 AT [2018-2020],10.63 Lakh,Petrol,Pune,2020,3
+Tata ,Safari XZA Plus,23.49 Lakh,Diesel,Bangalore,2021,2
+Mercedes-Benz, E-Class E250 CDI Avantgarde,17.9 Lakh,Diesel,Mumbai,2014,9
+Ford, Figo Titanium 1.5 Ti-VCT AT,6.5 Lakh,Petrol,Hyderabad,2019,4
+Maruti Suzuki, SX4 ZXI MT BS-IV,2.45 Lakh,Petrol,Thane,2010,13
+Maruti Suzuki ,Alto K10 VXi [2014-2019],3.36 Lakh,Petrol,Delhi,2018,5
+Hyundai ,Elite i20 Magna Executive 1.2,5.19 Lakh,Petrol,Kolkata,2017,6
+Jaguar, XE Prestige,24 Lakh,Petrol,Kolkata,2017,6
+Hyundai, Eon D-Lite +,3.29 Lakh,Petrol,Bangalore,2014,9
+Mercedes-Benz, C-Class C 300d AMG line,49 Lakh,Diesel,Pune,2020,3
+Hyundai ,Elite i20 Asta 1.2 (O) [2019-2020],7.75 Lakh,Petrol,Chennai,2019,4
+Hyundai ,Creta SX Plus 1.6  Petrol,7.9 Lakh,Petrol,Thane,2015,8
+Hyundai ,Venue SX Plus 1.0 Turbo DCT,11.45 Lakh,Petrol,Bangalore,2019,4
+Tata, Nexon EV Prime XZ Plus Dark Edition,15.25 Lakh,Electric,Mumbai,2022,1
+Honda, Amaze 1.2 VX i-VTEC,6.5 Lakh,Petrol,Chennai,2016,7
+Hyundai ,Elite i20 Sportz 1.2 (O),5.25 Lakh,Petrol,Mumbai,2015,8
+Honda, WR-V VX MT Petrol,6.95 Lakh,Petrol,Mumbai,2017,6
+Honda, City VX CVT,7.35 Lakh,Petrol,Mumbai,2015,8
+Toyota, Urban Cruiser Premium Grade MT,9.85 Lakh,Petrol,Thane,2021,2
+Hyundai ,Venue SX (O) 1.0 Turbo iMT,9.64 Lakh,Petrol,Kolkata,2021,2
+Hyundai ,i10 Magna 1.2 Kappa2,2.86 Lakh,Petrol,Pune,2011,12
+Hyundai ,i10 Magna 1.2 Kappa2,3.25 Lakh,Petrol,Thane,2013,10
+Datsun, GO T,2.65 Lakh,Petrol,Mumbai,2014,9
+Hyundai ,Creta S 1.5 Petrol [2020-2022],13.2 Lakh,Petrol,Thane,2021,2
+Hyundai ,Creta 1.6 SX (O),9.7 Lakh,Diesel,Hyderabad,2015,8
+Hyundai ,Eon D-Lite,2.5 Lakh,Petrol,Poonamallee,2014,9
+Hyundai ,Creta 1.4 S,11.75 Lakh,Diesel,Ahmedabad,2019,4
+Honda, Amaze 1.2 V CVT Petrol [2018-2020],7.75 Lakh,Petrol,Ahmedabad,2020,3
+Mahindra, Alturas G4 4WD AT,22.5 Lakh,Diesel,Kolkata,2020,3
+Hyundai ,Elite i20 Asta 1.2,5.21 Lakh,Petrol,Mumbai,2015,8
+Kia, Seltos HTX 1.5 Dual Tone [2019-2020],16.67 Lakh,Petrol,Pune,2021,2
+Maruti Suzuki, Swift LXi Special Edition,7 Lakh,Petrol,Chennai,2019,4
+Hyundai ,Creta 1.6 SX Plus AT Petrol,12.25 Lakh,Petrol,Thane,2018,5
+Volkswagen, Vento Highline Diesel AT [2015-2016],8.14 Lakh,Diesel,Pune,2017,6
+Mahindra ,Thar LX Hard Top Diesel MT,16.25 Lakh,Diesel,Hyderabad,2020,3
+Honda ,WR-V S MT Petrol,6.25 Lakh,Petrol,Ahmedabad,2017,6
+Tata ,Altroz XT Petrol,7.37 Lakh,Petrol,Chennai,2021,2
+Hyundai ,Santro Sportz AMT,6.06 Lakh,Petrol,Pune,2020,3
+Skoda ,Laura Elegance 2.0 TDI CR AT,5.95 Lakh,Diesel,Thane,2013,10
+Hyundai ,Creta SX 1.6 AT Petrol,12.9 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki, Ciaz Delta 1.4 AT,7.4 Lakh,Petrol,Mumbai,2017,6
+Nissan, Micra Active XL,3.25 Lakh,Petrol,Ahmedabad,2017,6
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],5.09 Lakh,Petrol,Bangalore,2017,6
+Hyundai ,i20 Asta 1.0 Turbo IMT,9.95 Lakh,Petrol,Thane,2021,2
+Skoda ,Octavia 2.0 TDI CR Style Plus AT [2017],15.21 Lakh,Diesel,Pune,2017,6
+Maruti Suzuki ,Swift ZXi,6.95 Lakh,Petrol,Thane,2021,2
+Toyota ,Corolla Altis VL AT Petrol,12 Lakh,Petrol,Ahmedabad,2018,5
+BMW ,X1 sDrive20d xLine,32.75 Lakh,Diesel,Bangalore,2018,5
+Ford ,Endeavour Titanium Plus 3.2 4x4 AT,31.25 Lakh,Diesel,Faridabad,2019,4
+Land Rover ,Range Rover Evoque SE R-Dynamic,59.99 Lakh,Diesel,Kolkata,2021,2
+Ford ,Endeavour Titanium 3.2 4x4 AT,27 Lakh,Diesel,Ahmedabad,2018,5
+Skoda, Rapid Style 1.5 TDI AT,8.25 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki ,Baleno Delta 1.2,6.07 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki ,Celerio VXi,3.85 Lakh,Petrol,Noida,2015,8
+Honda ,City V Diesel,6.5 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki ,Swift VXi,3.75 Lakh,Petrol,Thane,2013,10
+Ford ,Classic 1.4 TDCi CLXi,3.3 Lakh,Diesel,Hyderabad,2013,10
+Land Rover, Freelander 2 HSE SD4,9.5 Lakh,Diesel,Kolkata,2012,11
+Ford ,Endeavour Titanium 2.2 4x2 AT,29.95 Lakh,Diesel,Mumbai,2018,5
+Hyundai, Santa Fe 2WD MT [2014-2017],10.25 Lakh,Diesel,Thane,2015,8
+Toyota ,Etios Liva GD,5.4 Lakh,Diesel,Bangalore,2013,10
+Volkswagen, Polo Comfortline 1.2L (P),5.2 Lakh,Petrol,Hyderabad,2015,8
+Honda, WR-V VX MT Diesel,8.53 Lakh,Diesel,Chennai,2018,5
+Renault, Kwid CLIMBER 1.0 AMT,4.85 Lakh,Petrol,Mumbai,2019,4
+Audi ,A6 2.0 TFSi Technology Pack,72 Lakh,Petrol,Bangalore,2021,2
+Maruti Suzuki, S-Presso VXi Plus,4.76 Lakh,Petrol,Delhi,2021,2
+Mahindra ,XUV500 W11 AT,20.49 Lakh,Diesel,Bangalore,2020,3
+Toyota, Innova Crysta 2.8 ZX AT 7 STR [2016-2020],22.25 Lakh,Diesel,Mumbai,2018,5
+Maruti Suzuki ,Dzire ZXi Plus,7.45 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki ,Ertiga ZXi,6.45 Lakh,Petrol,Hyderabad,2013,10
+Mahindra ,Thar LX 4-STR Hard Top Petrol AT,17.95 Lakh,Petrol,Bangalore,2021,2
+Toyota, Corolla Altis VL AT Petrol,10.02 Lakh,Petrol,Delhi,2016,7
+Honda ,City SV,5.56 Lakh,Petrol,Delhi,2015,8
+Honda ,Jazz S MT [2015-2016],6.75 Lakh,Petrol,Hyderabad,2018,5
+Audi ,Q5 30 TDI Premium Edition,17.5 Lakh,Diesel,Ahmedabad,2015,8
+Maruti Suzuki ,Ciaz Delta 1.4 AT,7.49 Lakh,Petrol,Bangalore,2017,6
+Maruti Suzuki ,S-Cross Zeta 1.3,7.75 Lakh,Diesel,Mumbai,2017,6
+Volkswagen, Vento Highline Diesel AT,6.25 Lakh,Diesel,Hyderabad,2014,9
+Maruti Suzuki, Dzire VXi AMT,7.29 Lakh,Petrol,Bangalore,2018,5
+Hyundai ,Verna EX 1.6 CRDi [2017-2018],8.79 Lakh,Diesel,Pune,2017,6
+Toyota ,Innova Crysta 2.8 GX AT 7 STR [2016-2020],13.69 Lakh,Diesel,Gurgaon,2017,6
+Maruti Suzuki ,Baleno Zeta,6.21 Lakh,Petrol,Kolkata,2018,5
+Ford ,EcoSport Titanium 1.5L Ti-VCT,8.59 Lakh,Petrol,Pune,2018,5
+Hyundai, Grand i10 Sportz 1.2 Kappa VTVT [2013-2016],4.3 Lakh,Petrol,Delhi,2015,8
+Honda ,City 1.5 V MT,3.25 Lakh,Petrol,Noida,2010,13
+Skoda ,Superb Style TSI AT,16.99 Lakh,Petrol,Thane,2017,6
+Hyundai ,Elantra 1.6 SX MT,5.65 Lakh,Diesel,Mumbai,2013,10
+Maruti Suzuki, Alto LXi BS-III,2.85 Lakh,Petrol,Hyderabad,2011,12
+Hyundai ,i10 1.1L iRDE Magna Special Edition,3.25 Lakh,Petrol,Ahmedabad,2014,9
+Hyundai ,Grand i10 Asta AT 1.2 Kappa VTVT (O) [2016-2017],5.24 Lakh,Petrol,Pune,2016,7
+Ford, EcoSport Trend 1.5L TDCi,3.5 Lakh,Diesel,Gurgaon,2015,8
+Volkswagen, Vento Highline Petrol,8.5 Lakh,Petrol,Ahmedabad,2019,4
+Maruti Suzuki ,S-Presso VXi Plus,4.6 Lakh,Petrol,Kolkata,2020,3
+Mahindra ,Marazzo M2 8 STR,15 Lakh,Diesel,Poonamallee,2022,1
+Honda ,Jazz ZX,8.08 Lakh,Petrol,Kolkata,2021,2
+Honda ,City VX CVT,6.75 Lakh,Petrol,Thane,2015,8
+Hyundai ,Elite i20 Asta 1.2,7.89 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki ,Ciaz Alpha 1.4 MT,8.25 Lakh,Petrol,Bangalore,2017,6
+Honda ,City VX CVT,7.25 Lakh,Petrol,Mumbai,2015,8
+Kia, Seltos HTK Plus AT 1.5 Diesel [2020-2021],15.45 Lakh,Diesel,Mumbai,2020,3
+Maruti Suzuki ,Baleno Delta,5.8 Lakh,Petrol,Pallikarnai,2019,4
+Hyundai ,Xcent S 1.2 (O),4.25 Lakh,Petrol,Kolkata,2015,8
+Maruti Suzuki, Alto K10 VXi,1.81 Lakh,Petrol,Delhi,2012,11
+Mahindra, Thar LX Convertible Diesel MT,18 Lakh,Diesel,Hyderabad,2022,1
+Toyota, Innova Crysta 2.8 ZX AT 7 STR [2016-2020],24.5 Lakh,Diesel,Mumbai,2019,4
+Maruti Suzuki ,Ciaz Zeta 1.4 MT,10.87 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki ,Alto K10 VXi,3.73 Lakh,Petrol,Delhi,2019,4
+Skoda, Kodiaq Style 2.0 TDI 4x4 AT,28.75 Lakh,Diesel,Hyderabad,2018,5
+MG, Hector Sharp 1.5 DCT Petrol [2019-2020],15.99 Lakh,Petrol,Bangalore,2020,3
+Nissan ,Terrano XL (D),5.7 Lakh,Diesel,Ahmedabad,2014,9
+Maruti Suzuki, Baleno Delta 1.2,5.85 Lakh,Petrol,Delhi,2018,5
+Renault, Kwid Neotech RXL,4.35 Lakh,Petrol,Mumbai,2020,3
+Hyundai ,Grand i10 Sportz 1.2 Kappa VTVT [2016-2017],5.81 Lakh,Petrol,Chennai,2018,5
+Maruti Suzuki ,Alto 800 Lxi,2.05 Lakh,Petrol,Kolkata,2014,9
+Kia ,Sonet HTX Plus 1.0 iMT [2020-2021],10.06 Lakh,Petrol,Pune,2020,3
+Maruti Suzuki, Celerio VXi,3.57 Lakh,Petrol,Kolkata,2015,8
+Mahindra, Scorpio 2021 S7 140 2WD 7 STR,12.85 Lakh,Diesel,Delhi,2020,3
+Hyundai ,Elite i20 Sportz 1.2 [2016-2017],8.3 Lakh,Petrol,Hyderabad,2020,3
+Mercedes-Benz, CLA 200 CDI Sport,26.75 Lakh,Diesel,Kolkata,2018,5
+Honda ,City SV Diesel,7.9 Lakh,Diesel,Ahmedabad,2018,5
+Skoda ,Rapid 1.6 MPI Ambition Plus AT,6.95 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki ,Wagon R 1.0 LXI CNG (O),6.4 Lakh,CNG,Mumbai,2021,2
+Toyota ,Fortuner 3.0 MT,10.75 Lakh,Diesel,Mumbai,2011,12
+Maruti Suzuki ,Alto 800 Vxi,3.41 Lakh,Petrol,Chennai,2018,5
+MG ,Hector Sharp Hybrid 1.5 Petrol [2019-2020],14.5 Lakh,Hybrid,Delhi,2020,3
+BMW ,5 Series 520d M Sport,32.95 Lakh,Diesel,Thane,2017,6
+Toyota ,Fortuner 4X4 AT 2.8 Diesel,39.5 Lakh,Diesel,Kolkata,2021,2
+Tata ,Nexon XZ Plus (O),10.67 Lakh,Petrol,Chennai,2020,3
+Maruti Suzuki, Ciaz Delta 1.5 Diesel,9.1 Lakh,Diesel,Hyderabad,2019,4
+Hyundai ,Santro Xing GLS,2.6 Lakh,Petrol,Ambattur,2013,10
+Maruti Suzuki, Alto 800 Vxi Plus,4.02 Lakh,Petrol,Delhi,2021,2
+Hyundai ,Creta 1.6 SX Plus AT Petrol,11.75 Lakh,Petrol,Ahmedabad,2019,4
+Hyundai ,Santro Magna [2018-2020],5.62 Lakh,Petrol,Pune,2020,3
+Land Rover, Range Rover Evoque Dynamic SD4,22.5 Lakh,Diesel,Ahmedabad,2014,9
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],3.85 Lakh,Petrol,Delhi,2014,9
+Hyundai ,Creta E Plus 1.6 Petrol,9.39 Lakh,Petrol,Bangalore,2016,7
+Maruti Suzuki, Vitara Brezza ZXI Plus Dual Tone,11.25 Lakh,Petrol,Bangalore,2020,3
+Maruti Suzuki, Celerio VXi AMT,3.95 Lakh,Petrol,Delhi,2016,7
+BMW ,3 Series 320d Luxury Line,10.9 Lakh,Diesel,Ahmedabad,2013,10
+Maruti Suzuki, Ciaz Sigma 1.4 MT,6.35 Lakh,Petrol,Mumbai,2017,6
+Mercedes-Benz, E-Class E 220 d Avantgarde,44.37 Lakh,Diesel,Ahmedabad,2018,5
+Tata, Nexon XZA Plus Petrol,8.66 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki, Wagon R 1.0 VXI,3.6 Lakh,Petrol,Kolkata,2015,8
+Skoda ,Superb L&K TDI AT,19.95 Lakh,Diesel,Mumbai,2017,6
+Honda, City V,6.69 Lakh,Petrol,Bangalore,2015,8
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.75 Lakh,Petrol,Ahmedabad,2017,6
+Hyundai, Elite i20 Asta 1.4 (O) CRDi,6.85 Lakh,Diesel,Mumbai,2016,7
+Honda, City VX CVT,7.5 Lakh,Petrol,Ahmedabad,2015,8
+Hyundai, Creta 1.6 S Petrol,8.56 Lakh,Petrol,Delhi,2016,7
+Tata, Safari XZ Plus,19.45 Lakh,Diesel,Kolkata,2021,2
+Kia, Seltos HTK 1.5 [2020-2021],11.43 Lakh,Petrol,Pune,2019,4
+Maruti Suzuki, Alto 800 Vxi,3.5 Lakh,Petrol,Hyderabad,2018,5
+Honda, City ZX VTEC,1.8 Lakh,Petrol,Pune,2008,15
+Audi, A4 Technology 40 TFSI [2021-2022],39.5 Lakh,Petrol,Ahmedabad,2021,2
+Hyundai, Verna SX Plus 1.6 CRDi AT,8.9 Lakh,Diesel,Mumbai,2017,6
+Maruti Suzuki ,S-Presso VXi Plus,4.76 Lakh,Petrol,Delhi,2021,2
+Maruti Suzuki ,Dzire ZXi AMT,6.9 Lakh,Petrol,Ahmedabad,2019,4
+Honda, City Anniversary Edition Petrol,11.3 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki, Alto K10 VXi,1.99 Lakh,Petrol,Pune,2012,11
+Hyundai ,Elite i20 Asta 1.2,4.61 Lakh,Petrol,Kolkata,2015,8
+Hyundai ,i20 Active 1.2 SX,6.73 Lakh,Petrol,Hyderabad,2017,6
+Ford, EcoSport Titanium 1.5L TDCi,8.99 Lakh,Diesel,Bangalore,2017,6
+Audi, A6 2.0 TDI Premium,13.5 Lakh,Diesel,Kolkata,2013,10
+Skoda ,Rapid Ambition 1.6 TDI CR MT,9.8 Lakh,Diesel,Hyderabad,2019,4
+Ford, EcoSport Titanium 1.5L Ti-VCT AT,6.25 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki, Wagon R 1.0 VXI,3.84 Lakh,Petrol,Kolkata,2017,6
+Hyundai ,Grand i10 Nios Sportz 1.2 Kappa VTVT,6.25 Lakh,Petrol,Ahmedabad,2020,3
+Honda , Jazz V Petrol,7.7 Lakh,Petrol,Pune,2019,4
+Kia ,Seltos HTK Plus 1.5 [2019-2020],16.85 Lakh,Petrol,Thane,2022,1
+Honda, City V,8.91 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki, Swift DZire VXI,4.75 Lakh,Petrol,Thane,2013,10
+Maruti Suzuki ,Estilo LXi,"99,991",Petrol,Kolkata,2008,15
+Honda ,City V,8.35 Lakh,Petrol,Mumbai,2018,5
+Honda ,City VX,6.8 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki, Swift VXi,6.06 Lakh,Petrol,Bangalore,2017,6
+Isuzu, MU-X 4x2,17.91 Lakh,Diesel,Thane,2017,6
+Maruti Suzuki, Wagon R 1.0 VXI,3.23 Lakh,Petrol,Pune,2014,9
+MINI, Cooper Countryman Cooper S,20 Lakh,Petrol,Hyderabad,2014,9
+Maruti Suzuki, Alto K10 VXi,2.1 Lakh,Petrol,Kolkata,2012,11
+Hyundai, Creta SX 1.5 Petrol CVT [2020-2022],17 Lakh,Petrol + 1,Poonamallee,2020,3
+Maruti Suzuki, Dzire ZXi Plus AMT,7.99 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki, Wagon R VXi 1.2,5.35 Lakh,Petrol,Thane,2019,4
+Maruti Suzuki, Swift VXi AMT [2018-2019],7.45 Lakh,Petrol,Bangalore,2018,5
+Maruti Suzuki, Swift LXi,5.51 Lakh,Petrol,Hyderabad,2019,4
+Fiat ,Abarth Punto T-Jet 1.4 Abarth,8.97 Lakh,Petrol,Bangalore,2015,8
+Audi, Q5 2.0 TDI quattro Premium Plus,22.88 Lakh,Diesel,Ahmedabad,2014,9
+Hyundai,' Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],5.75 Lakh,Petrol,Mumbai,2017,6
+Land Rover, Range Rover Evoque SE R-Dynamic Petrol,77 Lakh,Petrol,Thane,2021,2
+Maruti Suzuki, Alto 800 Lxi,2.89 Lakh,Petrol,Delhi,2017,6
+Tata, Tiago Revotron XT [2016-2019],4.53 Lakh,Petrol,Chennai,2018,5
+Mahindra ,KUV100 NXT K8 6 STR [2017-2020],7 Lakh,Petrol,Hyderabad,2020,3
+Maruti Suzuki, Alto 800 Vxi,2.91 Lakh,Petrol,Pune,2017,6
+Hyundai ,Santro Xing GL,1.42 Lakh,Petrol,Kolkata,2010,13
+Volkswagen, Polo Highline1.2L (P),6.99 Lakh,Petrol,Bangalore,2016,7
+Hyundai, Creta 1.6 SX Plus AT Petrol,9.64 Lakh,Petrol,Pune,2016,7
+Honda, City ZX Petrol [2019-2019],12.49 Lakh,Petrol,Bangalore,2020,3
+Mercedes-Benz, CLA 200 Petrol Sport,25.5 Lakh,Petrol,Mumbai,2017,6
+Volkswagen, Polo Highline1.2L (P),3 Lakh,Petrol,Kolkata,2013,10
+Volvo ,XC90 D5 AWD,45 Lakh,Diesel,Kolkata,2018,5
+Mahindra, XUV300 1.5 W8 (O) AMT [2019-2020],12.99 Lakh,Diesel,Bangalore,2019,4
+Isuzu, D-Max V-Cross 4x4,16.95 Lakh,Diesel,Bangalore,2017,6
+Honda ,City SV CVT,6.58 Lakh,Petrol,Pune,2015,8
+Honda ,Jazz S AT [2015-2016],6.85 Lakh,Petrol,Bangalore,2015,8
+Tata, Safari XZA Plus 6S Adventure New,23.95 Lakh,Diesel,Bangalore,2021,2
+Hyundai ,Venue SX 1.5 CRDi,9.25 Lakh,Diesel,Ahmedabad,2020,3
+Honda ,City VX CVT,7.35 Lakh,Petrol,Chennai,2016,7
+Tata ,Safari Storme 2.2 VX 4x2,5.75 Lakh,Diesel,Kolkata,2014,9
+Audi, A4 2.0 TDI (177bhp) Premium,14.9 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Creta S 1.5 Diesel [2020-2022],16 Lakh,Diesel,Hyderabad,2021,2
+Honda ,City V Diesel,6.8 Lakh,Diesel,Hyderabad,2015,8
+Maruti Suzuki, Ciaz ZXI+,7.31 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki ,Wagon R 1.0 LXi,2.95 Lakh,Petrol,Bangalore,2011,12
+Honda ,WR-V SV MT Petrol,7.75 Lakh,Petrol,Ahmedabad,2020,3
+Maruti Suzuki, S-Cross Alpha 1.3,11.5 Lakh,Diesel,Hyderabad,2019,4
+Mahindra, XUV500 W10,10.5 Lakh,Diesel,Thane,2016,7
+Toyota, Innova Crysta 2.8 ZX AT 7 STR [2016-2020],19 Lakh,Diesel,Ahmedabad,2018,5
+Maruti Suzuki, Wagon R 1.0 LXI ABS,5.56 Lakh,Petrol,Delhi,2021,2
+Jeep, Compass Longitude (O) 2.0 Diesel [2017-2020],15.4 Lakh,Diesel,Thane,2019,4
+Maruti Suzuki, Celerio VXi (O) CNG,6.15 Lakh,CNG,Thane,2020,3
+Hyundai ,i10 Sportz 1.2 Kappa2,4.55 Lakh,Petrol,Hyderabad,2014,9
+Honda, City V CVT Petrol [2017-2019],7.95 Lakh,Petrol,Thane,2017,6
+Jeep, Compass Limited Plus Diesel [2018-2020],17.99 Lakh,Diesel,Bangalore,2019,4
+Honda, Amaze 1.2 S AT i-VTEC,3.95 Lakh,Petrol,Mumbai,2014,9
+Maruti Suzuki, Baleno Alpha 1.2,7.11 Lakh,Petrol,Mumbai,2019,4
+Toyota, Land Cruiser LC 200 VX,70 Lakh,Diesel,Pune,2011,12
+Hyundai, Verna Fluidic 1.6 VTVT SX Opt AT,10.11 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki ,S-Presso VXi Plus,4.4 Lakh,Petrol,Hyderabad,2020,3
+Honda ,City 1.5 V MT,3.25 Lakh,Petrol,Noida,2010,13
+Maruti Suzuki ,Swift VXi,4.11 Lakh,Petrol,Delhi,2015,8
+Hyundai, Creta 1.6 SX Plus Special Edition,11.57 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki ,S-Cross Zeta AT,9.14 Lakh,Petrol,Kolkata,2020,3
+Hyundai ,i20 Sportz 1.5 MT Diesel,9.5 Lakh,Diesel,Ahmedabad,2022,1
+Maruti Suzuki, Swift ZXi,4.1 Lakh,Petrol,Noida,2014,9
+Toyota, Urban Cruiser High Grade AT,12.56 Lakh,Petrol,Pune,2022,1
+Honda, City V CVT Petrol [2017-2019],7.93 Lakh,Petrol,Delhi,2017,6
+Honda, Brio S MT,3.45 Lakh,Petrol,Ahmedabad,2013,10
+Skoda ,Rapid Ambition 1.6 MPI MT Plus,5.25 Lakh,Petrol,Hyderabad,2014,9
+Maruti Suzuki ,Swift VXi,5.57 Lakh,Petrol,Chennai,2017,6
+Chevrolet ,Tavera Neo 3 LS- 10 STR BS-IV,7.95 Lakh,Diesel,Thane,2016,7
+Toyota ,Corolla Altis VL AT Petrol,12.75 Lakh,Petrol,Mumbai,2017,6
+Nissan, Kicks XV Premium Turbo 1.3,12.65 Lakh,Petrol,Hyderabad,2020,3
+Maruti Suzuki, Celerio VXi CNG,6.1 Lakh,CNG,Thane,2020,3
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.94 Lakh,Petrol,Delhi,2017,6
+Honda ,City VX Diesel,6.8 Lakh,Diesel,Kolkata,2015,8
+Maruti Suzuki, Alto K10 VXi [2014-2019],3.36 Lakh,Petrol,Pune,2015,8
+Audi, Q7 45 TDI Premium Plus,52 Lakh,Diesel,Pune,2017,6
+Maruti Suzuki, Alto 800 Lxi,2.99 Lakh,Petrol,Bangalore,2014,9
+Renault, Triber RXZ [2019-2020],6.7 Lakh,Petrol,Pune,2020,3
+Maruti Suzuki ,Swift VXi [2014-2017],6.5 Lakh,Petrol,Kolkata,2019,4
+Tata ,Tiago Revotron XT [2016-2019],4.75 Lakh,Petrol,Noida,2018,5
+Maruti Suzuki, Alto K10 LXi,2.01 Lakh,Petrol,Delhi,2010,13
+Hyundai, Venue SX 1.4 CRDi,9.83 Lakh,Diesel,Delhi,2019,4
+Maruti Suzuki ,Swift VDi,4.27 Lakh,Diesel,Kolkata,2017,6
+Volkswagen, Vento Highline Diesel,4.7 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Elite i20 Asta 1.2,5.49 Lakh,Petrol,Gurgaon,2015,8
+Hyundai, Creta SX Plus 1.6 AT CRDI,10.93 Lakh,Diesel,Kolkata,2018,5
+Hyundai ,Verna SX 1.5 VTVT,11.79 Lakh,Petrol,Bangalore,2020,3
+Maruti Suzuki, S-Cross Alpha 1.3,8.75 Lakh,Diesel,Thane,2018,5
+Honda, City VX,9.5 Lakh,Petrol,Pallikarnai,2017,6
+Honda, City V Petrol [2017-2019],7.45 Lakh,Petrol,Mumbai,2017,6
+Ford, EcoSport Titanium 1.5L TDCi,8.25 Lakh,Diesel,Bangalore,2016,7
+Jaguar ,XE Prestige Diesel,32.99 Lakh,Diesel,Bangalore,2017,6
+Renault ,Kwid RXT [2015-2019],3.15 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki ,Dzire ZDi AMT,7.64 Lakh,Diesel,Bangalore,2018,5
+Maruti Suzuki, Celerio VXi AMT,3.85 Lakh,Petrol,Noida,2014,9
+Maruti Suzuki, Wagon R 1.0 VXI ABS,5.5 Lakh,Petrol,Hyderabad,2019,4
+Hyundai ,Creta SX Plus 1.6 AT CRDI,10.25 Lakh,Diesel,Ahmedabad,2017,6
+Maruti Suzuki, S-Cross Zeta AT,11.56 Lakh,Petrol,Ahmedabad,2021,2
+Hyundai, Creta SX Plus 1.6  Petrol,8.55 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki, Baleno Delta 1.2,5.82 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki, Vitara Brezza ZXi Plus AT SHVS,12.75 Lakh,Petrol,Bangalore,2020,3
+BMW, 5 Series GT 535d,15 Lakh,Diesel,Ahmedabad,2012,11
+Volkswagen, Vento Highline 1.0L TSI,12 Lakh,Petrol,Hyderabad,2021,2
+Hyundai, Verna EX 1.6 VTVT [2017-2018],5.25 Lakh,Petrol,Delhi,2014,9
+Skoda, Yeti Ambiente,6 Lakh,Diesel,Hyderabad,2011,12
+Renault, Kwid 1.0 RXT Opt,4.52 Lakh,Petrol,Bangalore,2019,4
+Nissan, Sunny XL,2.49 Lakh,Petrol,Kolkata,2012,11
+BMW, 5 Series 520d M Sport,33 Lakh,Diesel,Mumbai,2017,6
+Honda ,Amaze 1.2 SX i-VTEC,4.45 Lakh,Petrol,Mumbai,2016,7
+Honda, Brio V MT,3.51 Lakh,Petrol,Mumbai,2014,9
+Hyundai, Creta S 1.5 Petrol [2020-2022],13.25 Lakh,Petrol,Thane,2021,2
+Maruti Suzuki, Baleno Zeta 1.2,4.83 Lakh,Petrol,Kolkata,2016,7
+Maruti Suzuki, Vitara Brezza ZDi Plus,10.22 Lakh,Diesel,Pune,2019,4
+Hyundai ,i20 Magna 1.2,3.75 Lakh,Petrol,Mumbai,2014,9
+Maruti Suzuki, Wagon R 1.0 LXI CNG,4.2 Lakh,CNG,Pune,2018,5
+Kia, Sonet GTX Plus 1.0 iMT [2020-2021],11.04 Lakh,Petrol,Kolkata,2020,3
+Hyundai ,Elite i20 Sportz 1.2 (O),5.95 Lakh,Petrol,Thane,2016,7
+Maruti Suzuki, Wagon R 1.0 VXI,2.99 Lakh,Petrol,Kolkata,2014,9
+Hyundai ,Santro Sportz CNG [2018-2020],5.29 Lakh,CNG,Pune,2018,5
+Mahindra ,TUV300 T8,6.23 Lakh,Diesel,Kolkata,2017,6
+Skoda ,Laura Ambition 2.0 TDI CR AT,4.25 Lakh,Diesel,Mumbai,2013,10
+Mahindra, Thar LX Hard Top Petrol AT,15.75 Lakh,Petrol,Ahmedabad,2020,3
+Audi ,Q3 35 TDI quattro Technology,14.9 Lakh,Diesel,Ahmedabad,2015,8
+Maruti Suzuki, XL6 Alpha MT Petrol,9.9 Lakh,Petrol,Thane,2020,3
+Toyota ,Innova Crysta GX 2.4 7 STR,21.5 Lakh,Diesel,Ahmedabad,2020,3
+Tata ,Tigor EV XZ Plus,11.35 Lakh,Electric,Thane,2021,2
+Skoda ,Superb Elegance 1.8 TSI AT,8 Lakh,Petrol + 1,Thiruvallur,2010,13
+Maruti Suzuki, Swift VXi [2014-2017],6.95 Lakh,Petrol,Hyderabad,2019,4
+Renault, Duster RXL Petrol,4.8 Lakh,Petrol,Pune,2014,9
+Tata, Harrier XZ [2019-2020],15.51 Lakh,Diesel,Ahmedabad,2019,4
+Honda, City VX CVT,7.75 Lakh,Petrol,Thane,2016,7
+Hyundai ,i10 Sportz 1.2 Kappa2,3.25 Lakh,Petrol,Thane,2014,9
+Maruti Suzuki, Swift VXi ABS,6.89 Lakh,Petrol,Bangalore,2017,6
+Maruti Suzuki, Baleno Delta 1.2,7.19 Lakh,Petrol,Pune,2019,4
+Honda ,Brio V MT,2.39 Lakh,Petrol,Ahmedabad,2012,11
+Maruti Suzuki ,Alto K10 VXi,2.6 Lakh,Petrol,Hyderabad,2012,11
+Jeep ,Compass Limited 2.0 Diesel [2017-2020],13.5 Lakh,Diesel,Ahmedabad,2019,4
+Hyundai ,Grand i10 Magna 1.0 Kappa VTVT LPG [2014-2016],4.75 Lakh,LPG,Bangalore,2015,8
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 [2018-2020],8.45 Lakh,Petrol,Mumbai,2018,5
+Audi ,A4 2.0 TDI (143bhp),13.5 Lakh,Diesel,Ahmedabad,2013,10
+Audi ,Q7 45 TDI Technology Pack,54 Lakh,Diesel,Kolkata,2019,4
+Maruti Suzuki, Vitara Brezza ZDi+ Dual Tone [2017-2018],8.21 Lakh,Diesel,Mumbai,2016,7
+BMW ,X1 sDrive20d,8 Lakh,Diesel,Ahmedabad,2011,12
+Hyundai, Elite i20 Magna Plus 1.4 CRDi,5.94 Lakh,Diesel,Delhi,2018,5
+Kia ,Sonet HTK Plus 1.5 AT,15.5 Lakh,Diesel,Thane,2021,2
+Hyundai ,Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],4.96 Lakh,Petrol,Pune,2015,8
+BMW ,X1 sDrive20d xLine,37.85 Lakh,Diesel,Bangalore,2019,4
+Hyundai ,Creta E Plus 1.6 Petrol,8.29 Lakh,Petrol,Mumbai,2017,6
+Maruti ,Suzuki Wagon R 1.0 VXI,3.41 Lakh,Petrol,Hyderabad,2014,9
+Honda ,WR-V VX MT Petrol,6.49 Lakh,Petrol,Kolkata,2017,6
+Hyundai ,Grand i10 Sportz 1.2 Kappa VTVT Dual Tone,6.59 Lakh,Petrol,Bangalore,2019,4
+Maruti Suzuki, Wagon R ZXI 1.2 AGS,6.99 Lakh,Petrol,Bangalore,2020,3
+Toyota, Innova Crysta 2.8 GX AT 8 STR [2016-2020],18.9 Lakh,Diesel,Thane,2018,5
+Honda ,Amaze 1.2 S MT Petrol [2018-2020],5.85 Lakh,Petrol,Thane,2018,5
+Hyundai, Grand i10 Asta 1.2 Kappa VTVT (O) [2013-2017],5.41 Lakh,Petrol,Mumbai,2016,7
+Hyundai ,Elite i20 Asta 1.2,4.46 Lakh,Petrol,Kolkata,2015,8
+Hyundai ,Elite i20 Magna Executive 1.2,6.75 Lakh,Petrol,Ahmedabad,2017,6
+Volkswagen, Vento Comfortline Diesel AT,5.5 Lakh,Diesel,Thane,2014,9
+MG, Hector Plus Sharp 1.5 Petrol Turbo DCT 6-STR,17 Lakh,Petrol,Kolkata,2021,2
+Maruti Suzuki ,Wagon R 1.0 VXI+ (O),4.67 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki, Ertiga VXi AT,10.45 Lakh,Petrol,Mumbai,2019,4
+Maruti Suzuki, Wagon R 1.0 LXI CNG,4.06 Lakh,CNG,Delhi,2017,6
+Maruti Suzuki, Vitara Brezza ZDi Plus,8.75 Lakh,Diesel,Ahmedabad,2018,5
+Hyundai, i20 Magna 1.2,2.59 Lakh,Petrol,Delhi,2011,12
+Chevrolet ,Cruze LTZ AT,6.9 Lakh,Diesel,Ahmedabad,2015,8
+Maruti Suzuki, Ritz Zxi BS-IV,3.21 Lakh,Petrol,Delhi,2014,9
+Honda, Brio VX AT,5.75 Lakh,Petrol,Ahmedabad,2017,6
+Hyundai ,Grand i10 Sportz 1.2 Kappa VTVT [2016-2017],5.45 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki, Wagon R 1.0 VXI,2.99 Lakh,Petrol,Kolkata,2014,9
+Toyota, Camry Hybrid,18.9 Lakh,Petrol,Kolkata,2017,6
+Honda ,City VX CVT,14.5 Lakh,Petrol,Thane,2021,2
+Hyundai ,Elite i20 Sportz 1.2,5.91 Lakh,Petrol,Mumbai,2017,6
+Maruti Suzuki, Baleno Delta 1.2,5.68 Lakh,Petrol,Kolkata,2019,4
+Maruti Suzuki, Ritz Vxi BS-IV,2.5 Lakh,Petrol,Kolkata,2014,9
+Tata ,Nexon XT [2017-2019],6.9 Lakh,Petrol,Kolkata,2018,5
+Jeep ,Compass Limited Plus Petrol AT [2018-2020],18.75 Lakh,Petrol,Mumbai,2019,4
+Tata ,Tigor Revotron XZ,7.09 Lakh,Petrol,Chennai,2021,2
+Hyundai, Grand i10 Sports Edition 1.2L Kappa VTVT,5.69 Lakh,Petrol,Bangalore,2015,8
+Hyundai ,Grand i10 Asta AT 1.2 Kappa VTVT (O) [2016-2017],5.95 Lakh,Petrol,Thane,2016,7
+Toyota ,Corolla Altis G AT Petrol,10.25 Lakh,Petrol,Pallikarnai,2015,8
+Hyundai, Creta E Plus 1.6 Petrol,10.5 Lakh,Petrol,Hyderabad,2018,5
+Maruti Suzuki, Ciaz S 1.4 MT,7.15 Lakh,Petrol,Ahmedabad,2017,6
+Tata ,Tiago XZ Plus,6.79 Lakh,Petrol,Bangalore,2020,3
+Kia ,Seltos HTX 1.5 [2020-2021],15.45 Lakh,Petrol,Bangalore,2020,3
+Hyundai ,i20 Asta (O) 1.2 MT,9.6 Lakh,Petrol,Thane,2021,2
+Maruti Suzuki ,Wagon R 1.0 VXI,3.32 Lakh,Petrol,Kolkata,2014,9
+Maruti Suzuki ,Dzire VDi,7.25 Lakh,Diesel,Thane,2018,5
+Honda ,City 1.5 S MT,3.95 Lakh,Petrol,Mumbai,2012,11
+Hyundai ,Elite i20 Asta 1.2 (O) [2019-2020],8.01 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki, Vitara Brezza VDi (O) [2016-2018],9.45 Lakh,Diesel,Hyderabad,2019,4
+Hyundai ,Creta E Plus 1.4 CRDI,9.7 Lakh,Diesel,Pune,2017,6
+Hyundai ,Creta SX Plus 1.6  Petrol,9.25 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki ,Alto 800 Lxi,2.81 Lakh,Petrol,Kolkata,2018,5
+Hyundai, Elite i20 Magna Executive 1.2,6.75 Lakh,Petrol,Thane,2019,4
+Honda, Amaze 1.2 S i-VTEC,3.9 Lakh,Petrol,Pune,2014,9
+Hyundai ,Elite i20 Asta 1.2 (O) [2016],5.75 Lakh,Petrol,Kolkata,2017,6
+Hyundai ,i10 Magna 1.2 Kappa2,2.45 Lakh,Petrol,Thane,2012,11
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],5.4 Lakh,Petrol,Thane,2019,4
+Hyundai ,Venue SX (O) 1.5 CRDi,11.5 Lakh,Diesel,Ambattur,2021,2
+Honda, City SV CVT,6.5 Lakh,Petrol,Thane,2015,8
+Maruti Suzuki, Eeco 5 STR WITH A/C+HTR CNG [2017-2019],6.45 Lakh,CNG,Mumbai,2021,2
+Honda, City ZX CVT Petrol,15.9 Lakh,Petrol,Hyderabad,2021,2
+Maruti Suzuki ,Ciaz Alpha Hybrid 1.5 [2018-2020],8.5 Lakh,Petrol,Kolkata,2020,3
+Maruti Suzuki, S-Presso VXi Plus,4.65 Lakh,Petrol,Mumbai,2020,3
+Maruti Suzuki ,Wagon R 1.0 LXI CNG,4.51 Lakh,CNG,Pune,2017,6
+Mercedes-Benz, CLA 200 Petrol Sport,25.9 Lakh,Petrol,Ahmedabad,2018,5
+MG ,Hector Sharp 1.5 Petrol CVT,18.75 Lakh,Petrol,Mumbai,2021,2
+Honda, City V CVT Petrol [2017-2019],7.3 Lakh,Petrol,Ahmedabad,2017,6
+Audi ,A4 2.0 TDI (143 bhp),15 Lakh,Diesel,Hyderabad,2012,11
+Mercedes-Benz, GLE 350 d,38.5 Lakh,Diesel,Hyderabad,2015,8
+Toyota ,Corolla Altis VL AT Petrol,13.94 Lakh,Petrol,Kolkata,2018,5
+Hyundai ,Elite i20 Asta 1.2,7.79 Lakh,Petrol,Bangalore,2018,5
+Toyota, Innova Crysta ZX 2.4 AT 7 STR,29.75 Lakh,Diesel,Thane,2021,2
+Jeep ,Grand Cherokee SRT [2016-2020],53 Lakh,Petrol,Kolkata,2017,6
+MG, ZS EV Exclusive [2020-2021],19.19 Lakh,Electric,Bangalore,2020,3
+Mahindra, Marazzo M6 Plus 8 STR,14.85 Lakh,Diesel,Chennai,2021,2
+Land Rover ,Range Rover Sport SE 3.0 Diesel [2018-2020],1.36 Crore,Diesel,Bangalore,2019,4
+Maruti Suzuki ,Wagon R 1.0 VXI,4.11 Lakh,Petrol,Kolkata,2018,5
+Toyota, Etios Liva GD,5.4 Lakh,Diesel,Bangalore,2013,10
+Kia, Seltos GTX Plus AT 1.5 Diesel [2019-2020],18.5 Lakh,Diesel,Hyderabad,2020,3
+MG, Hector Sharp 2.0 Diesel [2019-2020],16.99 Lakh,Diesel,Bangalore,2019,4
+Tata, Nexon XM,9.29 Lakh,Petrol,Chennai,2020,3
+Maruti Suzuki, Vitara Brezza VDi,7 Lakh,Diesel,Thane,2016,7
+Volkswagen ,Passat 1.8L TSI,3.35 Lakh,Petrol,Kolkata,2010,13
+Ford ,EcoSport Titanium 1.5L Ti-VCT AT,6.79 Lakh,Petrol,Mumbai,2017,6
+Honda, City ZX CVT Petrol [2017-2019],10.09 Lakh,Petrol,Pune,2017,6
+Mercedes-Benz ,GLE 300d 4MATIC LWB,86 Lakh,Diesel,Pune,2020,3
+Kia ,Sonet GTX Plus 1.0 iMT [2020-2021],12.5 Lakh,Petrol,Ahmedabad,2022,1
+Hyundai, Accent Executive,2.7 Lakh,Petrol,Hyderabad,2011,12
+Honda, City ZX CVT Petrol,16.06 Lakh,Petrol,Pune,2022,1
+Honda, Brio S MT,2.95 Lakh,Petrol,Noida,2013,10
+MG ,Astor Sharp 1.5 MT,15.49 Lakh,Petrol,Bangalore,2022,1
+Mahindra, Marazzo M2 8 STR,11.36 Lakh,Diesel,Kolkata,2021,2
+Hyundai ,Verna Fluidic 1.6 VTVT SX,3.91 Lakh,Petrol,Delhi,2013,10
+Tata ,Harrier XZ [2019-2020],16.95 Lakh,Diesel,Bangalore,2019,4
+Hyundai ,i20 Asta 1.2,4.3 Lakh,Petrol,Pune,2012,11
+Hyundai ,Xcent SX 1.1 CRDi (O),5 Lakh,Diesel + 1,Thiruvallur,2015,8
+Maruti Suzuki, Swift VDi,6.1 Lakh,Diesel,Thane,2017,6
+Ford, EcoSport Trend 1.5 TDCi,4.51 Lakh,Diesel,Kolkata,2014,9
+Skoda ,Rapid TSI Style AT,11.25 Lakh,Petrol,Bangalore,2020,3
+Hyundai, Grand i10 Sportz (O) AT 1.2 Kappa VTVT [2017-2018],5.7 Lakh,Petrol,Thane,2017,6
+Maruti Suzuki ,Dzire VXi,6.11 Lakh,Petrol,Ahmedabad,2018,5
+MG ,Gloster Savvy 6 STR 2.0 Twin Turbo 4WD,42.85 Lakh,Diesel,Thane,2021,2
+Maruti Suzuki, Ciaz ZXi  AT,6.5 Lakh,Petrol,Thane,2016,7
+Honda, City V,8.15 Lakh,Petrol,Kolkata,2019,4
+Hyundai ,Creta 1.6 S Petrol,11.67 Lakh,Petrol,Delhi,2019,4
+Honda, Amaze 1.2 SX i-VTEC,5.09 Lakh,Petrol,Bangalore,2014,9
+Mahindra, XUV500 W6 AT,9.5 Lakh,Diesel,Ahmedabad,2017,6
+Toyota ,Corolla H2 1.8E,2 Lakh,Petrol,Pallikarnai,2005,18
+Maruti Suzuki, Vitara Brezza VDi,7.4 Lakh,Diesel,Thane,2016,7
+Honda, Jazz V AT Petrol,5.9 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki, Celerio VXi,4.43 Lakh,Petrol,Pune,2016,7
+Mercedes-Benz, GLE 250 d,54 Lakh,Diesel,Pune,2018,5
+Honda ,City ZX CVT Petrol,15.11 Lakh,Petrol,Mumbai,2021,2
+Maruti Suzuki, Swift ZXi,7.34 Lakh,Petrol,Pune,2019,4
+Mercedes-Benz ,GLE 350 d,47 Lakh,Diesel,Ahmedabad,2017,6
+Hyundai, i10 Sportz 1.2 AT Kappa2,3.45 Lakh,Petrol,Mumbai,2012,11
+Renault, Kwid 1.0 RXT [2016-2019],4.75 Lakh,Petrol,Mumbai,2020,3
+Audi, Q2 Premium Plus I 40 TFSI quattro,30.5 Lakh,Petrol,Ahmedabad,2020,3
+Maruti Suzuki, Dzire VXi AMT,6.6 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki, Baleno Delta 1.2,4.98 Lakh,Petrol,Delhi,2016,7
+Honda ,City V,6.75 Lakh,Petrol,Pune,2016,7
+Tata, Nexon XMA (S),10.25 Lakh,Petrol,Ahmedabad,2021,2
+Tata, Harrier Kaziranga XZA Plus,22.9 Lakh,Diesel,Ahmedabad,2022,1
+Hyundai, Elite i20 Asta 1.2,7.21 Lakh,Petrol,Bangalore,2018,5
+Hyundai, Elite i20 Sportz 1.2,8.39 Lakh,Petrol,Bangalore,2019,4
+Honda ,Amaze 1.2 VX i-VTEC,5.05 Lakh,Petrol,Pune,2017,6
+Maruti Suzuki, Celerio VXi CNG [2017-2019],5.25 Lakh,CNG,Pune,2018,5
+Toyota ,Etios G,2.75 Lakh,Petrol,Noida,2011,12
+Audi, A4 35 TDI Premium Plus,32.75 Lakh,Diesel,Bangalore,2018,5
+Datsun ,redi-GO T [2016-2019],2.7 Lakh,Petrol,Hyderabad,2016,7
+Mahindra, KUV100 NXT K6 Plus 6 STR [2017-2020],4.92 Lakh,Petrol,Kolkata,2020,3
+BMW ,5 Series 520d Luxury Line,20.99 Lakh,Diesel,Kolkata,2016,7
+Mercedes-Benz ,C-Class 220 BlueEfficiency,10.95 Lakh,Diesel,Kolkata,2013,10
+Audi ,A6 35 TDI Matrix,24 Lakh,Diesel,Ahmedabad,2016,7
+Hyundai ,Grand i10 Nios Sportz 1.2 Kappa VTVT CNG,7.25 Lakh,CNG,Thane,2021,2
+Hyundai ,Creta 1.6 SX Plus,8.75 Lakh,Diesel,Delhi,2016,7
+Jeep ,Compass Longitude 2.0 Diesel [2017-2020],14.99 Lakh,Diesel,Bangalore,2017,6
+Honda, City V Petrol [2017-2019],7.6 Lakh,Petrol,Thane,2017,6
+Mahindra ,XUV300 1.5 W8 (O) AMT [2019-2020],13 Lakh,Diesel,Hyderabad,2019,4
+MG, Gloster Savvy 6 STR 2.0 Twin Turbo 4WD,41.99 Lakh,Diesel,Bangalore,2020,3
+Maruti Suzuki ,Baleno Alpha 1.2,5.24 Lakh,Petrol,Delhi,2016,7
+Maruti Suzuki ,Vitara Brezza VDi,8.25 Lakh,Diesel,Thane,2018,5
+Volkswagen, Polo GT TSI,9.25 Lakh,Petrol,Hyderabad,2019,4
+Renault ,Captur RXT Petrol Dual Tone,6.9 Lakh,Petrol,Mumbai,2018,5
+BMW, X1 sDrive20d M Sport,39 Lakh,Diesel,Hyderabad,2019,4
+Maruti Suzuki, Ritz Vdi BS-IV,3.45 Lakh,Diesel,Hyderabad,2012,11
+Maruti Suzuki ,Alto 800 Lxi,2.69 Lakh,Petrol,Pune,2015,8
+Hyundai, Verna SX 1.5 VTVT,11.5 Lakh,Petrol,Kolkata,2021,2
+Maruti Suzuki ,Swift DZire ZDI,5.5 Lakh,Diesel,Chennai,2014,9
+Ford ,Endeavour Titanium 3.2 4x4 AT,31.43 Lakh,Diesel,Delhi,2018,5
+Mercedes-Benz, GLA 200 Sport,21.75 Lakh,Petrol,Mumbai,2017,6
+Nissan, Terrano XL (D),5.75 Lakh,Diesel,Mumbai,2015,8
+Maruti Suzuki ,Swift VXi,3.34 Lakh,Petrol,Ahmedabad,2012,11
+Maruti Suzuki ,Dzire VXi,6.75 Lakh,Petrol,Kolkata,2021,2
+Jeep , Limited (O) 1.4 Petrol AT [2017-2020],13.41 Lakh,Petrol,Thane,2018,5
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],4.82 Lakh,Petrol,Delhi,2018,5
+Toyota, Corolla Altis VL AT Petrol,16.5 Lakh,Petrol,Pune,2018,5
+Mercedes-Benz, GLE 250 d,55 Lakh,Diesel,Ahmedabad,2018,5
+MG, Hector Smart 1.5 DCT Petrol [2019-2020],14.99 Lakh,Petrol,Bangalore,2019,4
+Kia ,Seltos GTX Plus AT 1.4 [2019-2020],18.65 Lakh,Petrol,Mumbai,2021,2
+Hyundai, Elite i20 Asta 1.2 (O) [2016],6.2 Lakh,Petrol,Ahmedabad,2016,7
+Honda, Jazz V Petrol,5.95 Lakh,Petrol,Hyderabad,2016,7
+Maruti Suzuki ,SX4 VXI CNG BS-IV,1.71 Lakh,CNG,Delhi,2010,13
+Maruti Suzuki ,A-Star VXI,2.95 Lakh,Petrol,Ambattur,2013,10
+Mahindra ,Marazzo M6 Plus 7 STR,11.37 Lakh,Diesel,Kolkata,2020,3
+Hyundai, i20 Asta (O) 1.0 Turbo DCT,11.95 Lakh,Petrol,Bangalore,2021,2
+Honda ,Civic 1.8S MT,3.49 Lakh,Petrol,Thane,2012,11
+Kia, Seltos GTX Plus 1.4 DCT,19.95 Lakh,Petrol,Bangalore,2021,2
+Citroen, C5 Aircross Shine,35 Lakh,Diesel,Hyderabad,2021,2
+Honda ,City 1.5 V MT,3.1 Lakh,Petrol,Mumbai,2010,13
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],4.15 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki, Alto 800 LXi CNG [2019-2020],3.89 Lakh,CNG,Pune,2019,4
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2017-2020],4.65 Lakh,Petrol,Thane,2017,6
+Hyundai ,Santro Sportz AMT [2018-2020],5.89 Lakh,Petrol,Bangalore,2018,5
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT CNG [2019-2020],7.78 Lakh,CNG,Pune,2021,2
+Ford ,Endeavour Titanium 3.2 4x4 AT,31.5 Lakh,Diesel,Mumbai,2018,5
+Hyundai, Verna 1.6 CRDI SX (O),10.9 Lakh,Diesel,Ahmedabad,2019,4
+Mahindra, Scorpio VLX 2WD Airbag BS-IV,6.15 Lakh,Diesel,Hyderabad,2014,9
+Honda, City V,6.15 Lakh,Petrol,Thane,2015,8
+Hyundai ,Elite i20 Asta 1.4 (O) CRDi,5.51 Lakh,Diesel,Ahmedabad,2015,8
+Ford ,EcoSport Titanium 1.5 TDCi,4.34 Lakh,Diesel,Kolkata,2013,10
+Skoda, Superb L&K TSI AT,34.9 Lakh,Petrol,Pune,2021,2
+Maruti Suzuki ,Ertiga ZDI + SHVS,10.8 Lakh,Diesel,Hyderabad,2018,5
+Maruti Suzuki ,Wagon R VXi 1.0 [2019-2019],4.25 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Celerio VXi [2019-2020],4.86 Lakh,Petrol,Delhi,2019,4
+Maruti Suzuki ,Alto K10 LXi,2.36 Lakh,Petrol,Delhi,2014,9
+Maruti Suzuki ,Wagon R 1.0 VXi,3.57 Lakh,Petrol,Bangalore,2013,10
+Hyundai, Tucson GLS 4WD AT Diesel,19.9 Lakh,Diesel,Ahmedabad,2018,5
+Volkswagen ,Tiguan Highline TDI,24.95 Lakh,Diesel,Thane,2018,5
+Jaguar, XF 2.2 Diesel Luxury,19.5 Lakh,Diesel,Kolkata,2014,9
+Honda, Amaze 1.2 S i-VTEC,5.21 Lakh,Petrol,Pune,2016,7
+Maruti Suzuki, Wagon R 1.0 LXi CNG,3.35 Lakh,CNG,Thane,2013,10
+Hyundai ,Elite i20 Asta 1.2,6.4 Lakh,Petrol,Thane,2017,6
+BMW ,X4 xDrive20d M Sport X [2019-2020],62.5 Lakh,Diesel,Ahmedabad,2020,3
+Maruti Suzuki ,Vitara Brezza VDi,7.35 Lakh,Diesel,Delhi,2018,5
+Maruti Suzuki ,Vitara Brezza VDi,8.01 Lakh,Diesel,Delhi,2019,4
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],3.6 Lakh,Petrol,Kolkata,2015,8
+Maruti Suzuki, Wagon R 1.0 VXI AMT,4.75 Lakh,Petrol,Thane,2019,4
+Hyundai ,Elite i20 Sportz 1.2,6.35 Lakh,Petrol,Thane,2017,6
+Hyundai, i10 Magna 1.2 Kappa2,2.95 Lakh,Petrol,Mumbai,2013,10
+Hyundai ,Grand i10 Nios Magna 1.2 Kappa VTVT,7.12 Lakh,Petrol,Pune,2020,3
+Ford, Endeavour Titanium 3.2 4x4 AT,31.89 Lakh,Diesel,Delhi,2018,5
+Audi, Q3 35 TDI Premium + Sunroof,21.5 Lakh,Diesel,Hyderabad,2016,7
+BMW ,X1 sDrive20i xLine,41.9 Lakh,Petrol,Pune,2021,2
+Maruti Suzuki ,Wagon R 1.0 VXI AMT,4.5 Lakh,Petrol,Thane,2015,8
+Hyundai, i10 1.1L iRDE Magna Special Edition,3.59 Lakh,Petrol,Delhi,2015,8
+Hyundai, i10 Magna,2.5 Lakh,Petrol,Hyderabad,2008,15
+Hyundai, Creta 1.6 SX Plus AT Petrol,12.75 Lakh,Petrol,Mumbai,2018,5
+Maruti Suzuki, Dzire VXi,6.41 Lakh,Petrol,Chennai,2019,4
+Maruti Suzuki ,Swift DZire VXI,4.15 Lakh,Petrol,Thane,2013,10
+Ford ,EcoSport Titanium + 1.5L Ti-VCT AT [2019-2020],10.85 Lakh,Petrol,Bangalore,2019,4
+Skoda, Yeti Active 2.0 TDI CR 4x2,3.49 Lakh,Diesel,Ahmedabad,2012,11
+Hyundai, Santro Xing XG AT,3 Lakh,Petrol,Pallikarnai,2007,16
+Maruti Suzuki, Alto K10 VXi,2.34 Lakh,Petrol,Pune,2012,11
+Tata, Tiago XE,4 Lakh,Petrol,Ambattur,2022,1
+Mercedes-Benz ,GL 350 CDI,47 Lakh,Diesel,Hyderabad,2015,8
+Honda ,City E,5.3 Lakh,Petrol + 1,Pallikarnai,2014,9
+Maruti Suzuki ,Baleno Alpha 1.2,6.9 Lakh,Petrol,Mumbai,2018,5
+Ford, EcoSport Titanium 1.5L Ti-VCT AT,8.29 Lakh,Petrol,Bangalore,2017,6
+Hyundai, Tucson 2WD MT Diesel,7.61 Lakh,Diesel,Delhi,2021,2
+Maruti Suzuki ,Ciaz Sigma 1.4 MT,6.97 Lakh,Petrol,Pune,2017,6
+Hyundai ,Creta SX Plus 1.6 AT CRDI,11.95 Lakh,Diesel,Hyderabad,2017,6
+MG ,Hector Sharp 1.5 DCT Petrol [2019-2020],18 Lakh,Petrol,Hyderabad,2021,2
+Honda, Brio S MT,4.39 Lakh,Petrol,Bangalore,2014,9
+Maruti Suzuki, Eeco 5 STR WITH A/C+HTR [2019-2020],4.92 Lakh,Petrol,Chennai,2020,3
+Hyundai ,Grand i10 Magna 1.2 Kappa VTVT [2013-2016],5.39 Lakh,Petrol,Bangalore,2018,5
+Volkswagen, Vento Highline Diesel AT,6.35 Lakh,Diesel,Mumbai,2015,8
+Maruti Suzuki ,Swift VXi,4.9 Lakh,Petrol,Ahmedabad,2015,8
+Volkswagen ,Vento Highline Plus 1.0L TSI Automatic,13.5 Lakh,Petrol,Hyderabad,2021,2
+Honda, Amaze 1.5 S i-DTEC,4.5 Lakh,Diesel,Hyderabad,2014,9
+Kia ,Seltos HTE 1.5,10.75 Lakh,Petrol,Chennai,2021,2
+Toyota ,Corolla Altis 1.8 G L CNG,3.45 Lakh,CNG,Thane,2010,13
+Hyundai,Xcent S 1.2 (O),4.75 Lakh,Petrol,Ahmedabad,2015,8
+Hyundai ,Santa Fe 2WD MT [2014-2017],16.25 Lakh,Diesel,Bangalore,2015,8
+Tata, Tiago Revotron XT [2016-2019],4.45 Lakh,Petrol,Noida,2018,5
+Skoda, Rapid Style 1.5 TDI AT,8.25 Lakh,Diesel,Hyderabad,2017,6
+Maruti Suzuki ,Celerio VXi AMT ABS,4.45 Lakh,Petrol,Mumbai,2016,7
+Maruti Suzuki ,Ritz Zxi BS-IV,3.25 Lakh,Petrol,Mumbai,2012,11
+Tata, Safari XZA Plus Adventure,24 Lakh,Diesel,Hyderabad,2021,2
+Maruti Suzuki ,Ciaz Alpha 1.4 MT,9.23 Lakh,Petrol,Pune,2018,5
+Maruti Suzuki ,Wagon R 1.0 LXI CNG (O),4.65 Lakh,CNG,Thane,2017,6
+Audi, A4 2.0 TDI (177bhp) Premium Plus,16.5 Lakh,Diesel,Ahmedabad,2014,9
+Mahindra, XUV300 1.2 W6 [2019-2019],7.24 Lakh,Petrol,Kolkata,2021,2
+Skoda, Kodiaq Style 2.0 TDI 4x4 AT,29.75 Lakh,Diesel,Mumbai,2017,6
+Hyundai ,Creta SX Plus 1.6 AT CRDI,10.23 Lakh,Diesel,Kolkata,2018,5
+Toyota ,Innova Crysta ZX 2.4 AT 7 STR,31 Lakh,Diesel,Hyderabad,2021,2
+Maruti Suzuki ,Alto 800 Lxi,2.98 Lakh,Petrol,Pune,2016,7
+Volkswagen, Vento Highline Diesel AT [2015-2016],7.9 Lakh,Diesel,Ahmedabad,2016,7
+Hyundai ,Grand i10 Nios Sportz 1.2 Kappa VTVT CNG,7.09 Lakh,CNG,Pune,2021,2
+Hyundai, Elite i20 Magna 1.2,3.95 Lakh,Petrol,Delhi,2014,9
+Maruti Suzuki, Eeco 5 STR WITH A/C+HTR [2019-2020],4.33 Lakh,Petrol,Chennai,2019,4
+Maruti Suzuki, Celerio ZXi,3.98 Lakh,Petrol,Delhi,2015,8
+Hyundai Grand, i10 Sportz (O) 1.2 Kappa VTVT [2017-2018],3.95 Lakh,Petrol,Mumbai,2013,10
+Mahindra ,KUV100 NXT K2 6 STR,4.51 Lakh,Petrol,Ahmedabad,2018,5
+Maruti Suzuki, Wagon R 1.0 LXi,2.55 Lakh,Petrol,Pune,2011,12
+Mercedes-Benz, E-Class E 220 d Avantgarde,60 Lakh,Diesel,Ahmedabad,2020,3
+Maruti Suzuki ,Ciaz Alpha 1.3 Hybrid,8.7 Lakh,Diesel,Kolkata,2019,4
+Honda, City VX Diesel,8.85 Lakh,Diesel,Kolkata,2018,5
+Mahindra ,XUV500 W10,9.75 Lakh,Diesel,Kolkata,2016,7
+Hyundai ,Elantra 1.6 SX (O) AT,13 Lakh,Diesel,Hyderabad,2017,6
+Hyundai ,Grand i10 Sportz 1.2 Kappa VTVT [2016-2017],5.3 Lakh,Petrol,Hyderabad,2017,6
+Hyundai, Elite i20 Asta 1.2,4.46 Lakh,Petrol,Kolkata,2015,8
+BMW, 5 Series 530i M Sport [2019-2019],68 Lakh,Petrol,Mumbai,2022,1
+Honda ,Jazz VX Petrol,5.32 Lakh,Petrol,Kolkata,2018,5
+Renault, Duster RXL Petrol,6.99 Lakh,Petrol,Bangalore,2017,6
+Honda ,WR-V VX MT Petrol,7.85 Lakh,Petrol,Mumbai,2018,5
+Volkswagen, Polo GT TSI,6.95 Lakh,Petrol,Thane,2016,7
+Hyundai ,i10 Sportz 1.1 iRDE2 [2010--2017],2.45 Lakh,Petrol,Kolkata,2014,9
+Datsun, GO+ T (O) W/VDC,4.98 Lakh,Petrol,Kolkata,2019,4
+Audi, A4 2.0 TDI (177bhp) Premium,13.95 Lakh,Diesel,Thane,2015,8
+Maruti Suzuki ,Alto 800 Lxi,2.39 Lakh,Petrol,Hyderabad,2012,11
+Maruti Suzuki, Alto K10 VXi [2014-2019],3.79 Lakh,Petrol,Bangalore,2016,7
+Hyundai ,Elite i20 Magna Executive 1.2,6.9 Lakh,Petrol,Ahmedabad,2018,5
+Skoda ,Slavia Style 1.0L TSI AT,16.58 Lakh,Petrol,Chennai,2022,1
+Hyundai, i10 1.1L iRDE Magna Special Edition,4.25 Lakh,Petrol,Ahmedabad,2016,7
+BMW ,X1 sDrive20d Expedition,22.5 Lakh,Diesel,Hyderabad,2016,7
+Honda, Amaze 1.2 S i-VTEC,4.3 Lakh,Petrol,Ahmedabad,2013,10
+BMW, X1 sDrive20d xLine,44.75 Lakh,Diesel,Chennai,2021,2
+Mercedes-Benz, S-Class S 350 CDI,69 Lakh,Diesel,Ahmedabad,2017,6
+Maruti Suzuki ,Swift VXi AMT [2018-2019],7.95 Lakh,Petrol,Bangalore,2020,3
+Hyundai, Santro Sportz,5.89 Lakh,Petrol,Pune,2020,3
+Maruti Suzuki, Wagon R 1.0 VXI AMT,4.75 Lakh,Petrol,Chennai,2018,5
+Tata, Tiago Revotron XZA [2017-2019],4.75 Lakh,Petrol,Mumbai,2017,6
+Volvo, V40 D3 R-Design,16.75 Lakh,Diesel,Mumbai,2018,5
+Renault, Kwid 1.0 RXT AMT Opt [2016-2019],4.56 Lakh,Petrol,Chennai,2019,4
+Bentley, Continental GT Coupe,70 Lakh,Petrol,Hyderabad,2008,15
+Hyundai, Grand i10 Magna 1.2 Kappa VTVT [2013-2016],3.94 Lakh,Petrol,Pune,2014,9
+Renault ,Kwid 1.0 RXL [2017-2019],3.35 Lakh,Petrol,Thane,2017,6
+Honda ,Amaze 1.2 S AT i-VTEC Opt,6.49 Lakh,Petrol,Bangalore,2016,7
+Hyundai, Elite i20 Asta 1.2 [2016-2017],6.5 Lakh,Petrol,Hyderabad,2016,7
+Honda, Brio VX AT,4.35 Lakh,Petrol,Mumbai,2014,9
+Maruti Suzuki ,Baleno Zeta 1.3,7.3 Lakh,Diesel,Hyderabad,2017,6
+Ford ,Figo Trend 1.2 Ti-VCT,4.3 Lakh,Petrol,Ahmedabad,2017,6
+Skoda ,Rapid Style 1.6 MPI,6.66 Lakh,Petrol,Pune,2016,7
+MG ,Gloster Savvy 6 STR 2.0 Twin Turbo 4WD,39 Lakh,Diesel,Hyderabad,2020,3
+Ford ,Aspire Trend Plus CNG,6.77 Lakh,CNG,Pune,2019,4
+Honda ,WR-V VX MT Petrol,7.35 Lakh,Petrol,Ahmedabad,2018,5
+Jaguar ,XE Prestige Diesel,37.75 Lakh,Diesel,Bangalore,2018,5
+Tata, Nexon EV XZ Plus,18.75 Lakh,Electric,Ahmedabad,2022,1
+Honda ,Amaze 1.2 VX i-VTEC,4.39 Lakh,Petrol,Pune,2013,10
+Honda ,Jazz SV Petrol,4.95 Lakh,Petrol,Noida,2015,8
+Tata ,Safari XZA New,26.15 Lakh,Diesel,Pune,2022,1
+Renault, Duster 110 PS RXZ 4X2 AMT Diesel,8.95 Lakh,Diesel,Thane,2018,5
+Toyota ,Innova Crysta 2.8 ZX AT 7 STR [2016-2020],24 Lakh,Diesel,Hyderabad,2018,5
+Skoda ,Rapid Ambition 1.6 MPI AT,8.99 Lakh,Petrol,Bangalore,2018,5
+Hyundai, Verna Fluidic 1.6 VTVT SX Opt,6.49 Lakh,Petrol,Bangalore,2015,8
+Maruti Suzuki ,Swift VDi,7.5 Lakh,Diesel,Hyderabad,2018,5
+Ford ,EcoSport Ambiente 1.5L Ti-VCT,6.25 Lakh,Petrol,Noida,2017,6
+Hyundai, i20 Sportz 1.2 (O),8.89 Lakh,Petrol,Bangalore,2020,3
+Renault ,Triber RXZ [2019-2020],7.65 Lakh,Petrol,Mumbai,2021,2
+Hyundai ,Grand i10 Sports Edition 1.1 CRDi,3.49 Lakh,Diesel,Kolkata,2015,8
+Tata, Harrier XZ [2019-2020],15.5 Lakh,Diesel,Ahmedabad,2019,4
+Tata ,Altroz XT Petrol,7.06 Lakh,Petrol,Chennai,2020,3
+Renault, Duster RXL Petrol,7.89 Lakh,Petrol,Bangalore,2017,6
+Hyundai ,Elite i20 Magna Executive 1.2,5.38 Lakh,Petrol,Kolkata,2018,5
+Maruti Suzuki ,Ertiga Vxi CNG,7.15 Lakh,CNG,Thane,2014,9
+Toyota, Corolla Altis VL AT Petrol,12.95 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki ,Dzire VXi AMT,6.47 Lakh,Petrol,Delhi,2019,4
+Honda ,City V,8.79 Lakh,Petrol,Delhi,2018,5
+Maruti Suzuki, Alto LXi BS-III,1.8 Lakh,Petrol,Hyderabad,2008,15
+Honda ,City V CVT Petrol [2017-2019],9.35 Lakh,Petrol,Thane,2018,5
+Maruti Suzuki ,Dzire VXi,5.5 Lakh,Petrol,Kolkata,2018,5
+Land Rover ,Discovery Sport SE R-Dynamic Petrol,64 Lakh,Petrol,Ahmedabad,2021,2
+Honda, Jazz V Petrol,4.25 Lakh,Petrol,Kolkata,2016,7
+Hyundai, Grand i10 Sports Edition 1.2L Kappa VTVT,4.5 Lakh,Petrol,Ahmedabad,2014,9
+Ford, Figo Titanium1.5 TDCi,3.6 Lakh,Diesel,Kolkata,2015,8
+MINI, Cooper Countryman Cooper D,22 Lakh,Diesel,Hyderabad,2013,10
+Hyundai ,Verna 1.6 VTVT SX,8.38 Lakh,Petrol,Chennai,2018,5
+Maruti , Ciaz VXi+ AT,6.75 Lakh,Petrol,Mumbai,2017,6
+Hyundai ,Verna 1.6 VTVT SX,8.76 Lakh,Petrol,Pune,2017,6
