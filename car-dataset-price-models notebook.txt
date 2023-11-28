@@ -1,0 +1,1939 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "c8d411fc",
+   "metadata": {
+    "papermill": {
+     "duration": 0.012514,
+     "end_time": "2023-11-27T15:59:41.402161",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.389647",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "****Car models dataset****"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ea043b8c",
+   "metadata": {
+    "papermill": {
+     "duration": 0.010779,
+     "end_time": "2023-11-27T15:59:41.424454",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.413675",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "1. Clening data\n",
+    "2. Exploratory of Data\n",
+    "3. Data preparation\n",
+    "4. Feature Selection/Engineering\n",
+    "5. Data Splitting\n",
+    "6. Select a model\n",
+    "7. Model Training\n",
+    "8. Evaluate the model"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "44f6da15",
+   "metadata": {
+    "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
+    "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.449012Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.448402Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.474832Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.473484Z"
+    },
+    "papermill": {
+     "duration": 0.042608,
+     "end_time": "2023-11-27T15:59:41.478180",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.435572",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/kaggle/input/used-car-price-dataset/used_car_dataset.csv\n"
+     ]
+    }
+   ],
+   "source": [
+    "# This Python 3 environment comes with many helpful analytics libraries installed\n",
+    "# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python\n",
+    "# For example, here's several helpful packages to load\n",
+    "\n",
+    "import numpy as np # linear algebra\n",
+    "import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)\n",
+    "\n",
+    "# Input data files are available in the read-only \"../input/\" directory\n",
+    "# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n",
+    "\n",
+    "import os\n",
+    "for dirname, _, filenames in os.walk('/kaggle/input'):\n",
+    "    for filename in filenames:\n",
+    "        print(os.path.join(dirname, filename))\n",
+    "\n",
+    "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
+    "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "212acbe7",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.504154Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.503689Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.558444Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.557126Z"
+    },
+    "papermill": {
+     "duration": 0.070888,
+     "end_time": "2023-11-27T15:59:41.561338",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.490450",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_name</th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>fuel_type</th>\n",
+       "      <th>city</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Hyundai Grand i10 Magna 1.2 Kappa VTVT [2017-2...</td>\n",
+       "      <td>₹ 4.45 Lakh</td>\n",
+       "      <td>22,402 km</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>Mumbai</td>\n",
+       "      <td>2016</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Maruti Suzuki Alto 800 Lxi</td>\n",
+       "      <td>₹ 2.93 Lakh</td>\n",
+       "      <td>10,344 km</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>Kolkata</td>\n",
+       "      <td>2019</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                                            car_name car_price_in_rupees  \\\n",
+       "0  Hyundai Grand i10 Magna 1.2 Kappa VTVT [2017-2...         ₹ 4.45 Lakh   \n",
+       "1                         Maruti Suzuki Alto 800 Lxi         ₹ 2.93 Lakh   \n",
+       "\n",
+       "  kms_driven fuel_type     city  year_of_manufacture  \n",
+       "0  22,402 km    Petrol   Mumbai                 2016  \n",
+       "1  10,344 km    Petrol  Kolkata                 2019  "
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df = pd.read_csv('/kaggle/input/used-car-price-dataset/used_car_dataset.csv')\n",
+    "df.head(2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0409de6a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.011282,
+     "end_time": "2023-11-27T15:59:41.586078",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.574796",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Cleaning"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "bd0ec559",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.611693Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.611196Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.619922Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.618746Z"
+    },
+    "papermill": {
+     "duration": 0.025002,
+     "end_time": "2023-11-27T15:59:41.622772",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.597770",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df1 = df.copy()\n",
+    "df1['car_name'] = df['car_name'].apply(lambda x : x.split(' ')[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "4b65016e",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.648830Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.648338Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.660915Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.659975Z"
+    },
+    "papermill": {
+     "duration": 0.028957,
+     "end_time": "2023-11-27T15:59:41.663493",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.634536",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df1.drop(['city'],axis=1, inplace=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "bf560f3a",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.689540Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.689026Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.696499Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.695194Z"
+    },
+    "papermill": {
+     "duration": 0.024009,
+     "end_time": "2023-11-27T15:59:41.699242",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.675233",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "def convert(x):\n",
+    "      if ',' in x:\n",
+    "        s =  x.split(' ')[1].split(',')\n",
+    "        return float(s[0] + s[1])\n",
+    "      else:\n",
+    "        value = float(x.split(' ')[1])\n",
+    "        return value * 100000  #To convert to lakhs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f06f055b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.726152Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.725363Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.737391Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.736066Z"
+    },
+    "papermill": {
+     "duration": 0.029726,
+     "end_time": "2023-11-27T15:59:41.740918",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.711192",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df2 = df1.copy()\n",
+    "df2['car_price_in_rupees'] = df['car_price_in_rupees'].apply(convert)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "89dc6716",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.766705Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.766215Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.780828Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.779846Z"
+    },
+    "papermill": {
+     "duration": 0.030336,
+     "end_time": "2023-11-27T15:59:41.783089",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.752753",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_name</th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>fuel_type</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Hyundai</td>\n",
+       "      <td>445000.0</td>\n",
+       "      <td>22,402 km</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>293000.0</td>\n",
+       "      <td>10,344 km</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  car_name  car_price_in_rupees kms_driven fuel_type  year_of_manufacture\n",
+       "0  Hyundai             445000.0  22,402 km    Petrol                 2016\n",
+       "1   Maruti             293000.0  10,344 km    Petrol                 2019"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df2.head(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "ac2aca2c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.809448Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.808172Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.817463Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.816476Z"
+    },
+    "papermill": {
+     "duration": 0.024957,
+     "end_time": "2023-11-27T15:59:41.819880",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.794923",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df3 = df2.copy()\n",
+    "df3['kms_driven'] = df2['kms_driven'].apply(lambda x : x.split(' ')[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "f9f18f15",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.846804Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.846032Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.859678Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.858488Z"
+    },
+    "papermill": {
+     "duration": 0.030176,
+     "end_time": "2023-11-27T15:59:41.862284",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.832108",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_name</th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>fuel_type</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Hyundai</td>\n",
+       "      <td>445000.0</td>\n",
+       "      <td>22,402</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>293000.0</td>\n",
+       "      <td>10,344</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  car_name  car_price_in_rupees kms_driven fuel_type  year_of_manufacture\n",
+       "0  Hyundai             445000.0     22,402    Petrol                 2016\n",
+       "1   Maruti             293000.0     10,344    Petrol                 2019"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df3.head(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "306f8893",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.888524Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.887989Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.902954Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.901630Z"
+    },
+    "papermill": {
+     "duration": 0.032007,
+     "end_time": "2023-11-27T15:59:41.906361",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.874354",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df4 = df3.copy()\n",
+    "df4['kms_driven'] = df3['kms_driven'][df3['kms_driven'].str.len() > 4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8992b468",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.934330Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.933345Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.940015Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.938693Z"
+    },
+    "papermill": {
+     "duration": 0.023684,
+     "end_time": "2023-11-27T15:59:41.942733",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.919049",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "def removeComma(x):\n",
+    "    if ',' in x :\n",
+    "        s = x.split(',')\n",
+    "        return float(s[0] + s[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "fbdeea19",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:41.969128Z",
+     "iopub.status.busy": "2023-11-27T15:59:41.968650Z",
+     "iopub.status.idle": "2023-11-27T15:59:41.974847Z",
+     "shell.execute_reply": "2023-11-27T15:59:41.973909Z"
+    },
+    "papermill": {
+     "duration": 0.022226,
+     "end_time": "2023-11-27T15:59:41.977131",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.954905",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df4 = df3.copy()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "46b36c9a",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:42.003213Z",
+     "iopub.status.busy": "2023-11-27T15:59:42.002757Z",
+     "iopub.status.idle": "2023-11-27T15:59:42.027449Z",
+     "shell.execute_reply": "2023-11-27T15:59:42.026181Z"
+    },
+    "papermill": {
+     "duration": 0.040881,
+     "end_time": "2023-11-27T15:59:42.030012",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:41.989131",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'pandas.core.frame.DataFrame'>\n",
+      "RangeIndex: 2105 entries, 0 to 2104\n",
+      "Data columns (total 5 columns):\n",
+      " #   Column               Non-Null Count  Dtype  \n",
+      "---  ------               --------------  -----  \n",
+      " 0   car_name             2105 non-null   object \n",
+      " 1   car_price_in_rupees  2105 non-null   float64\n",
+      " 2   kms_driven           2105 non-null   object \n",
+      " 3   fuel_type            2105 non-null   object \n",
+      " 4   year_of_manufacture  2105 non-null   int64  \n",
+      "dtypes: float64(1), int64(1), object(3)\n",
+      "memory usage: 82.4+ KB\n"
+     ]
+    }
+   ],
+   "source": [
+    "df4.kms_driven = df4.kms_driven.dropna() \n",
+    "df4.info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "055908f9",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:42.056712Z",
+     "iopub.status.busy": "2023-11-27T15:59:42.055944Z",
+     "iopub.status.idle": "2023-11-27T15:59:42.066783Z",
+     "shell.execute_reply": "2023-11-27T15:59:42.065715Z"
+    },
+    "papermill": {
+     "duration": 0.027045,
+     "end_time": "2023-11-27T15:59:42.069360",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:42.042315",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df5 = df4.copy()\n",
+    "df5['kms_driven'] = df4['kms_driven'].apply(removeComma)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "770f4ded",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:42.096735Z",
+     "iopub.status.busy": "2023-11-27T15:59:42.096237Z",
+     "iopub.status.idle": "2023-11-27T15:59:42.110293Z",
+     "shell.execute_reply": "2023-11-27T15:59:42.109446Z"
+    },
+    "papermill": {
+     "duration": 0.03083,
+     "end_time": "2023-11-27T15:59:42.112537",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:42.081707",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_name</th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>fuel_type</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Hyundai</td>\n",
+       "      <td>445000.0</td>\n",
+       "      <td>22402.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>293000.0</td>\n",
+       "      <td>10344.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  car_name  car_price_in_rupees  kms_driven fuel_type  year_of_manufacture\n",
+       "0  Hyundai             445000.0     22402.0    Petrol                 2016\n",
+       "1   Maruti             293000.0     10344.0    Petrol                 2019"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df5.head(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "aebefdab",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:42.139308Z",
+     "iopub.status.busy": "2023-11-27T15:59:42.138854Z",
+     "iopub.status.idle": "2023-11-27T15:59:43.859888Z",
+     "shell.execute_reply": "2023-11-27T15:59:43.858957Z"
+    },
+    "papermill": {
+     "duration": 1.737341,
+     "end_time": "2023-11-27T15:59:43.862268",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:42.124927",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_name</th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>fuel_type</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Hyundai</td>\n",
+       "      <td>445000.0</td>\n",
+       "      <td>22402.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>293000.0</td>\n",
+       "      <td>10344.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Tata</td>\n",
+       "      <td>2249000.0</td>\n",
+       "      <td>12999.0</td>\n",
+       "      <td>Diesel</td>\n",
+       "      <td>2021</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>695000.0</td>\n",
+       "      <td>45000.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Jeep</td>\n",
+       "      <td>1200000.0</td>\n",
+       "      <td>11193.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  car_name  car_price_in_rupees  kms_driven fuel_type  year_of_manufacture\n",
+       "0  Hyundai             445000.0     22402.0    Petrol                 2016\n",
+       "1   Maruti             293000.0     10344.0    Petrol                 2019\n",
+       "2     Tata            2249000.0     12999.0    Diesel                 2021\n",
+       "3   Maruti             695000.0     45000.0    Petrol                 2016\n",
+       "4     Jeep            1200000.0     11193.0    Petrol                 2019"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "filtered_df = df5[df5['car_name'].apply(lambda x: df5['car_name'].value_counts().get(x, 0) > 20)]\n",
+    "filtered_df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "420b8959",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:43.889307Z",
+     "iopub.status.busy": "2023-11-27T15:59:43.888823Z",
+     "iopub.status.idle": "2023-11-27T15:59:43.896594Z",
+     "shell.execute_reply": "2023-11-27T15:59:43.895251Z"
+    },
+    "papermill": {
+     "duration": 0.024353,
+     "end_time": "2023-11-27T15:59:43.899234",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:43.874881",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df_6 = filtered_df[filtered_df.car_price_in_rupees > 100000]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "1ed25a1b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:43.927067Z",
+     "iopub.status.busy": "2023-11-27T15:59:43.926591Z",
+     "iopub.status.idle": "2023-11-27T15:59:43.951919Z",
+     "shell.execute_reply": "2023-11-27T15:59:43.950762Z"
+    },
+    "papermill": {
+     "duration": 0.042342,
+     "end_time": "2023-11-27T15:59:43.954626",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:43.912284",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>count</th>\n",
+       "      <td>2.009000e+03</td>\n",
+       "      <td>2001.00000</td>\n",
+       "      <td>2009.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>mean</th>\n",
+       "      <td>1.050281e+06</td>\n",
+       "      <td>41454.52024</td>\n",
+       "      <td>2017.052265</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>std</th>\n",
+       "      <td>1.088725e+06</td>\n",
+       "      <td>23882.72005</td>\n",
+       "      <td>2.798647</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>min</th>\n",
+       "      <td>1.100000e+05</td>\n",
+       "      <td>100.00000</td>\n",
+       "      <td>2004.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>25%</th>\n",
+       "      <td>4.750000e+05</td>\n",
+       "      <td>22498.00000</td>\n",
+       "      <td>2015.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>50%</th>\n",
+       "      <td>6.900000e+05</td>\n",
+       "      <td>40547.00000</td>\n",
+       "      <td>2017.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>75%</th>\n",
+       "      <td>1.105000e+06</td>\n",
+       "      <td>58549.00000</td>\n",
+       "      <td>2019.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>max</th>\n",
+       "      <td>9.500000e+06</td>\n",
+       "      <td>99941.00000</td>\n",
+       "      <td>2022.000000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "       car_price_in_rupees   kms_driven  year_of_manufacture\n",
+       "count         2.009000e+03   2001.00000          2009.000000\n",
+       "mean          1.050281e+06  41454.52024          2017.052265\n",
+       "std           1.088725e+06  23882.72005             2.798647\n",
+       "min           1.100000e+05    100.00000          2004.000000\n",
+       "25%           4.750000e+05  22498.00000          2015.000000\n",
+       "50%           6.900000e+05  40547.00000          2017.000000\n",
+       "75%           1.105000e+06  58549.00000          2019.000000\n",
+       "max           9.500000e+06  99941.00000          2022.000000"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df_6.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "81ffa35d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:43.983488Z",
+     "iopub.status.busy": "2023-11-27T15:59:43.983031Z",
+     "iopub.status.idle": "2023-11-27T15:59:44.010126Z",
+     "shell.execute_reply": "2023-11-27T15:59:44.007855Z"
+    },
+    "papermill": {
+     "duration": 0.045978,
+     "end_time": "2023-11-27T15:59:44.013865",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:43.967887",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>count</th>\n",
+       "      <td>1.924000e+03</td>\n",
+       "      <td>1924.000000</td>\n",
+       "      <td>1924.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>mean</th>\n",
+       "      <td>1.046510e+06</td>\n",
+       "      <td>43108.163202</td>\n",
+       "      <td>2017.159563</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>std</th>\n",
+       "      <td>1.086915e+06</td>\n",
+       "      <td>22850.029828</td>\n",
+       "      <td>2.693573</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>min</th>\n",
+       "      <td>1.100000e+05</td>\n",
+       "      <td>1064.000000</td>\n",
+       "      <td>2006.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>25%</th>\n",
+       "      <td>4.750000e+05</td>\n",
+       "      <td>24537.500000</td>\n",
+       "      <td>2015.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>50%</th>\n",
+       "      <td>6.900000e+05</td>\n",
+       "      <td>41442.000000</td>\n",
+       "      <td>2017.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>75%</th>\n",
+       "      <td>1.093500e+06</td>\n",
+       "      <td>59729.500000</td>\n",
+       "      <td>2019.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>max</th>\n",
+       "      <td>9.500000e+06</td>\n",
+       "      <td>99941.000000</td>\n",
+       "      <td>2022.000000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "       car_price_in_rupees    kms_driven  year_of_manufacture\n",
+       "count         1.924000e+03   1924.000000          1924.000000\n",
+       "mean          1.046510e+06  43108.163202          2017.159563\n",
+       "std           1.086915e+06  22850.029828             2.693573\n",
+       "min           1.100000e+05   1064.000000          2006.000000\n",
+       "25%           4.750000e+05  24537.500000          2015.000000\n",
+       "50%           6.900000e+05  41442.000000          2017.000000\n",
+       "75%           1.093500e+06  59729.500000          2019.000000\n",
+       "max           9.500000e+06  99941.000000          2022.000000"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df7 = df_6[df_6.kms_driven > 1000]\n",
+    "df7.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "3a71652e",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:44.042789Z",
+     "iopub.status.busy": "2023-11-27T15:59:44.041909Z",
+     "iopub.status.idle": "2023-11-27T15:59:45.304716Z",
+     "shell.execute_reply": "2023-11-27T15:59:45.303427Z"
+    },
+    "papermill": {
+     "duration": 1.28038,
+     "end_time": "2023-11-27T15:59:45.307476",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:44.027096",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array(['Petrol', 'Diesel'], dtype=object)"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df8 = df7[df7['fuel_type'].apply(lambda x: df7['fuel_type'].value_counts().get(x, 0) > 500)]\n",
+    "df8.fuel_type.unique()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "c879709f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:45.337405Z",
+     "iopub.status.busy": "2023-11-27T15:59:45.336802Z",
+     "iopub.status.idle": "2023-11-27T15:59:45.367904Z",
+     "shell.execute_reply": "2023-11-27T15:59:45.366719Z"
+    },
+    "papermill": {
+     "duration": 0.050158,
+     "end_time": "2023-11-27T15:59:45.371176",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:45.321018",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>car_name</th>\n",
+       "      <th>car_price_in_rupees</th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>fuel_type</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "      <th>Audi</th>\n",
+       "      <th>BMW</th>\n",
+       "      <th>Ford</th>\n",
+       "      <th>Honda</th>\n",
+       "      <th>Hyundai</th>\n",
+       "      <th>...</th>\n",
+       "      <th>Mahindra</th>\n",
+       "      <th>Maruti</th>\n",
+       "      <th>Mercedes-Benz</th>\n",
+       "      <th>Renault</th>\n",
+       "      <th>Skoda</th>\n",
+       "      <th>Tata</th>\n",
+       "      <th>Toyota</th>\n",
+       "      <th>Volkswagen</th>\n",
+       "      <th>Diesel</th>\n",
+       "      <th>Petrol</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Hyundai</td>\n",
+       "      <td>445000.0</td>\n",
+       "      <td>22402.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>...</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>293000.0</td>\n",
+       "      <td>10344.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Tata</td>\n",
+       "      <td>2249000.0</td>\n",
+       "      <td>12999.0</td>\n",
+       "      <td>Diesel</td>\n",
+       "      <td>2021</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Maruti</td>\n",
+       "      <td>695000.0</td>\n",
+       "      <td>45000.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2016</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Jeep</td>\n",
+       "      <td>1200000.0</td>\n",
+       "      <td>11193.0</td>\n",
+       "      <td>Petrol</td>\n",
+       "      <td>2019</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>5 rows × 23 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  car_name  car_price_in_rupees  kms_driven fuel_type  year_of_manufacture  \\\n",
+       "0  Hyundai             445000.0     22402.0    Petrol                 2016   \n",
+       "1   Maruti             293000.0     10344.0    Petrol                 2019   \n",
+       "2     Tata            2249000.0     12999.0    Diesel                 2021   \n",
+       "3   Maruti             695000.0     45000.0    Petrol                 2016   \n",
+       "4     Jeep            1200000.0     11193.0    Petrol                 2019   \n",
+       "\n",
+       "   Audi  BMW  Ford  Honda  Hyundai  ...  Mahindra  Maruti  Mercedes-Benz  \\\n",
+       "0     0    0     0      0        1  ...         0       0              0   \n",
+       "1     0    0     0      0        0  ...         0       1              0   \n",
+       "2     0    0     0      0        0  ...         0       0              0   \n",
+       "3     0    0     0      0        0  ...         0       1              0   \n",
+       "4     0    0     0      0        0  ...         0       0              0   \n",
+       "\n",
+       "   Renault  Skoda  Tata  Toyota  Volkswagen  Diesel  Petrol  \n",
+       "0        0      0     0       0           0       0       1  \n",
+       "1        0      0     0       0           0       0       1  \n",
+       "2        0      0     1       0           0       1       0  \n",
+       "3        0      0     0       0           0       0       1  \n",
+       "4        0      0     0       0           0       0       1  \n",
+       "\n",
+       "[5 rows x 23 columns]"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dummies = pd.get_dummies(df8.car_name)\n",
+    "df9 = pd.concat([df8, dummies],axis=1)\n",
+    "dummies_2 = pd.get_dummies(df9.fuel_type)\n",
+    "df10 = pd.concat([df9, dummies_2],axis=1)\n",
+    "df10.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "a74302d0",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:45.401030Z",
+     "iopub.status.busy": "2023-11-27T15:59:45.400576Z",
+     "iopub.status.idle": "2023-11-27T15:59:45.407777Z",
+     "shell.execute_reply": "2023-11-27T15:59:45.406279Z"
+    },
+    "papermill": {
+     "duration": 0.025577,
+     "end_time": "2023-11-27T15:59:45.410558",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:45.384981",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df10.drop(['car_name','fuel_type'], axis=1, inplace=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "15a757fe",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:45.444035Z",
+     "iopub.status.busy": "2023-11-27T15:59:45.443565Z",
+     "iopub.status.idle": "2023-11-27T15:59:45.450834Z",
+     "shell.execute_reply": "2023-11-27T15:59:45.449618Z"
+    },
+    "papermill": {
+     "duration": 0.026839,
+     "end_time": "2023-11-27T15:59:45.453258",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:45.426419",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "X = df10.drop('car_price_in_rupees',axis=1)\n",
+    "y = df10.car_price_in_rupees"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "555e9580",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:45.483822Z",
+     "iopub.status.busy": "2023-11-27T15:59:45.482771Z",
+     "iopub.status.idle": "2023-11-27T15:59:45.508268Z",
+     "shell.execute_reply": "2023-11-27T15:59:45.507012Z"
+    },
+    "papermill": {
+     "duration": 0.045422,
+     "end_time": "2023-11-27T15:59:45.512496",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:45.467074",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>kms_driven</th>\n",
+       "      <th>year_of_manufacture</th>\n",
+       "      <th>Audi</th>\n",
+       "      <th>BMW</th>\n",
+       "      <th>Ford</th>\n",
+       "      <th>Honda</th>\n",
+       "      <th>Hyundai</th>\n",
+       "      <th>Jeep</th>\n",
+       "      <th>Kia</th>\n",
+       "      <th>MG</th>\n",
+       "      <th>Mahindra</th>\n",
+       "      <th>Maruti</th>\n",
+       "      <th>Mercedes-Benz</th>\n",
+       "      <th>Renault</th>\n",
+       "      <th>Skoda</th>\n",
+       "      <th>Tata</th>\n",
+       "      <th>Toyota</th>\n",
+       "      <th>Volkswagen</th>\n",
+       "      <th>Diesel</th>\n",
+       "      <th>Petrol</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>22402.0</td>\n",
+       "      <td>2016</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>10344.0</td>\n",
+       "      <td>2019</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>12999.0</td>\n",
+       "      <td>2021</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>45000.0</td>\n",
+       "      <td>2016</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>11193.0</td>\n",
+       "      <td>2019</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   kms_driven  year_of_manufacture  Audi  BMW  Ford  Honda  Hyundai  Jeep  \\\n",
+       "0     22402.0                 2016     0    0     0      0        1     0   \n",
+       "1     10344.0                 2019     0    0     0      0        0     0   \n",
+       "2     12999.0                 2021     0    0     0      0        0     0   \n",
+       "3     45000.0                 2016     0    0     0      0        0     0   \n",
+       "4     11193.0                 2019     0    0     0      0        0     1   \n",
+       "\n",
+       "   Kia  MG  Mahindra  Maruti  Mercedes-Benz  Renault  Skoda  Tata  Toyota  \\\n",
+       "0    0   0         0       0              0        0      0     0       0   \n",
+       "1    0   0         0       1              0        0      0     0       0   \n",
+       "2    0   0         0       0              0        0      0     1       0   \n",
+       "3    0   0         0       1              0        0      0     0       0   \n",
+       "4    0   0         0       0              0        0      0     0       0   \n",
+       "\n",
+       "   Volkswagen  Diesel  Petrol  \n",
+       "0           0       0       1  \n",
+       "1           0       0       1  \n",
+       "2           0       1       0  \n",
+       "3           0       0       1  \n",
+       "4           0       0       1  "
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "X.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5d6a8d4b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.02092,
+     "end_time": "2023-11-27T15:59:45.554156",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:45.533236",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Model"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "b93bd102",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:45.590859Z",
+     "iopub.status.busy": "2023-11-27T15:59:45.590395Z",
+     "iopub.status.idle": "2023-11-27T15:59:47.372661Z",
+     "shell.execute_reply": "2023-11-27T15:59:47.370340Z"
+    },
+    "papermill": {
+     "duration": 1.803682,
+     "end_time": "2023-11-27T15:59:47.377338",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:45.573656",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.5\n",
+      "  warnings.warn(f\"A NumPy version >={np_minversion} and <{np_maxversion}\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "0.6197889028242269"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from sklearn.ensemble import RandomForestClassifier\n",
+    "from sklearn.linear_model import LogisticRegression\n",
+    "from sklearn.naive_bayes import GaussianNB\n",
+    "from sklearn.naive_bayes import MultinomialNB\n",
+    "from sklearn.tree import DecisionTreeClassifier\n",
+    "from sklearn.linear_model import LinearRegression, Lasso, Ridge\n",
+    "from sklearn.model_selection import train_test_split\n",
+    "\n",
+    "X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.2)\n",
+    "\n",
+    "model = LinearRegression()\n",
+    "model.fit(X_train.values,y_train)\n",
+    "model.score(X_test.values,y_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "870a36d8",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:47.443858Z",
+     "iopub.status.busy": "2023-11-27T15:59:47.442572Z",
+     "iopub.status.idle": "2023-11-27T15:59:47.456308Z",
+     "shell.execute_reply": "2023-11-27T15:59:47.454235Z"
+    },
+    "papermill": {
+     "duration": 0.053471,
+     "end_time": "2023-11-27T15:59:47.461462",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:47.407991",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "def predict_price(km,year,brand,fuel):    \n",
+    "    loc_index = np.where(X.columns==brand)[0][0]\n",
+    "    x = np.zeros(len(X.columns))\n",
+    "    x[0] = km\n",
+    "    x[1] = year\n",
+    "    x[19] = fuel\n",
+    "    if loc_index >= 0:\n",
+    "        x[loc_index] = 1\n",
+    "\n",
+    "    return model.predict([x])[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "2775faf5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:47.502535Z",
+     "iopub.status.busy": "2023-11-27T15:59:47.502066Z",
+     "iopub.status.idle": "2023-11-27T15:59:47.510959Z",
+     "shell.execute_reply": "2023-11-27T15:59:47.509808Z"
+    },
+    "papermill": {
+     "duration": 0.027468,
+     "end_time": "2023-11-27T15:59:47.513452",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:47.485984",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4072797.251492977"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "predict_price(2000,2022,'Mercedes-Benz',0)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "107aaede",
+   "metadata": {
+    "papermill": {
+     "duration": 0.014361,
+     "end_time": "2023-11-27T15:59:47.544569",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:47.530208",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Export"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "ab43c9ce",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:47.577596Z",
+     "iopub.status.busy": "2023-11-27T15:59:47.576296Z",
+     "iopub.status.idle": "2023-11-27T15:59:47.583361Z",
+     "shell.execute_reply": "2023-11-27T15:59:47.582321Z"
+    },
+    "papermill": {
+     "duration": 0.026258,
+     "end_time": "2023-11-27T15:59:47.586077",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:47.559819",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "import pickle\n",
+    "with open('used_car_prices_model.pickle','wb') as f:\n",
+    "    pickle.dump(model,f)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "bd1d8c1f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-27T15:59:47.618074Z",
+     "iopub.status.busy": "2023-11-27T15:59:47.617610Z",
+     "iopub.status.idle": "2023-11-27T15:59:47.624110Z",
+     "shell.execute_reply": "2023-11-27T15:59:47.622869Z"
+    },
+    "papermill": {
+     "duration": 0.026409,
+     "end_time": "2023-11-27T15:59:47.627086",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:47.600677",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "import json\n",
+    "columns = {\n",
+    "    'data_columns' : [col.lower() for col in X.columns]\n",
+    "}\n",
+    "with open(\"columns.json\",\"w\") as f:\n",
+    "    f.write(json.dumps(columns))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7d6dbfc6",
+   "metadata": {
+    "papermill": {
+     "duration": 0.014241,
+     "end_time": "2023-11-27T15:59:47.656091",
+     "exception": false,
+     "start_time": "2023-11-27T15:59:47.641850",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [
+    {
+     "datasetId": 2840264,
+     "sourceId": 4897786,
+     "sourceType": "datasetVersion"
+    }
+   ],
+   "dockerImageVersionId": 30527,
+   "isGpuEnabled": false,
+   "isInternetEnabled": true,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.12"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 20.925613,
+   "end_time": "2023-11-27T15:59:49.097569",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2023-11-27T15:59:28.171956",
+   "version": "2.4.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
